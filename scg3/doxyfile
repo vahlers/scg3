@@ -32,13 +32,13 @@ DOXYFILE_ENCODING      = UTF-8
 # title of most generated pages and in a few other places.
 # The default value is: My Project.
 
-PROJECT_NAME           = vascg3
+PROJECT_NAME           = scg3
 
 # The PROJECT_NUMBER tag can be used to enter a project or revision number. This
 # could be handy for archiving the generated documentation or if some version
 # control system is used.
 
-PROJECT_NUMBER         = 0.3
+PROJECT_NUMBER         = 0.5
 
 # Using the PROJECT_BRIEF tag one can provide an optional one line description
 # for a project that appears at the top of each page and should give viewer a
@@ -58,7 +58,7 @@ PROJECT_LOGO           = doc/hsh-logo-2013-small.png
 # entered, it will be relative to the location where doxygen was started. If
 # left blank the current directory will be used.
 
-OUTPUT_DIRECTORY       = C:/!_Temp/vascg3_doc
+OUTPUT_DIRECTORY       = C:/!_Temp/scg3_doc
 
 # If the CREATE_SUBDIRS tag is set to YES, then doxygen will create 4096 sub-
 # directories (in 2 levels) under the output directory of each output format and
@@ -743,11 +743,11 @@ WARN_LOGFILE           =
 # spaces.
 # Note: If this tag is empty the current directory is searched.
 
-INPUT                  = vascg3_ext.h \
+INPUT                  = scg3_ext.h \
                          src \
                          src_ext \
                          shaders \
-                         vascg3.h \
+                         scg3.h \
                          src/scg_internals.cpp
 
 # This tag can be used to specify the character encoding of the source files
