@@ -14,7 +14,7 @@
 /**
  * \mainpage scg3: An OpenGL3/C++11 Scene Graph Library
  *
- * Version 0.4
+ * Version 0.5
  *
  * Prof. Dr. Volker Ahlers\n
  * Hochschule Hannover &ndash; University of Applied Sciences and Arts\n
@@ -64,6 +64,8 @@
  *
  * Cf. cgi_manual_opengl_eclipse.pdf (folder doc)
  *
+ * Prerequisites: OpenGL 3.2 (or higher), GLFW 3.0.2 (or higher)
+ *
  * Build of library scg3:
  * Project files for Eclipse (Linux and Windows/MinGW) and Visual Studio 10/2010 and 11/2012 (Windows) are provided.
  *
@@ -72,6 +74,12 @@
  * \verbatim
    g++ -g -c -std=c++0x -I../scg3 my_prog.cpp
    g++ -L../scg3/Debug -o my_prog my_prog.o -lscg3 -lglfw3 -lGL -lX11 -lXxf86vm -lXrandr -lpthread -lXi -lrt\endverbatim
+ *
+ * Build of application under OS X:
+ *
+ * \verbatim
+   g++ -g -c -std=c++0x -I../scg3 my_prog.cpp
+   g++ -L../scg3/Debug -o my_prog my_prog.o -lscg3 -lglfw3 -framework OpenGL -framework Cocoa -framework IOKit -framework CoreVideo\endverbatim
  *
  * Build of application under Windows/MinGW:
  *
