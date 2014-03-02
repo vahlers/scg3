@@ -37,10 +37,10 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <TargetName>vascg3</TargetName>
+    <TargetName>scg3</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <TargetName>vascg3</TargetName>
+    <TargetName>scg3</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -116,6 +116,8 @@
     <ClCompile Include="src_ext\StereoRendererPassive.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="scg3.h" />
+    <ClInclude Include="scg3_ext.h" />
     <ClInclude Include="src\Animation.h" />
     <ClInclude Include="src\bumpmapcore.h" />
     <ClInclude Include="src\Camera.h" />
@@ -166,8 +168,6 @@
     <ClInclude Include="src_ext\StereoRendererActive.h" />
     <ClInclude Include="src_ext\StereoRendererAnaglyph.h" />
     <ClInclude Include="src_ext\StereoRendererPassive.h" />
-    <ClInclude Include="vascg3.h" />
-    <ClInclude Include="vascg3_ext.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

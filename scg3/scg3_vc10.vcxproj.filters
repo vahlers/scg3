@@ -308,10 +308,10 @@
     <ClInclude Include="src\scg_glew.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="vascg3.h">
+    <ClInclude Include="scg3.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="vascg3_ext.h">
+    <ClInclude Include="scg3_ext.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>

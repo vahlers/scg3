@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="vascg3.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
     <ClInclude Include="src\Animation.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
@@ -516,9 +513,6 @@
     <ClInclude Include="src_ext\StereoRendererAnaglyph.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="vascg3_ext.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
     <ClInclude Include="extern\glfw\include\gl\glfw.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
@@ -550,6 +544,12 @@
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="extern\glm\gtx\noise.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="scg3.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="scg3_ext.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>
@@ -1001,5 +1001,6 @@
     <None Include="extern\glm\gtc\ulp.inl">
       <Filter>Headerdateien</Filter>
     </None>
+    <None Include="..\scg3_example\scg3_example_vc11.vcxproj" />
   </ItemGroup>
 </Project>

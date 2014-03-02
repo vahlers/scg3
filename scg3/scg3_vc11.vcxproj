@@ -12,8 +12,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{A9952A6F-A0A0-4074-8A48-D6D286A5144D}</ProjectGuid>
-    <RootNamespace>vascg3</RootNamespace>
-    <ProjectName>vascg3_vc11</ProjectName>
+    <RootNamespace>scg3</RootNamespace>
+    <ProjectName>scg3_vc11</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -41,11 +41,11 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <IncludePath>$(IncludePath)</IncludePath>
-    <TargetName>vascg3</TargetName>
+    <TargetName>scg3</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <IncludePath>$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSDK_IncludePath)</IncludePath>
-    <TargetName>vascg3</TargetName>
+    <TargetName>scg3</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -203,6 +203,8 @@
     <ClInclude Include="extern\glm\gtx\verbose_operator.hpp" />
     <ClInclude Include="extern\glm\gtx\wrap.hpp" />
     <ClInclude Include="extern\glm\virtrev\xstream.hpp" />
+    <ClInclude Include="scg3.h" />
+    <ClInclude Include="scg3_ext.h" />
     <ClInclude Include="src\Animation.h" />
     <ClInclude Include="src\bumpmapcore.h" />
     <ClInclude Include="src\Camera.h" />
@@ -252,8 +254,6 @@
     <ClInclude Include="src_ext\StereoRendererActive.h" />
     <ClInclude Include="src_ext\StereoRendererAnaglyph.h" />
     <ClInclude Include="src_ext\StereoRendererPassive.h" />
-    <ClInclude Include="vascg3.h" />
-    <ClInclude Include="vascg3_ext.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="extern\glew\src\glew.c" />
@@ -305,6 +305,7 @@
     <ClCompile Include="src_ext\StereoRendererPassive.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\scg3_example\scg3_example_vc11.vcxproj" />
     <None Include="extern\glfw\readme.html" />
     <None Include="extern\glm\core\func_common.inl" />
     <None Include="extern\glm\core\func_exponential.inl" />
