@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{87E32052-F0AA-47A1-86CA-E96DB9C96D0C}</ProjectGuid>
+    <RootNamespace>vascg3_vc10</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <TargetName>vascg3</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <TargetName>vascg3</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="extern\glew\src\glew.c" />
+    <ClCompile Include="extern\stb_image\stb_image.c" />
+    <ClCompile Include="src\Animation.cpp" />
+    <ClCompile Include="src\BumpMapCore.cpp" />
+    <ClCompile Include="src\Camera.cpp" />
+    <ClCompile Include="src\CameraController.cpp" />
+    <ClCompile Include="src\ColorCore.cpp" />
+    <ClCompile Include="src\Composite.cpp" />
+    <ClCompile Include="src\Controller.cpp" />
+    <ClCompile Include="src\Core.cpp" />
+    <ClCompile Include="src\CubeMapCore.cpp" />
+    <ClCompile Include="src\GeometryCore.cpp" />
+    <ClCompile Include="src\GeometryCoreFactory.cpp" />
+    <ClCompile Include="src\Group.cpp" />
+    <ClCompile Include="src\InfoTraverser.cpp" />
+    <ClCompile Include="src\KeyboardController.cpp" />
+    <ClCompile Include="src\Leaf.cpp" />
+    <ClCompile Include="src\Light.cpp" />
+    <ClCompile Include="src\LightPosition.cpp" />
+    <ClCompile Include="src\MaterialCore.cpp" />
+    <ClCompile Include="src\MouseController.cpp" />
+    <ClCompile Include="src\Node.cpp" />
+    <ClCompile Include="src\OrthographicCamera.cpp" />
+    <ClCompile Include="src\PerspectiveCamera.cpp" />
+    <ClCompile Include="src\PreTraverser.cpp" />
+    <ClCompile Include="src\Renderer.cpp" />
+    <ClCompile Include="src\RenderState.cpp" />
+    <ClCompile Include="src\RenderTraverser.cpp" />
+    <ClCompile Include="src\scg_internals.cpp" />
+    <ClCompile Include="src\scg_utilities.cpp" />
+    <ClCompile Include="src\ShaderCore.cpp" />
+    <ClCompile Include="src\ShaderCoreFactory.cpp" />
+    <ClCompile Include="src\Shape.cpp" />
+    <ClCompile Include="src\StandardRenderer.cpp" />
+    <ClCompile Include="src\Texture2DCore.cpp" />
+    <ClCompile Include="src\TextureCore.cpp" />
+    <ClCompile Include="src\TextureCoreFactory.cpp" />
+    <ClCompile Include="src\TransformAnimation.cpp" />
+    <ClCompile Include="src\Transformation.cpp" />
+    <ClCompile Include="src\Traverser.cpp" />
+    <ClCompile Include="src\Viewer.cpp" />
+    <ClCompile Include="src\ViewState.cpp" />
+    <ClCompile Include="src_ext\StereoCamera.cpp" />
+    <ClCompile Include="src_ext\StereoRenderer.cpp" />
+    <ClCompile Include="src_ext\StereoRendererActive.cpp" />
+    <ClCompile Include="src_ext\StereoRendererAnaglyph.cpp" />
+    <ClCompile Include="src_ext\StereoRendererPassive.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Animation.h" />
+    <ClInclude Include="src\bumpmapcore.h" />
+    <ClInclude Include="src\Camera.h" />
+    <ClInclude Include="src\cameracontroller.h" />
+    <ClInclude Include="src\colorcore.h" />
+    <ClInclude Include="src\composite.h" />
+    <ClInclude Include="src\Controller.h" />
+    <ClInclude Include="src\Core.h" />
+    <ClInclude Include="src\cubemapcore.h" />
+    <ClInclude Include="src\GeometryCore.h" />
+    <ClInclude Include="src\GeometryCoreFactory.h" />
+    <ClInclude Include="src\Group.h" />
+    <ClInclude Include="src\infotraverser.h" />
+    <ClInclude Include="src\KeyboardController.h" />
+    <ClInclude Include="src\leaf.h" />
+    <ClInclude Include="src\light.h" />
+    <ClInclude Include="src\lightposition.h" />
+    <ClInclude Include="src\materialcore.h" />
+    <ClInclude Include="src\MouseController.h" />
+    <ClInclude Include="src\Node.h" />
+    <ClInclude Include="src\orthographiccamera.h" />
+    <ClInclude Include="src\perspectivecamera.h" />
+    <ClInclude Include="src\pretraverser.h" />
+    <ClInclude Include="src\Renderer.h" />
+    <ClInclude Include="src\renderstate.h" />
+    <ClInclude Include="src\RenderTraverser.h" />
+    <ClInclude Include="src\scg_doxygen_stub.h" />
+    <ClInclude Include="src\scg_glew.h" />
+    <ClInclude Include="src\scg_glm.h" />
+    <ClInclude Include="src\scg_internals.h" />
+    <ClInclude Include="src\scg_stb_image.h" />
+    <ClInclude Include="src\scg_utilities.h" />
+    <ClInclude Include="src\shadercore.h" />
+    <ClInclude Include="src\shadercorefactory.h" />
+    <ClInclude Include="src\shape.h" />
+    <ClInclude Include="src\StandardRenderer.h" />
+    <ClInclude Include="src\texture2dcore.h" />
+    <ClInclude Include="src\texturecore.h" />
+    <ClInclude Include="src\texturecorefactory.h" />
+    <ClInclude Include="src\TransformAnimation.h" />
+    <ClInclude Include="src\Transformation.h" />
+    <ClInclude Include="src\Traverser.h" />
+    <ClInclude Include="src\Viewer.h" />
+    <ClInclude Include="src\viewstate.h" />
+    <ClInclude Include="src_ext\scg_ext_internals.h" />
+    <ClInclude Include="src_ext\StereoCamera.h" />
+    <ClInclude Include="src_ext\StereoRenderer.h" />
+    <ClInclude Include="src_ext\StereoRendererActive.h" />
+    <ClInclude Include="src_ext\StereoRendererAnaglyph.h" />
+    <ClInclude Include="src_ext\StereoRendererPassive.h" />
+    <ClInclude Include="vascg3.h" />
+    <ClInclude Include="vascg3_ext.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
