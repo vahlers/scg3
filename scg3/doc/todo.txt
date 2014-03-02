@@ -1,0 +1,77 @@
+scg3 To Do List
+===============
+
+[later]
+
+- * test with Linux and Windows
+- * update and check in Visual Studio files
+- * update doxyfile
+- improve camera control, do not use middle mouse button
+- multiple renderers with different viewports
+- billboards
+- shadows, shadow map? -> GLSL Cookbook, shadow volumes -> Dominik
+- picking, PickingTraverser rendering shapes to FBO with different colors
+- font rendering -> FTGL?
+- better model loader -> OpenMesh?
+- create sphere as geodesic dome
+- explicit method qualifiers: final, override, default, delete -> requires GCC 4.7
+
+[ever?]
+
+- NodeFactory, CoreFactory with createShape() etc. instead of Shape::create()
+- Shader node with ShaderCore
+- TransformCore
+- multiple windows
+
+[done]
+
+- compile with VC++ and under Linux
+- add doxygen configuration
+- LightPosition
+- SpotLight
+- Group node as sub-class of Compositable node
+- rename node Geometry to Shape
+- assert(checkGLError())
+- remove using namespace std/scg
+- rename OGLState to RenderState
+- Node::cores_ vector
+- MaterialCore/TextureCore for Group and Shape
+- TextureCore, TextureCoreFactory::loadTextureFromFile()
+- toggle camera center point in KeyboardController
+- call RenderState::passToShader() in GeometryCore::render()
+- add vertex attributes vTangent/vBinormal
+- find translation-material correlation bug in Vascg3Test
+- review left-child right-sibling implementation, refactor destroy, eliminate leftSibling_
+- TextureCore::rotate()/scale()/setTextureMatrix()
+- toggle mouse cursor in KeyboardController
+- toggle navigate/examine mode in KeyboardController/MouseController
+- ColorCore::setColorMatrix()/setColor(), using glVertexAttrib4fv()
+- create tangent/binormal vectors in GeometryCoreFactory for bump mapping
+- bump mapping
+- further geometry: Sphere, Cone, Cylinder, Teapot
+- GeometryCoreFactory/ShapeFactory::loadModelFromOBJFile() -> obj_loader_limegarden.cpp
+- replace uniform block arrays in shaders, test in pool 346
+- documentation
+- Vascg3Example with table scene
+- clean code in Vascg3Test
+- skybox via cube map
+- reflection via cube map
+- move todo, patch, Doxygen files to folder doc
+- check for new GLFW version, merge stereo fixes -> 2.7.7
+- integrate GLEW -> 1.9.0
+- support method chaining a la D3.js
+- integrate CameraTransformation into Camera
+- make camera control more intuitive
+- use fixed velocity (independent of frame rate) for keyboard/mouse interaction
+- consider callbacks for keyboard/mouse interaction -> not necessary, polling works fine
+- Viewer create method, support method chaining
+- Viewer::initSimpleRenderer() with default settings
+- update VC++ project files -> Visual Studio 2012
+- remove dependency on GLU 
+- update to GLEW 1.10 and GLM 0.9.4.5
+- update to GLFW 3.0.2
+- fix exception handling: check for GL context in destructors
+- Renderer::setGlobalAmbient()
+- Renderstate::enableLighting(bool), set number of light sources = 0 to disable
+- update icg_manual_...pdf, rename to cgi_...
+- update documentation

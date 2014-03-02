@@ -1,0 +1,80 @@
+/**
+ * \file scg_utilities.h
+ * \brief Utility functions that are used by different classes.
+ *
+ * \author Volker Ahlers\n
+ *         volker.ahlers@fh-hannover.de
+ */
+
+#ifndef SCG_UTILITIES_H_
+#define SCG_UTILITIES_H_
+
+#include <string>
+#include <vector>
+#include "scg_glew.h"
+
+namespace scg {
+
+
+/**
+ * Pi constant.
+ */
+const float PI = 3.141592654f;
+
+
+/**
+ * \brief Check if an OpenGL error has occured since last call of checkGLError().
+ *
+ * Can be used via assert(!checkGLError()) in order to get information on code file and line.
+ *
+ * \return 0 for no error, 1 for error
+ */
+int checkGLError();
+
+
+/**
+ * \brief Replace backslashes by slashes and ensure that the last character is a slash.
+ */
+void formatFilePath(std::string& filePath);
+
+
+/**
+ * \brief Try to find file name in a list of file paths.
+ *
+ * The local directory is searched first.
+ *
+ * \return full file name including path, empty string if the file has not been found
+ */
+std::string getFullFileName(const std::vector<std::string>& filePaths, const std::string& fileName);
+
+
+/**
+ * \brief Check if an active OpenGL context exists.
+ *
+ * Should be used in destructors to check for an active context before calling OpenGL functions.
+ * Otherwise exceptions thrown without an active context will cause errors.
+ *
+ * \return true if active OpenGL context exists
+ */
+bool isGLContextActive();
+
+
+/**
+ * \brief Print information about uniform blocks in shaders.
+ */
+void printUniformBlockInformation(GLuint program, int nMembers, const GLchar** uniformNames);
+
+
+/**
+ * \brief Split string containing one or more file paths into a vector of single paths.
+ *
+ * Allowed delimiters: ';' and ','.
+ *
+ * For each split path formatFilePath() is called.
+ */
+void splitFilePath(const std::string& filePath, std::vector<std::string>& splitPaths);
+
+
+} /* namespace scg */
+
+#endif /* SCG_UTILITIES_H_ */
