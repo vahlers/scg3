@@ -289,7 +289,7 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/scg3/DebugOSX}&quot;"/>
 								</option>
 								<option id="macosx.cpp.link.option.other.131410723" name="Other options (-Xlinker [option])" superClass="macosx.cpp.link.option.other"/>
-								<option id="macosx.cpp.link.option.flags.1194495890" name="Linker flags" superClass="macosx.cpp.link.option.flags" value="-framework OpenGL" valueType="string"/>
+								<option id="macosx.cpp.link.option.flags.1194495890" name="Linker flags" superClass="macosx.cpp.link.option.flags" value="-framework OpenGL -framework Cocoa -framework IOKit -framework CoreVideo" valueType="string"/>
 								<inputType id="cdt.managedbuild.tool.macosx.cpp.linker.input.1654180132" superClass="cdt.managedbuild.tool.macosx.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -348,7 +348,7 @@
 								<option id="macosx.cpp.link.option.paths.1706902337" name="Library search path (-L)" superClass="macosx.cpp.link.option.paths" valueType="libPaths">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/scg3/ReleaseOSX}&quot;"/>
 								</option>
-								<option id="macosx.cpp.link.option.flags.850853346" name="Linker flags" superClass="macosx.cpp.link.option.flags" value="-framework OpenGL" valueType="string"/>
+								<option id="macosx.cpp.link.option.flags.850853346" name="Linker flags" superClass="macosx.cpp.link.option.flags" value="-framework OpenGL -framework Cocoa -framework IOKit -framework CoreVideo" valueType="string"/>
 								<inputType id="cdt.managedbuild.tool.macosx.cpp.linker.input.984363522" superClass="cdt.managedbuild.tool.macosx.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
