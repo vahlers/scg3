@@ -10,8 +10,6 @@ The following documentation is provided:
 
 - Doxygen documentation (generated using doxyfile)
  
-- Manual cgi_manual_opengl_eclipse.pdf in this directory (doc)
-
 - Basic example files in this directory (doc)
 
 - Static library project scg3 with Eclipse/CDT 3.7 (or higher) and Visual C++ 10.0/11.0 (2010/2012) configurations

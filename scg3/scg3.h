@@ -62,8 +62,6 @@
  *
  * \subsection sec_installation Installation and Linking
  *
- * Cf. cgi_manual_opengl_eclipse.pdf (folder doc)
- *
  * Prerequisites: OpenGL 3.2 (or higher), GLFW 3.0.2 (or higher)
  *
  * Build of library scg3:
