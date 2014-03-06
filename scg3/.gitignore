@@ -1,3 +1,4 @@
-/DebugOSX
-/ReleaseOSX
 /.settings
+/Debug*
+/Release*
+/*.vcxproj.user

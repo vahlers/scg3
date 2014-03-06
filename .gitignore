@@ -1,1 +1,5 @@
 /.metadata
+/Debug
+/Release
+/*.sdf
+/*.suo
