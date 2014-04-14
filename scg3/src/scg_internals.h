@@ -188,6 +188,29 @@ SCG_DECLARE_CLASS(ViewState);
 
 
 /**
+ * A macro to save the current shader program in _programOld and switch to a new
+ * shader program _program, e.g., to set values of uniform variables;
+ * to be used in combination with macro SCG_RESTORE_PROGRAM().
+ */
+#define SCG_SAVE_AND_SWITCH_PROGRAM(_program, _programOld) \
+    GLint _programOld; \
+    glGetIntegerv(GL_CURRENT_PROGRAM, &_programOld); \
+    if (_program != _programOld) { \
+      glUseProgram(_program); \
+    }
+
+
+/**
+ * A macro to restore a shader program saved in _programOld;
+ * to be used in combination with macro SCG_SAVE_AND_SWITCH_PROGRAM().
+ */
+#define SCG_RESTORE_PROGRAM(_program, _programOld) \
+    if (_program != _programOld) { \
+      glUseProgram(_programOld); \
+    }
+
+
+/**
  * \brief Attribute name and location.
  */
 struct OGLAttrib {

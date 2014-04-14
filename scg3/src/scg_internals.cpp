@@ -70,8 +70,11 @@ void OGLConstants::bindUniformBlocks(GLuint program) {
 
 
 void OGLConstants::bindSamplers(GLuint program) {
-  glProgramUniform1i(program, glGetUniformLocation(program, TEXTURE0.name), TEXTURE0.texUnit);
-  glProgramUniform1i(program, glGetUniformLocation(program, TEXTURE1.name), TEXTURE1.texUnit);
+  // glProgramUniform() is not used in order to keep OpenGL 3.2 compatibility
+  SCG_SAVE_AND_SWITCH_PROGRAM(program, programOld);
+  glUniform1i(glGetUniformLocation(program, TEXTURE0.name), TEXTURE0.texUnit);
+  glUniform1i(glGetUniformLocation(program, TEXTURE1.name), TEXTURE1.texUnit);
+  SCG_RESTORE_PROGRAM(program, programOld);
 
   assert(!checkGLError());
 }

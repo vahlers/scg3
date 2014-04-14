@@ -103,70 +103,100 @@ public:
    * Set uniform variable.
    */
   void setUniform1i(const std::string& name, GLint value) const {
-    glProgramUniform1i(program_, getUniformLoc(name), value);
+    // glProgramUniform() is not used in order to keep OpenGL 3.2 compatibility
+    SCG_SAVE_AND_SWITCH_PROGRAM(program_, programOld);
+    glUniform1i(getUniformLoc(name), value);
+    SCG_RESTORE_PROGRAM(program_, programOld);
   }
 
   /**
    * Set uniform variable.
    */
   void setUniform1iv(const std::string& name, GLsizei count, const GLint* value) const {
-    glProgramUniform1iv(program_, getUniformLoc(name), count, value);
+    // glProgramUniform() is not used in order to keep OpenGL 3.2 compatibility
+    SCG_SAVE_AND_SWITCH_PROGRAM(program_, programOld);
+    glUniform1iv(getUniformLoc(name), count, value);
+    SCG_RESTORE_PROGRAM(program_, programOld);
   }
 
   /**
    * Set uniform variable.
    */
   void setUniform1f(const std::string& name, GLfloat value) const {
-    glProgramUniform1f(program_, getUniformLoc(name), value);
+    // glProgramUniform() is not used in order to keep OpenGL 3.2 compatibility
+    SCG_SAVE_AND_SWITCH_PROGRAM(program_, programOld);
+    glUniform1f(getUniformLoc(name), value);
+    SCG_RESTORE_PROGRAM(program_, programOld);
   }
 
   /**
    * Set uniform variable.
    */
   void setUniform1fv(const std::string& name, GLsizei count, const GLfloat* value) const {
-    glProgramUniform1fv(program_, getUniformLoc(name), count, value);
+    // glProgramUniform() is not used in order to keep OpenGL 3.2 compatibility
+    SCG_SAVE_AND_SWITCH_PROGRAM(program_, programOld);
+    glUniform1fv(getUniformLoc(name), count, value);
+    SCG_RESTORE_PROGRAM(program_, programOld);
   }
 
   /**
    * Set uniform variable.
    */
   void setUniform2fv(const std::string& name, GLsizei count, const GLfloat* value) const {
-    glProgramUniform2fv(program_, getUniformLoc(name), count, value);
+    // glProgramUniform() is not used in order to keep OpenGL 3.2 compatibility
+    SCG_SAVE_AND_SWITCH_PROGRAM(program_, programOld);
+    glUniform2fv(getUniformLoc(name), count, value);
+    SCG_RESTORE_PROGRAM(program_, programOld);
   }
 
   /**
    * Set uniform variable.
    */
   void setUniform3fv(const std::string& name, GLsizei count, const GLfloat* value) const {
-    glProgramUniform3fv(program_, getUniformLoc(name), count, value);
+    // glProgramUniform() is not used in order to keep OpenGL 3.2 compatibility
+    SCG_SAVE_AND_SWITCH_PROGRAM(program_, programOld);
+    glUniform3fv(getUniformLoc(name), count, value);
+    SCG_RESTORE_PROGRAM(program_, programOld);
   }
 
   /**
    * Set uniform variable.
    */
   void setUniform4fv(const std::string& name, GLsizei count, const GLfloat* value) const {
-    glProgramUniform4fv(program_, getUniformLoc(name), count, value);
+    // glProgramUniform() is not used in order to keep OpenGL 3.2 compatibility
+    SCG_SAVE_AND_SWITCH_PROGRAM(program_, programOld);
+    glUniform4fv(getUniformLoc(name), count, value);
+    SCG_RESTORE_PROGRAM(program_, programOld);
   }
 
   /**
    * Set uniform variable.
    */
   void setUniformMatrix2fv(const std::string& name, GLsizei count, const GLfloat* value) const {
-    glProgramUniformMatrix2fv(program_, getUniformLoc(name), count, GL_FALSE, value);
+    // glProgramUniform() is not used in order to keep OpenGL 3.2 compatibility
+    SCG_SAVE_AND_SWITCH_PROGRAM(program_, programOld);
+    glUniformMatrix2fv(getUniformLoc(name), count, GL_FALSE, value);
+    SCG_RESTORE_PROGRAM(program_, programOld);
   }
 
   /**
    * Set uniform variable.
    */
   void setUniformMatrix3fv(const std::string& name, GLsizei count, const GLfloat* value) const {
-    glProgramUniformMatrix3fv(program_, getUniformLoc(name), count, GL_FALSE, value);
+    // glProgramUniform() is not used in order to keep OpenGL 3.2 compatibility
+    SCG_SAVE_AND_SWITCH_PROGRAM(program_, programOld);
+    glUniformMatrix3fv(getUniformLoc(name), count, GL_FALSE, value);
+    SCG_RESTORE_PROGRAM(program_, programOld);
   }
 
   /**
    * Set uniform variable.
    */
   void setUniformMatrix4fv(const std::string& name, GLsizei count, const GLfloat* value) const {
-    glProgramUniformMatrix4fv(program_, getUniformLoc(name), count, GL_FALSE, value);
+    // glProgramUniform() is not used in order to keep OpenGL 3.2 compatibility
+    SCG_SAVE_AND_SWITCH_PROGRAM(program_, programOld);
+    glUniformMatrix4fv(getUniformLoc(name), count, GL_FALSE, value);
+    SCG_RESTORE_PROGRAM(program_, programOld);
   }
 
   /**
@@ -194,7 +224,6 @@ protected:
 protected:
 
   GLuint program_;
-  GLint programOld_;
   std::vector<ShaderID> shaderIDs_;
   ShaderCore* shaderCoreOld_;
   mutable std::unordered_map<std::string, GLint> uniformLocMap_;
