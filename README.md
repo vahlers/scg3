@@ -22,3 +22,14 @@ Git repository https://github.com/vahlers/scg3
 #### Building
 
 Use Eclipse or Visual Studio, cf. documentation in [scg3/scg3.h](https://github.com/vahlers/scg3/blob/master/scg3/scg3.h).
+
+Projects:
+
+* **scg3**: scene graph library (static library)
+* **scg3_example**: example application
+
+Prerequisites:
+
+* C++11 compiler, e.g., GCC 4.5, LLVM/Clang 3.1, Visual C++ 2010 (or higher)
+* OpenGL 3.2 graphics driver (or higher)
+* GLFW 3.0 (or higher), cf. http://www.glfw.org/
