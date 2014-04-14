@@ -28,7 +28,7 @@
 #define SCG3_H_
 
 /**
- * \mainpage scg3: An OpenGL3/C++11 Scene Graph Library for Teaching Computer Science
+ * \mainpage scg3: An OpenGL 3 / C++11 Scene Graph Library for Teaching Computer Science
  *
  * Version 0.5
  *
