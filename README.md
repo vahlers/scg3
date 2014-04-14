@@ -7,13 +7,13 @@ Copyright 2014 Volker Ahlers
 
 #### Documentation and example code
 
-* header file **scg3/scg3.h** (cf. comment)
-* folder **scg3/doc** (incl. example code)
-* webpage **http://vahlers.github.io/scg3/** (incl. Doxygen API documentation) 
+* header file [scg3/scg3.h](https://github.com/vahlers/scg3/blob/master/scg3/scg3.h) (cf. 3rd comment)
+* folder [scg3/doc](https://github.com/vahlers/scg3/tree/master/scg3/doc) (incl. example code)
+* webpage [http://vahlers.github.io/scg3/] (incl. Doxygen API documentation) 
 
 #### Source code
 
-Git repository **https://github.com/vahlers/scg3**
+Git repository [https://github.com/vahlers/scg3]
 
 #### Download
 
@@ -21,4 +21,4 @@ Git repository **https://github.com/vahlers/scg3**
 
 #### Building
 
-Use Eclipse or Visual Studio, cf. documentation in **scg3/scg3.h**.
+Use Eclipse or Visual Studio, cf. documentation in [scg3/scg3.h](https://github.com/vahlers/scg3/blob/master/scg3/scg3.h).
