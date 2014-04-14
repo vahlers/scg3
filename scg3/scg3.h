@@ -8,26 +8,59 @@
  *         volker.ahlers@hs-hannover.de
  */
 
+/*
+ * Copyright 2014 Volker Ahlers
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
 #ifndef SCG3_H_
 #define SCG3_H_
 
 /**
- * \mainpage scg3: An OpenGL3/C++11 Scene Graph Library
+ * \mainpage scg3: An OpenGL3/C++11 Scene Graph Library for Teaching Computer Science
  *
  * Version 0.5
  *
- * Prof. Dr. Volker Ahlers\n
- * Hochschule Hannover &ndash; University of Applied Sciences and Arts\n
+ * Developed 2006-2014\n
+ * (previous names: vascg, vascg2, vascg3)
+ *
+ * Volker Ahlers\n
+ * Hochschule Hannover\n
+ * University of Applied Sciences and Arts\n
  * Dept. of Computer Science\n
  * Hannover, Germany\n
  * volker.ahlers@hs-hannover.de
  *
- * &copy; 2006&ndash;2014 by Volker Ahlers
+ * \section sec_license License
+ *
+ * Copyright 2014 Volker Ahlers
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
  *
  * \section sec_architecture Architecture
  *
- * This scene graph library is based on OpenGL 3.2/GLSL 1.5 %Core Profile and
- * C++11.
+ * This scene graph library is based on OpenGL 3.2/GLSL 1.5 %Core Profile and C++11.
  * It is primarily intended for educational use in the master lecture
  * <em>Computer Graphics and Interaction</em> (CGI) and the accompanying exercises.
  *
@@ -120,6 +153,10 @@
  * http://nothings.org/stb_image.c
  *
  * \section sec_release_notes Release Notes
+ *
+ * Version 0.x (unreleased)
+ *
+ * - replace glProgramUniform() by glUniform to keep OpenGL 3.2 compatibility
  *
  * Version 0.5 (March 2014)
  *
