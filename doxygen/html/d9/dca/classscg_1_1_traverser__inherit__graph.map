@@ -1,0 +1,5 @@
+<map id="scg::Traverser" name="scg::Traverser">
+<area shape="rect" id="node2" href="$db/d76/classscg_1_1_info_traverser.html" title="A traverser that gathers information about the scene graph (visitor pattern). " alt="" coords="5,78,112,101"/>
+<area shape="rect" id="node3" href="$d6/da7/classscg_1_1_pre_traverser.html" title="A traverser that searches Camera and LightPosition nodes in the scene graph (visitor pattern)..." alt="" coords="136,78,241,101"/>
+<area shape="rect" id="node4" href="$d7/df6/classscg_1_1_render_traverser.html" title="A traverser that renders the scene graph (visitor pattern). " alt="" coords="266,78,389,101"/>
+</map>

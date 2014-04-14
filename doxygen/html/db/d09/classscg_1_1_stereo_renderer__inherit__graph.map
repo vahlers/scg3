@@ -1,0 +1,6 @@
+<map id="scg::StereoRenderer" name="scg::StereoRenderer">
+<area shape="rect" id="node3" href="$d0/d12/classscg_1_1_stereo_renderer_active.html" title="A renderer for active stereo (e.g., shutter glasses). " alt="" coords="4,150,152,173"/>
+<area shape="rect" id="node4" href="$d6/de3/classscg_1_1_stereo_renderer_anaglyph.html" title="A renderer for anaglyph stereo (left eye: red, right eye: cyan). " alt="" coords="177,150,340,173"/>
+<area shape="rect" id="node5" href="$d8/d0f/classscg_1_1_stereo_renderer_passive.html" title="A renderer for passive stereo (e.g., polarized projection). " alt="" coords="365,150,521,173"/>
+<area shape="rect" id="node2" href="$d8/dcf/classscg_1_1_renderer.html" title="Base class for all renderers (abstract). " alt="" coords="215,6,303,29"/>
+</map>

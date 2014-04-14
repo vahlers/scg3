@@ -1,0 +1,4 @@
+<map id="scg::StereoRendererPassive" name="scg::StereoRendererPassive">
+<area shape="rect" id="node2" href="$d7/d2b/classscg_1_1_stereo_renderer.html" title="Base class for all stereo renderers (abstract). " alt="" coords="23,78,141,101"/>
+<area shape="rect" id="node3" href="$d8/dcf/classscg_1_1_renderer.html" title="Base class for all renderers (abstract). " alt="" coords="39,6,127,29"/>
+</map>

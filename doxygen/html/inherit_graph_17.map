@@ -1,0 +1,8 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$d8/dcf/classscg_1_1_renderer.html" title="Base class for all renderers (abstract). " alt="" coords="5,29,93,51"/>
+<area shape="rect" id="node2" href="$d5/db3/classscg_1_1_standard_renderer.html" title="A standard renderer that uses a PreTraverser, a RenderTraverser, and an InfoTraverser. " alt="" coords="142,5,274,27"/>
+<area shape="rect" id="node3" href="$d7/d2b/classscg_1_1_stereo_renderer.html" title="Base class for all stereo renderers (abstract). " alt="" coords="148,51,268,74"/>
+<area shape="rect" id="node4" href="$d0/d12/classscg_1_1_stereo_renderer_active.html" title="A renderer for active stereo (e.g., shutter glasses). " alt="" coords="331,5,480,27"/>
+<area shape="rect" id="node5" href="$d6/de3/classscg_1_1_stereo_renderer_anaglyph.html" title="A renderer for anaglyph stereo (left eye: red, right eye: cyan). " alt="" coords="323,51,487,74"/>
+<area shape="rect" id="node6" href="$d8/d0f/classscg_1_1_stereo_renderer_passive.html" title="A renderer for passive stereo (e.g., polarized projection). " alt="" coords="327,98,484,121"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="scg::Renderer" name="scg::Renderer">
+<area shape="rect" id="node2" href="$d5/db3/classscg_1_1_standard_renderer.html" title="A standard renderer that uses a PreTraverser, a RenderTraverser, and an InfoTraverser. " alt="" coords="44,78,175,101"/>
+<area shape="rect" id="node3" href="$d7/d2b/classscg_1_1_stereo_renderer.html" title="Base class for all stereo renderers (abstract). " alt="" coords="199,78,317,101"/>
+<area shape="rect" id="node4" href="$d0/d12/classscg_1_1_stereo_renderer_active.html" title="A renderer for active stereo (e.g., shutter glasses). " alt="" coords="4,150,152,173"/>
+<area shape="rect" id="node5" href="$d6/de3/classscg_1_1_stereo_renderer_anaglyph.html" title="A renderer for anaglyph stereo (left eye: red, right eye: cyan). " alt="" coords="177,150,340,173"/>
+<area shape="rect" id="node6" href="$d8/d0f/classscg_1_1_stereo_renderer_passive.html" title="A renderer for passive stereo (e.g., polarized projection). " alt="" coords="365,150,521,173"/>
+</map>

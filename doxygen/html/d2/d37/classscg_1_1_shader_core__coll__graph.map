@@ -1,0 +1,6 @@
+<map id="scg::ShaderCore" name="scg::ShaderCore">
+<area shape="rect" id="node2" href="$d0/d79/classscg_1_1_core.html" title="Base class for all cores (abstract). " alt="" coords="5,281,72,303"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="140,91,207,114"/>
+<area shape="rect" id="node7" href="$d1/dad/structscg_1_1_shader_i_d.html" title="A shader ID to identify shaders in error messages. An arbitrary name can be added to the OpnGL shader..." alt="" coords="186,174,275,197"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="121,6,225,39"/>
+</map>

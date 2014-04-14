@@ -1,0 +1,7 @@
+<map id="scg::Transformation" name="scg::Transformation">
+<area shape="rect" id="node2" href="$da/d38/classscg_1_1_composite.html" title="Base class for all composite nodes, i.e., nodes with children (composite pattern, abstract)..." alt="" coords="73,195,167,218"/>
+<area shape="rect" id="node3" href="$d4/dc7/classscg_1_1_node.html" title="Base class for all nodes (composite pattern, abstract). " alt="" coords="175,289,244,311"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="241,91,308,114"/>
+<area shape="rect" id="node6" title="STL class. " alt="" coords="222,6,327,39"/>
+<area shape="rect" id="node8" href="$d0/d79/classscg_1_1_core.html" title="Base class for all cores (abstract). " alt="" coords="391,91,457,114"/>
+</map>

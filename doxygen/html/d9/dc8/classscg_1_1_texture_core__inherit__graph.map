@@ -1,0 +1,6 @@
+<map id="scg::TextureCore" name="scg::TextureCore">
+<area shape="rect" id="node3" href="$d9/d5b/classscg_1_1_cube_map_core.html" title="Cube map textue core. " alt="" coords="5,150,117,173"/>
+<area shape="rect" id="node4" href="$dc/d19/classscg_1_1_texture2_d_core.html" title="2D texture core. " alt="" coords="142,150,257,173"/>
+<area shape="rect" id="node2" href="$d0/d79/classscg_1_1_core.html" title="Base class for all cores (abstract). " alt="" coords="97,6,164,29"/>
+<area shape="rect" id="node5" href="$db/d63/classscg_1_1_bump_map_core.html" title="2D bump map core storing a texture (optional) and a normal map. " alt="" coords="142,222,257,245"/>
+</map>

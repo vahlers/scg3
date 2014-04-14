@@ -1,0 +1,28 @@
+var classscg_1_1_o_g_l_constants =
+[
+    [ "bindAttribFragDataLocations", "de/dfc/classscg_1_1_o_g_l_constants.html#a52b276c7ec1242f0257bdf2edb79e2fb", null ],
+    [ "bindSamplers", "de/dfc/classscg_1_1_o_g_l_constants.html#a208d9bef7e0070ddaf86acd532405de9", null ],
+    [ "bindUniformBlocks", "de/dfc/classscg_1_1_o_g_l_constants.html#a0fa983e18f4cbaeaa14e59e80c5c492e", null ],
+    [ "BINORMAL", "de/dfc/classscg_1_1_o_g_l_constants.html#a7b70c0ae253f8887ab7e738bd7e2e74f", null ],
+    [ "COLOR", "de/dfc/classscg_1_1_o_g_l_constants.html#a4053b0359f6bccb783d735894a5e029a", null ],
+    [ "COLOR_MATRIX", "de/dfc/classscg_1_1_o_g_l_constants.html#a9348613c5fb69dd31a9544444c2db0d0", null ],
+    [ "FRAG_COLOR", "de/dfc/classscg_1_1_o_g_l_constants.html#ab47276afe8e4fb133dc2a332babc19aa", null ],
+    [ "GLOBAL_AMBIENT_LIGHT", "de/dfc/classscg_1_1_o_g_l_constants.html#adb66ef113e22013da6191bae15e3340c", null ],
+    [ "LIGHT", "de/dfc/classscg_1_1_o_g_l_constants.html#a1fd4c72906fa28e5e4411b0841b490c8", null ],
+    [ "MATERIAL", "de/dfc/classscg_1_1_o_g_l_constants.html#a622e68aaebbe5341ab4fe4ed95da6970", null ],
+    [ "MAX_NUMBER_OF_LIGHTS", "de/dfc/classscg_1_1_o_g_l_constants.html#a149d482c0d5112d8db61a2faff50d766", null ],
+    [ "MODEL_VIEW_MATRIX", "de/dfc/classscg_1_1_o_g_l_constants.html#aba0606b589fff95256c5af1ba4fbc2de", null ],
+    [ "MVP_MATRIX", "de/dfc/classscg_1_1_o_g_l_constants.html#a08ad8968a79d2b24dbccb2f81745e868", null ],
+    [ "N_LIGHTS", "de/dfc/classscg_1_1_o_g_l_constants.html#a828e9b24c46bb4d48cfa1af109587a51", null ],
+    [ "NORMAL", "de/dfc/classscg_1_1_o_g_l_constants.html#a8e791c72c8f2fb7160b3c91e37342cae", null ],
+    [ "NORMAL_MATRIX", "de/dfc/classscg_1_1_o_g_l_constants.html#a9232bb2e3b80ba040dacb2ef326d1164", null ],
+    [ "PROJECTION_MATRIX", "de/dfc/classscg_1_1_o_g_l_constants.html#ae559588af44ee57a5ddaab22309f77d1", null ],
+    [ "TANGENT", "de/dfc/classscg_1_1_o_g_l_constants.html#a841e232e7973b4bca05d85bb24b2b6de", null ],
+    [ "TEX_COORD_0", "de/dfc/classscg_1_1_o_g_l_constants.html#afc4761ebd9ceb14fc4b829982e37d89d", null ],
+    [ "TEX_COORD_1", "de/dfc/classscg_1_1_o_g_l_constants.html#aa974469a3cc8145836ad180f32f51db1", null ],
+    [ "TEXTURE0", "de/dfc/classscg_1_1_o_g_l_constants.html#a5a8d49ecd5ab5bf5223e740040636496", null ],
+    [ "TEXTURE1", "de/dfc/classscg_1_1_o_g_l_constants.html#a313b131b7c267d226eefe840672cf02c", null ],
+    [ "TEXTURE_MATRIX", "de/dfc/classscg_1_1_o_g_l_constants.html#a6858eccd9ce25f408b7c28c41eae78cf", null ],
+    [ "TIME", "de/dfc/classscg_1_1_o_g_l_constants.html#a6407ebaeec1638eb427ea2b016b4531e", null ],
+    [ "VERTEX", "de/dfc/classscg_1_1_o_g_l_constants.html#a48b04ec4c4877c4f1d091ff68e953e8f", null ]
+];

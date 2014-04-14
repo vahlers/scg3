@@ -1,0 +1,4 @@
+<map id="scg::Light" name="scg::Light">
+<area shape="rect" id="node2" href="$da/d38/classscg_1_1_composite.html" title="Base class for all composite nodes, i.e., nodes with children (composite pattern, abstract)..." alt="" coords="5,78,99,101"/>
+<area shape="rect" id="node3" href="$d4/dc7/classscg_1_1_node.html" title="Base class for all nodes (composite pattern, abstract). " alt="" coords="17,6,87,29"/>
+</map>

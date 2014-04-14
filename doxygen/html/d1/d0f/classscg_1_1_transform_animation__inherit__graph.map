@@ -1,0 +1,6 @@
+<map id="scg::TransformAnimation" name="scg::TransformAnimation">
+<area shape="rect" id="node2" href="$d2/df5/classscg_1_1_animation.html" title="Base class for all animations (abstract), providing general functionality. " alt="" coords="5,150,96,173"/>
+<area shape="rect" id="node3" href="$d0/d99/classscg_1_1_transformation.html" title="A transformation node to be used to appy a transformation to the sub&#45;tree (composite node)..." alt="" coords="120,150,235,173"/>
+<area shape="rect" id="node4" href="$da/d38/classscg_1_1_composite.html" title="Base class for all composite nodes, i.e., nodes with children (composite pattern, abstract)..." alt="" coords="130,78,224,101"/>
+<area shape="rect" id="node5" href="$d4/dc7/classscg_1_1_node.html" title="Base class for all nodes (composite pattern, abstract). " alt="" coords="143,6,212,29"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="src_ext/scg_ext_internals.h" name="src_ext/scg_ext_internals.h">
+<area shape="rect" id="node2" href="$d0/d5b/scg3__ext_8h.html" title="Main header file for scg3 scene graph library extensions, including all class headers. " alt="" coords="239,150,311,173"/>
+<area shape="rect" id="node3" href="$d7/d68/_stereo_camera_8h.html" title="A perspective stereo camera (leaf node). " alt="" coords="28,78,164,101"/>
+<area shape="rect" id="node4" href="$dd/dec/_stereo_renderer_active_8h.html" title="A renderer for active stereo (e.g., shutter glasses). " alt="" coords="189,78,360,101"/>
+<area shape="rect" id="node5" href="$d5/da3/_stereo_renderer_anaglyph_8h.html" title="A renderer for anaglyph stereo (left: red, right: cyan). " alt="" coords="385,78,572,101"/>
+<area shape="rect" id="node6" href="$d4/d7e/_stereo_renderer_passive_8h.html" title="A renderer for passive stereo (e.g., polarized projection). " alt="" coords="597,78,776,101"/>
+</map>

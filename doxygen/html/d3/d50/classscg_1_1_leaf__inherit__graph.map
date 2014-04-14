@@ -1,0 +1,5 @@
+<map id="scg::Leaf" name="scg::Leaf">
+<area shape="rect" id="node3" href="$d7/da7/classscg_1_1_light_position.html" title="A light position node to define the position of an associated light within the scene graph (leaf node..." alt="" coords="5,150,109,173"/>
+<area shape="rect" id="node4" href="$d1/d94/classscg_1_1_shape.html" title="A shape node that contains geometry to be rendered (leaf node). " alt="" coords="133,150,208,173"/>
+<area shape="rect" id="node2" href="$d4/dc7/classscg_1_1_node.html" title="Base class for all nodes (composite pattern, abstract). " alt="" coords="79,6,148,29"/>
+</map>

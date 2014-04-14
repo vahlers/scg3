@@ -1,0 +1,20 @@
+<map id="scg::Viewer" name="scg::Viewer">
+<area shape="rect" id="node7" href="$d8/dcf/classscg_1_1_renderer.html" title="Base class for all renderers (abstract). " alt="" coords="1629,238,1717,261"/>
+<area shape="rect" id="node3" href="$d2/df5/classscg_1_1_animation.html" title="Base class for all animations (abstract), providing general functionality. " alt="" coords="930,81,1022,103"/>
+<area shape="rect" id="node5" href="$de/de4/classscg_1_1_controller.html" title="Base class for all controllers (abstract). " alt="" coords="931,5,1021,27"/>
+<area shape="rect" id="node6" href="$d7/d72/structscg_1_1_o_g_l_config.html" title="OpenGL configuration, may be set by user before calling Viewer::init(). " alt="" coords="1186,51,1283,74"/>
+<area shape="rect" id="node8" href="$d4/dc7/classscg_1_1_node.html" title="Base class for all nodes (composite pattern, abstract). " alt="" coords="671,417,740,439"/>
+<area shape="rect" id="node14" href="$da/d38/classscg_1_1_composite.html" title="Base class for all composite nodes, i.e., nodes with children (composite pattern, abstract)..." alt="" coords="929,417,1023,439"/>
+<area shape="rect" id="node10" title="STL class. " alt="" coords="161,369,228,391"/>
+<area shape="rect" id="node19" href="$d1/dad/structscg_1_1_shader_i_d.html" title="A shader ID to identify shaders in error messages. An arbitrary name can be added to the OpnGL shader..." alt="" coords="349,369,438,391"/>
+<area shape="rect" id="node11" title="STL class. " alt="" coords="5,363,110,397"/>
+<area shape="rect" id="node13" href="$d0/d79/classscg_1_1_core.html" title="Base class for all cores (abstract). " alt="" coords="161,221,228,243"/>
+<area shape="rect" id="node16" href="$df/de9/classscg_1_1_shader_core.html" title="A core to set a shader program to be applied to subsequent nodes. " alt="" coords="925,269,1027,291"/>
+<area shape="rect" id="node22" href="$d9/dc2/classscg_1_1_color_core.html" title="A core to set a vertex color or a color transformation to be applied to subsequent geometry..." alt="" coords="808,125,901,147"/>
+<area shape="rect" id="node24" href="$d0/d99/classscg_1_1_transformation.html" title="A transformation node to be used to appy a transformation to the sub&#45;tree (composite node)..." alt="" coords="1177,410,1292,433"/>
+<area shape="rect" id="node15" href="$db/dfa/classscg_1_1_render_state.html" title="The central render state that collects information about the current shader, transformations, matrix stacks, light and color properties. " alt="" coords="1183,238,1287,261"/>
+<area shape="rect" id="node20" href="$d4/dab/classscg_1_1_matrix_stack.html" title="Matrix stack to store model&#45;view, projection, texture, and color matrices, used by RenderState..." alt="" coords="926,187,1026,210"/>
+<area shape="rect" id="node23" href="$d4/dc9/classscg_1_1_camera.html" title="Base class for all cameras (composite node, abstract). " alt="" coords="1448,397,1530,419"/>
+<area shape="rect" id="node25" href="$db/d02/structscg_1_1_frame_buffer_size.html" title="Frame buffer size, to be set by renderer in Renderer::initViewer(), called by Viewer::init(). " alt="" coords="1173,98,1297,121"/>
+<area shape="rect" id="node26" href="$d3/dde/classscg_1_1_view_state.html" title="The view state of the application, managed by Viewer and accessible by Controller::checkInput() (or d..." alt="" coords="1189,145,1281,167"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="scg::PerspectiveCamera" name="scg::PerspectiveCamera">
+<area shape="rect" id="node2" href="$d4/dc9/classscg_1_1_camera.html" title="Base class for all cameras (composite node, abstract). " alt="" coords="32,363,113,386"/>
+<area shape="rect" id="node3" href="$d0/d99/classscg_1_1_transformation.html" title="A transformation node to be used to appy a transformation to the sub&#45;tree (composite node)..." alt="" coords="16,289,131,311"/>
+<area shape="rect" id="node4" href="$da/d38/classscg_1_1_composite.html" title="Base class for all composite nodes, i.e., nodes with children (composite pattern, abstract)..." alt="" coords="83,195,177,218"/>
+<area shape="rect" id="node5" href="$d4/dc7/classscg_1_1_node.html" title="Base class for all nodes (composite pattern, abstract). " alt="" coords="185,289,255,311"/>
+<area shape="rect" id="node7" title="STL class. " alt="" coords="252,91,319,114"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="233,6,337,39"/>
+<area shape="rect" id="node10" href="$d0/d79/classscg_1_1_core.html" title="Base class for all cores (abstract). " alt="" coords="401,91,468,114"/>
+</map>
