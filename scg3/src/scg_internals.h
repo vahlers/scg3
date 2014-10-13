@@ -208,8 +208,8 @@ SCG_DECLARE_CLASS(ViewState);
  * to be used in combination with macro SCG_RESTORE_PROGRAM().
  */
 #define SCG_SAVE_AND_SWITCH_PROGRAM(_program, _programOld) \
-    GLint _programOld; \
-    glGetIntegerv(GL_CURRENT_PROGRAM, &_programOld); \
+    GLuint _programOld; \
+    glGetIntegerv(GL_CURRENT_PROGRAM, reinterpret_cast<GLint*>(&_programOld)); \
     if (_program != _programOld) { \
       glUseProgram(_program); \
     }
