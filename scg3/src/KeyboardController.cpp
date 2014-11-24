@@ -41,12 +41,12 @@ KeyboardController::KeyboardController(CameraSP camera)
   std::cout << "Keyboard camera control enabled" << std::endl;
   std::cout << "- space: toggle fly/examine mode" << std::endl;
   std::cout << "- arrow keys (fly mode/default): rotate around yaw and pitch axes" << std::endl;
-  std::cout << "  + ctrl: rotate around roll and pitch axes" << std::endl;
+  std::cout << "  + alt: rotate around roll and pitch axes" << std::endl;
   std::cout << "- arrow keys (examine mode): rotate around azimuth and elevation axes" << std::endl;
-  std::cout << "  + ctrl: rotate around roll and elevation axes" << std::endl;
+  std::cout << "  + alt: rotate around roll and elevation axes" << std::endl;
   std::cout << "- w/s: move forward/backward" << std::endl;
   std::cout << "  + alt: dolly in/out (relative to center point)" << std::endl;
-  std::cout << "- a/d/x/y: move left/right/up/down" << std::endl;
+  std::cout << "- a/d/x/z: move left/right/up/down (a/d/x/y on German keyboard)" << std::endl;
   std::cout << "- page up/down: increase/decrease continuous flight velocity" << std::endl;
   std::cout << "- h: toggle frame rate output (to console)" << std::endl;
   std::cout << "- j: toggle center point visibility" << std::endl;
@@ -77,7 +77,8 @@ void KeyboardController::checkInput(ViewState* viewState) {
 
   // camera movement
   if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS) {
-    if (glfwGetKey(window, GLFW_KEY_LEFT_ALT) == GLFW_PRESS || glfwGetKey(window, GLFW_KEY_RIGHT_ALT) == GLFW_PRESS) {
+    if (glfwGetKey(window, GLFW_KEY_LEFT_ALT) == GLFW_PRESS ||
+        glfwGetKey(window, GLFW_KEY_RIGHT_ALT) == GLFW_PRESS) {
       camera_->dolly(moveVelocity_ * diffTime);
     }
     else {
@@ -85,7 +86,8 @@ void KeyboardController::checkInput(ViewState* viewState) {
     }
   }
   if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS) {
-    if (glfwGetKey(window, GLFW_KEY_LEFT_ALT) == GLFW_PRESS || glfwGetKey(window, GLFW_KEY_RIGHT_ALT) == GLFW_PRESS) {
+    if (glfwGetKey(window, GLFW_KEY_LEFT_ALT) == GLFW_PRESS ||
+        glfwGetKey(window, GLFW_KEY_RIGHT_ALT) == GLFW_PRESS) {
       camera_->dolly(-moveVelocity_ * diffTime);
     }
     else {
@@ -101,13 +103,14 @@ void KeyboardController::checkInput(ViewState* viewState) {
   if (glfwGetKey(window, GLFW_KEY_X) == GLFW_PRESS) {
     camera_->translate(glm::vec3(0.0f, moveVelocity_ * diffTime, 0.0f));
   }
-  if (glfwGetKey(window, GLFW_KEY_Y) == GLFW_PRESS) {
+  if (glfwGetKey(window, GLFW_KEY_Z) == GLFW_PRESS) {
     camera_->translate(glm::vec3(0.0f, -moveVelocity_ * diffTime, 0.0f));
   }
 
   // camera rotation
   if (glfwGetKey(window, GLFW_KEY_LEFT) == GLFW_PRESS) {
-    if (glfwGetKey(window, GLFW_KEY_LEFT_CONTROL) == GLFW_PRESS || glfwGetKey(window, GLFW_KEY_RIGHT_CONTROL) == GLFW_PRESS) {
+    if (glfwGetKey(window, GLFW_KEY_LEFT_ALT) == GLFW_PRESS ||
+        glfwGetKey(window, GLFW_KEY_RIGHT_ALT) == GLFW_PRESS) {
       camera_->rotateRoll(-rotateVelocity_ * diffTime);
     }
     else {
@@ -120,7 +123,8 @@ void KeyboardController::checkInput(ViewState* viewState) {
     }
   }
   if (glfwGetKey(window, GLFW_KEY_RIGHT) == GLFW_PRESS) {
-    if (glfwGetKey(window, GLFW_KEY_LEFT_CONTROL) == GLFW_PRESS || glfwGetKey(window, GLFW_KEY_RIGHT_CONTROL) == GLFW_PRESS) {
+    if (glfwGetKey(window, GLFW_KEY_LEFT_ALT) == GLFW_PRESS ||
+        glfwGetKey(window, GLFW_KEY_RIGHT_ALT) == GLFW_PRESS) {
       camera_->rotateRoll(rotateVelocity_ * diffTime);
     }
     else {
