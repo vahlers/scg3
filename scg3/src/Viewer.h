@@ -279,9 +279,11 @@ protected:
   static void errorCB_(int error, const char* description);
 
   /**
-   * GLFW callback function for window resize event.
+   * GLFW callback function for framebuffer resize event.
+   * Note: Use glfwSetFramebufferSizeCallback() instead of glfwSetWindowSizeCallback()
+   * to correctly handle Mac Retina display
    */
-  static void windowSizeCB_(GLFWwindow* window, int width, int height);
+  static void framebufferSizeCB_(GLFWwindow* window, int width, int height);
 
 private:
 

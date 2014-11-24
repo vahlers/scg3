@@ -314,7 +314,7 @@ void Viewer::createWindow_(const char* title, int width, int height, bool fullsc
   glfwSwapInterval(1);
 
   // register callback functions
-  glfwSetWindowSizeCallback(window_, windowSizeCB_);
+  glfwSetFramebufferSizeCallback(window_, framebufferSizeCB_);
 
   // initialize GLEW
   glewExperimental = GL_TRUE;   // required for glGenVertexArrays()
@@ -384,7 +384,7 @@ void Viewer::errorCB_(int error, const char* description) {
 }
 
 
-void Viewer::windowSizeCB_(GLFWwindow* window, int width, int height) {
+void Viewer::framebufferSizeCB_(GLFWwindow* window, int width, int height) {
   glViewport(0, 0, width, height);
   isWindowResized_ = true;
 
