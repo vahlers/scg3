@@ -3,7 +3,7 @@ scg3
 
 An extensible OpenGL 3 / C++11 scene graph library for teaching computer graphics along the programmable pipeline.
 
-Copyright 2014 Volker Ahlers
+Copyright 2014-2019 Volker Ahlers
 
 #### Documentation and example code
 
@@ -32,4 +32,4 @@ Prerequisites:
 
 * C++11 compiler, e.g., GCC 4.5, LLVM/Clang 3.1, Visual C++ 2010 (or higher)
 * OpenGL 3.2 graphics driver (or higher)
-* GLFW 3.0 (or higher), cf. http://www.glfw.org/
+* GLFW 3.2.0 (or higher), cf. http://www.glfw.org/
