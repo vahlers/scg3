@@ -1,6 +1,8 @@
-stb_image.c 1.33
+stb_image.h 2.21
 ================
-See full resource at http://nothings.org/stb_image.c
+See full resource at https://github.com/nothings/stb
+
+vvv Old for stb_image.c, check if still required vvv
 
 Modifications by Volker Ahlers <VA>:
 

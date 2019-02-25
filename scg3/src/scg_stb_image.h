@@ -26,9 +26,7 @@
 #define SCG_STB_IMAGE_H_
 
 
-#define STBI_HEADER_FILE_ONLY
-
-#include "../extern/stb_image/stb_image.c"
+#include "../extern/stb_image/stb_image.h"
 
 
 #endif /* SCG_STB_IMAGE_H_ */
