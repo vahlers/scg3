@@ -36,6 +36,9 @@ namespace scg {
 /**
  * \brief A perspective stereo camera (composite node).
  *
+ * Experimental: Does not work with multiple render passes
+ *               since eye is switched with each call of render().
+ *
  * Initial parameters (Bourke method):\n
  * - eye factor: -1 (left eye, direction of eye shift on x-axis)\n
  * - vertical field of view: 60 deg\n

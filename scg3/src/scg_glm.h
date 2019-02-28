@@ -41,6 +41,11 @@
 #include "../extern/glm/glm/gtc/quaternion.hpp"
 #include "../extern/glm/glm/gtc/type_ptr.hpp"
 
+// include glm::toString() functions for debugging purposes
+#define GLM_ENABLE_EXPERIMENTAL
+#include "../extern/glm/glm/gtx/string_cast.hpp"
+#undef GLM_ENABLE_EXPERIMENTAL
+
 #if defined(__GNUC__)
 #pragma GCC diagnostic warning "-Wstrict-aliasing"
 #elif defined(_MSC_VER)

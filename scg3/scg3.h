@@ -154,13 +154,16 @@
  *
  * \section sec_release_notes Release Notes
  *
- * Version 0.6 (unreleased)
+ * Version 0.6 (to be released March 2019)
  *
  * - introduced in CG1 lecture of summer 2019
  * - update to GLEW 2.1.0, GLFW 3.2, GLM 0.9.9.3, stb_image 2.21
  * - replace glProgramUniform() by glUniform() to keep OpenGL 3.2 compatibility
  * - fix bugs in MouseController
- * - TODO: use key and mouse callbacks, add vsync, update mainpage, update Doxygen API doc
+ * - TODO:
+ *   + use key and mouse callbacks instead of polling
+ *   + add vsync?
+ *   + update this comment, Doxygen API doc, ...
  *
  * Version 0.5 (March 2014)
  *

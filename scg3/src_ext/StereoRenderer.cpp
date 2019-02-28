@@ -28,7 +28,7 @@ namespace scg {
 
 
 StereoRenderer::StereoRenderer(RendererSP concreteRenderer)
-    : concreteRenderer_(concreteRenderer) {
+    : Renderer(), concreteRenderer_(concreteRenderer) {
 }
 
 

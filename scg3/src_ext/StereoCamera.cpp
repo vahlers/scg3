@@ -27,7 +27,7 @@
 namespace scg {
 
 StereoCamera::StereoCamera()
-    : eyeFactor_(-1) {
+    : Camera(), eyeFactor_(-1) {
   initBourke(60.f, 0.01f, 1000.f, 1.5f, 0.02f);
 }
 
@@ -77,7 +77,7 @@ const glm::mat4& StereoCamera::getViewTransform(RenderState* renderState) {
   GLfloat eyeShift = eyeFactor_ * interOcularHalfDist_;
   glm::vec3 rightDir = orientation_ * glm::vec3(1.f, 0.f, 0.f);
   viewTransform_ = glm::inverse(renderState->modelViewStack.getMatrix()
-      * glm::translate(glm::mat4(), eyeShift * rightDir));
+      * glm::translate(glm::mat4(1.0f), eyeShift * rightDir));
   return viewTransform_;
 }
 
