@@ -24,9 +24,6 @@
 #include <fstream>
 #include <iostream>
 #include <map>
-#include <string>
-#include "scg_glew.h"
-#include <GLFW/glfw3.h>
 #include "scg_internals.h"
 #include "scg_utilities.h"
 
@@ -53,6 +50,34 @@ int checkGLError() {
 }
 
 
+bool isGLContextActive() {
+  return glfwGetCurrentContext() != NULL;
+}
+
+
+void getCursorPosPixels(GLFWwindow* window, double& xPixels, double& yPixels) {
+  // get window size (screen coords) and framebuffer size (pixels)
+  int wScreen, hScreen, wPixels, hPixels;
+  glfwGetWindowSize(window, &wScreen, &hScreen);
+  glfwGetFramebufferSize(window, &wPixels, &hPixels);
+  // get cursor position (screen coords) and transform to pixels
+  double xScreen, yScreen;
+  glfwGetCursorPos(window, &xScreen, &yScreen);
+  xPixels = (xScreen * wPixels) / wScreen;
+  yPixels = (yScreen * hPixels) / hScreen;
+}
+
+
+void setCursorPosPixels(GLFWwindow* window, double xPixels, double yPixels) {
+  // get window size (screen coords) and framebuffer size (pixels)
+  int wScreen, hScreen, wPixels, hPixels;
+  glfwGetWindowSize(window, &wScreen, &hScreen);
+  glfwGetFramebufferSize(window, &wPixels, &hPixels);
+  // set cursor position transformed from pixels to screen coords
+  glfwSetCursorPos(window, (xPixels * wScreen) / wPixels, (yPixels * hScreen) / hPixels);
+}
+
+
 void formatFilePath(std::string& filePath) {
 #ifdef SCG_CPP11_RANGE_BASED_FOR
   for (char& c : filePath) {
@@ -68,11 +93,6 @@ void formatFilePath(std::string& filePath) {
   if (filePath.back() != '/') {
      filePath += '/';
    }
-}
-
-
-bool isGLContextActive() {
-  return glfwGetCurrentContext() != NULL;
 }
 
 

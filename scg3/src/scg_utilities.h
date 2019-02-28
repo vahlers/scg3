@@ -28,6 +28,7 @@
 #include <string>
 #include <vector>
 #include "scg_glew.h"
+#include <GLFW/glfw3.h>
 
 namespace scg {
 
@@ -49,6 +50,37 @@ int checkGLError();
 
 
 /**
+ * \brief Check if an active OpenGL context exists.
+ *
+ * Should be used in destructors to check for an active context before calling OpenGL functions.
+ * Otherwise exceptions thrown without an active context will cause errors.
+ *
+ * \return true if active OpenGL context exists
+ */
+bool isGLContextActive();
+
+
+/**
+ * \brief Get cursor (mouse pointer) position in pixels, as opposed to screen coordinates.
+ *
+ * Wrapper function for glfwGetCursorPos, which returns screen coordinates.
+ * The factor for converting from screen coordinates to pixels may change at runtime, e.g.
+ * by moving a window from a low-resolution to a high-resolution ("retina") display.
+ */
+void getCursorPosPixels(GLFWwindow* window, double& xPixels, double& yPixels);
+
+
+/**
+ * \brief Set cursor (mouse pointer) position in pixels, as opposed to screen coordinates.
+ *
+ * Wrapper function for glfwSetCursorPos, which returns screen coordinates.
+ * The factor for converting from screen coordinates to pixels may change at runtime, e.g.
+ * by moving a window from a low-resolution to a high-resolution ("retina") display.
+ */
+void setCursorPosPixels(GLFWwindow* window, double xPixels, double yPixels);
+
+
+/**
  * \brief Replace backslashes by slashes and ensure that the last character is a slash.
  */
 void formatFilePath(std::string& filePath);
@@ -62,17 +94,6 @@ void formatFilePath(std::string& filePath);
  * \return full file name including path, empty string if the file has not been found
  */
 std::string getFullFileName(const std::vector<std::string>& filePaths, const std::string& fileName);
-
-
-/**
- * \brief Check if an active OpenGL context exists.
- *
- * Should be used in destructors to check for an active context before calling OpenGL functions.
- * Otherwise exceptions thrown without an active context will cause errors.
- *
- * \return true if active OpenGL context exists
- */
-bool isGLContextActive();
 
 
 /**
