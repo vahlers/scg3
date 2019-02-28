@@ -1,5 +1,6 @@
 /.metadata
-/Debug
-/Release
+/Debug*
+/Release*
 /*.sdf
 /*.suo
+/scg_demo
