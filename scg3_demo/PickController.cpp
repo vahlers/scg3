@@ -9,6 +9,7 @@
 #include <GLFW/glfw3.h>
 #include "../scg3/src/RenderState.h"
 #include "../scg3/src/scg_glm.h"
+#include "../scg3/src/scg_utilities.h"
 #include "../scg3/src/ViewState.h"
 #include "PickController.h"
 
@@ -36,7 +37,7 @@ void PickController::checkInput(ViewState* viewState) {
   if (glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_RIGHT) == GLFW_PRESS) {
     // right mouse button pressed: picking
     isPicked_ = true;
-    glfwGetCursorPos(window, &mouseX_, &mouseY_);
+    getCursorPosPixels(window, mouseX_, mouseY_);
   }
   else {
     isPicked_ = false;
@@ -66,7 +67,7 @@ void PickController::render(RenderState* renderState) {
     objCoord *= perDivFactor;
 
     // set translation to picking location
-    setMatrix(glm::mat4());
+    setMatrix(glm::mat4(1.0));
     translate(objCoord);
 
     renderState->modelViewStack.multMatrix(matrix_);

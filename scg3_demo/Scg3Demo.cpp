@@ -41,7 +41,7 @@ struct SCGConfiguration {
   static const bool useSkybox = true;
   static const bool useCubeMap = true;
   static const bool usePicking = false;
-  static const bool useRenderToTexture = true;
+  static const bool useRenderToTexture = false;
   static const bool useSpaceMouse = false;
   static const std::string spaceMouseDevice;  // defined below
 };
