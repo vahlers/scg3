@@ -27,6 +27,7 @@
 #include "Camera.h"
 #include "MouseController.h"
 #include "scg_glm.h"
+#include "scg_utilities.h"
 #include "ViewState.h"
 
 namespace scg {
@@ -61,14 +62,14 @@ void MouseController::checkInput(ViewState* viewState) {
   static bool toggleMouseButton(false);
   GLFWwindow* window = viewState->getWindow();
   double mouseX, mouseY;
-  glfwGetCursorPos(window, &mouseX, &mouseY);
+  getCursorPosPixels(window, mouseX, mouseY);
   static double mouseXOld(mouseX), mouseYOld(mouseY);
 
   if (glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_LEFT) == GLFW_PRESS) {
     // left mouse button pressed: camera movement and rotation
     glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
-    glfwGetCursorPos(window, &mouseX, &mouseY);
-    glfwSetCursorPos(window, mouseXOld, mouseYOld);
+    getCursorPosPixels(window, mouseX, mouseY);
+    setCursorPosPixels(window, mouseXOld, mouseYOld);
 
     // move forward/backward or dolly
     if (glfwGetKey(window, GLFW_KEY_LEFT_ALT) == GLFW_PRESS ||
@@ -93,8 +94,8 @@ void MouseController::checkInput(ViewState* viewState) {
           glfwGetKey(window, GLFW_KEY_RIGHT_SUPER) == GLFW_PRESS)) {
     // right mouse button pressed: camera rotation
     glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
-    glfwGetCursorPos(window, &mouseX, &mouseY);
-    glfwSetCursorPos(window, mouseXOld, mouseYOld);
+    getCursorPosPixels(window, mouseX, mouseY);
+    setCursorPosPixels(window, mouseXOld, mouseYOld);
 
     // rotate around roll or yaw/azimuth axis
     if (glfwGetKey(window, GLFW_KEY_LEFT_ALT) == GLFW_PRESS ||
@@ -142,7 +143,7 @@ void MouseController::checkInput(ViewState* viewState) {
   }
   else {
     // no mouse button pressed: restore mouse cursor
-    glfwGetCursorPos(window, &mouseXOld, &mouseYOld);
+    getCursorPosPixels(window, mouseXOld, mouseYOld);
     if (viewState->isMouseCursorVisible()) {
       glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_NORMAL);
     }
