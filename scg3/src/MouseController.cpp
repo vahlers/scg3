@@ -6,7 +6,7 @@
  */
 
 /*
- * Copyright 2014 Volker Ahlers
+ * Copyright 2014-2019 Volker Ahlers
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -42,7 +42,7 @@ MouseController::MouseController(CameraSP camera)
   std::cout << "  + alt: dolly in/out (relative to center point), rotate around yaw/azimuth axis" << std::endl;
   std::cout << "- right button (fly/examine): rotate around roll and pitch/elevation axes" << std::endl;
   std::cout << "  + alt: rotate around yaw/azimuth and pitch/elevation axes" << std::endl;
-  std::cout << "- middle button: toggle fly/examine mode" << std::endl;
+  std::cout << "- middle button or right button + cmd: toggle fly/examine mode" << std::endl;
   std::cout << std::endl;
 }
 
@@ -88,7 +88,9 @@ void MouseController::checkInput(ViewState* viewState) {
     }
     toggleMouseButton = true;
   }
-  else if (glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_RIGHT) == GLFW_PRESS) {
+  else if (glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_RIGHT) == GLFW_PRESS &&
+      ! (glfwGetKey(window, GLFW_KEY_LEFT_SUPER) == GLFW_PRESS ||
+          glfwGetKey(window, GLFW_KEY_RIGHT_SUPER) == GLFW_PRESS)) {
     // right mouse button pressed: camera rotation
     glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
     glfwGetCursorPos(window, &mouseX, &mouseY);
@@ -118,7 +120,10 @@ void MouseController::checkInput(ViewState* viewState) {
 
     toggleMouseButton = true;
   }
-  else if (glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_MIDDLE) == GLFW_PRESS) {
+  else if (glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_MIDDLE) == GLFW_PRESS ||
+      (glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_RIGHT) == GLFW_PRESS &&
+          (glfwGetKey(window, GLFW_KEY_LEFT_SUPER) == GLFW_PRESS ||
+              glfwGetKey(window, GLFW_KEY_RIGHT_SUPER) == GLFW_PRESS))) {
     // middle mouse button pressed: toggle fly/examine mode
     if (!toggleMouseButton) {
       static bool prevDrawCenterMode = false;
@@ -140,7 +145,6 @@ void MouseController::checkInput(ViewState* viewState) {
     glfwGetCursorPos(window, &mouseXOld, &mouseYOld);
     if (viewState->isMouseCursorVisible()) {
       glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_NORMAL);
-      glfwSetCursorPos(window, mouseXOld, mouseYOld);
     }
     toggleMouseButton = false;
   }
