@@ -6,7 +6,7 @@
  */
 
 /*
- * Copyright 2014 Volker Ahlers
+ * Copyright 2014-2019 Volker Ahlers
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -28,7 +28,8 @@
 namespace scg {
 
 
-Transformation::Transformation() {
+Transformation::Transformation()
+    : matrix_(1.0f) {
 }
 
 
@@ -59,11 +60,10 @@ Transformation* Transformation::translate(glm::vec3 translation) {
 
 
 
-Transformation* Transformation::rotate(GLfloat angleDeg, glm::vec3 axis) {
-  matrix_ = glm::rotate(matrix_, angleDeg, axis);
+Transformation* Transformation::rotateRad(GLfloat angleRad, glm::vec3 axis) {
+  matrix_ = glm::rotate(matrix_, angleRad, axis);
   return this;
 }
-
 
 
 Transformation* Transformation::scale(glm::vec3 scaling) {

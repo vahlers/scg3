@@ -7,7 +7,7 @@
  */
 
 /*
- * Copyright 2014 Volker Ahlers
+ * Copyright 2014-2019 Volker Ahlers
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -123,10 +123,18 @@ public:
   virtual Camera* translate(glm::vec3 translation);
 
   /**
-   * Rotate camera around given axis.
+   * Rotate camera around given axis (radians).
    * \return this pointer for method chaining
    */
-  virtual Camera* rotate(GLfloat angleDeg, glm::vec3 axis);
+  virtual Camera* rotateRad(GLfloat angleRad, glm::vec3 axis);
+
+  /**
+   * Rotate camera around given axis (degrees).
+   * \return this pointer for method chaining
+   */
+  virtual Camera* rotate(GLfloat angleDeg, glm::vec3 axis) {
+    return rotateRad(glm::radians(angleDeg), axis);
+  }
 
   /**
    * Ignore scaling (do nothing) for camera transformation.
@@ -143,38 +151,83 @@ public:
 
   /**
    * Rotate camera around center point in azimuth direction.
+   * \param angleDeg rotation angle (radians)
+   * \return this pointer for method chaining
+   */
+  Camera* rotateAzimuthRad(GLfloat angleRad);
+
+  /**
+   * Rotate camera around center point in azimuth direction.
    * \param angleDeg rotation angle (degrees)
    * \return this pointer for method chaining
    */
-  Camera* rotateAzimuth(GLfloat angleDeg);
+  Camera* rotateAzimuth(GLfloat angleDeg) {
+    return rotateAzimuthRad(glm::radians(angleDeg));
+  }
+
+  /**
+   * Rotate camera around center point in elevation direction.
+   * \param angleDeg rotation angle (radians)
+   * \return this pointer for method chaining
+   */
+  Camera* rotateElevationRad(GLfloat angleRad);
 
   /**
    * Rotate camera around center point in elevation direction.
    * \param angleDeg rotation angle (degrees)
    * \return this pointer for method chaining
    */
-  Camera* rotateElevation(GLfloat angleDeg);
+  Camera* rotateElevation(GLfloat angleDeg) {
+    return rotateElevationRad(glm::radians(angleDeg));
+  }
+
+  /**
+   * Rotate camera around pitch axis.
+   * \param angleDeg rotation angle (radians)
+   * \return this pointer for method chaining
+   */
+  Camera* rotatePitchRad(GLfloat angleRad);
 
   /**
    * Rotate camera around pitch axis.
    * \param angleDeg rotation angle (degrees)
    * \return this pointer for method chaining
    */
-  Camera* rotatePitch(GLfloat angleDeg);
+  Camera* rotatePitch(GLfloat angleDeg) {
+    return rotatePitchRad(glm::radians(angleDeg));
+  }
+
+  /**
+   * Rotate camera around roll axis.
+   * \param angleDeg rotation angle (radians)
+   * \return this pointer for method chaining
+   */
+  Camera* rotateRollRad(GLfloat angleRad);
 
   /**
    * Rotate camera around roll axis.
    * \param angleDeg rotation angle (degrees)
    * \return this pointer for method chaining
    */
-  Camera* rotateRoll(GLfloat angleDeg);
+  Camera* rotateRoll(GLfloat angleDeg) {
+    return rotateRollRad(glm::radians(angleDeg));
+  }
+
+  /**
+   * Rotate camera around yaw axis.
+   * \param angleDeg rotation angle (radians)
+   * \return this pointer for method chaining
+   */
+  Camera* rotateYawRad(GLfloat angleRad);
 
   /**
    * Rotate camera around yaw axis.
    * \param angleDeg rotation angle (degrees)
    * \return this pointer for method chaining
    */
-  Camera* rotateYaw(GLfloat angleDeg);
+  Camera* rotateYaw(GLfloat angleDeg) {
+    return rotateYawRad(glm::radians(angleDeg));
+  }
 
   /**
    * Get mode for drawing coordinate axes at center point.

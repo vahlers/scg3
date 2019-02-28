@@ -6,7 +6,7 @@
  */
 
 /*
- * Copyright 2014 Volker Ahlers
+ * Copyright 2014-2019 Volker Ahlers
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -33,7 +33,7 @@ namespace scg {
 Light::Light()
   : ubo_(0), position_(0.f, 0.f, 0.f, 1.f), ambient_(0.f, 0.f, 0.f, 1.f),
     diffuse_(0.f, 0.f, 0.f, 1.f), specular_(0.f, 0.f, 0.f, 1.f),
-    spotCosCutoff_(0.f), spotExponent_(0.f) {
+    spotCosCutoff_(0.f), spotExponent_(0.f), modelTransform_(1.0f) {
   glGenBuffers(1, &ubo_);
   assert(!checkGLError());
 }

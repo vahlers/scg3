@@ -6,7 +6,7 @@
  */
 
 /*
- * Copyright 2014 Volker Ahlers
+ * Copyright 2014-2019 Volker Ahlers
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -33,8 +33,9 @@ namespace scg {
 
 
 Camera::Camera()
-    : centerDist_(1.0f), isDrawCenter_(false) {
-  // initialize direction vectors and transformation matrix
+    : projection_(1.0f), viewTransform_(1.0f), eyePt_(0.0f), centerDist_(1.0f),
+      orientation_(1.0f, glm::vec3(0.0f)), isDrawCenter_(false) {
+  // initialize direction vectors (viewDir_, upDir_, rightDir_, centerPt_) and transformation matrix (matrix_)
   update_();
 
   // create coordinate axes
@@ -112,8 +113,8 @@ Camera* Camera::translate(glm::vec3 translation) {
 }
 
 
-Camera* Camera::rotate(GLfloat angleDeg, glm::vec3 axis) {
-  glm::quat rotation = glm::rotate(glm::quat(), angleDeg, axis);
+Camera* Camera::rotateRad(GLfloat angleRad, glm::vec3 axis) {
+  glm::quat rotation = glm::rotate(glm::quat(1.f, glm::vec3(0.f)), angleRad, axis);
   orientation_ = rotation * orientation_;
   update_();
   return this;
@@ -134,8 +135,8 @@ Camera* Camera::dolly(GLfloat distance) {
 }
 
 
-Camera* Camera::rotateAzimuth(GLfloat angleDeg) {
-  glm::quat rotation = glm::rotate(glm::quat(), angleDeg, upDir_);
+Camera* Camera::rotateAzimuthRad(GLfloat angleRad) {
+  glm::quat rotation = glm::rotate(glm::quat(1.f, glm::vec3(0.f)), angleRad, upDir_);
   viewDir_ = rotation * viewDir_;
   eyePt_ = centerPt_ - centerDist_ * viewDir_;
   orientation_ = rotation * orientation_;
@@ -144,8 +145,8 @@ Camera* Camera::rotateAzimuth(GLfloat angleDeg) {
 }
 
 
-Camera* Camera::rotateElevation(GLfloat angleDeg) {
-  glm::quat rotation = glm::rotate(glm::quat(), -angleDeg, rightDir_);
+Camera* Camera::rotateElevationRad(GLfloat angleRad) {
+  glm::quat rotation = glm::rotate(glm::quat(1.f, glm::vec3(0.f)), -angleRad, rightDir_);
   viewDir_ = rotation * viewDir_;
   eyePt_ = centerPt_ - centerDist_ * viewDir_;
   orientation_ = rotation * orientation_;
@@ -154,24 +155,24 @@ Camera* Camera::rotateElevation(GLfloat angleDeg) {
 }
 
 
-Camera* Camera::rotatePitch(GLfloat angleDeg) {
-  glm::quat rotation = glm::rotate(glm::quat(), angleDeg, rightDir_);
+Camera* Camera::rotatePitchRad(GLfloat angleRad) {
+  glm::quat rotation = glm::rotate(glm::quat(1.f, glm::vec3(0.f)), angleRad, rightDir_);
   orientation_ = rotation * orientation_;
   update_();
   return this;
 }
 
 
-Camera* Camera::rotateRoll(GLfloat angleDeg) {
-  glm::quat rotation = glm::rotate(glm::quat(), angleDeg, viewDir_);
+Camera* Camera::rotateRollRad(GLfloat angleRad) {
+  glm::quat rotation = glm::rotate(glm::quat(1.f, glm::vec3(0.f)), angleRad, viewDir_);
   orientation_ = rotation * orientation_;
   update_();
   return this;
 }
 
 
-Camera* Camera::rotateYaw(GLfloat angleDeg) {
-  glm::quat rotation = glm::rotate(glm::quat(), angleDeg, upDir_);
+Camera* Camera::rotateYawRad(GLfloat angleRad) {
+  glm::quat rotation = glm::rotate(glm::quat(1.f, glm::vec3(0.f)), angleRad, upDir_);
   orientation_ = rotation * orientation_;
   update_();
   return this;
@@ -208,7 +209,7 @@ void Camera::render(RenderState* renderState) {
     assert(std::dynamic_pointer_cast<ShaderCore>(cores_[0]));
     cores_[0]->render(renderState);       // color shader
     renderState->modelViewStack.pushMatrix();
-    renderState->modelViewStack.setMatrix(glm::translate(glm::mat4(), glm::vec3(0.0f, 0.0f, -centerDist_)));
+    renderState->modelViewStack.setMatrix(glm::translate(glm::mat4(1.0f), glm::vec3(0.0f, 0.0f, -centerDist_)));
     renderState->modelViewStack.multMatrix(glm::mat4_cast(glm::inverse(orientation_)));
     assert(std::dynamic_pointer_cast<GeometryCore>(cores_[1]));
     cores_[1]->render(renderState);       // center point geometry

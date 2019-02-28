@@ -6,7 +6,7 @@
  */
 
 /*
- * Copyright 2014 Volker Ahlers
+ * Copyright 2014-2019 Volker Ahlers
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -317,7 +317,9 @@ void Viewer::createWindow_(const char* title, int width, int height, bool fullsc
   glfwSetFramebufferSizeCallback(window_, framebufferSizeCB_);
 
   // initialize GLEW
-  glewExperimental = GL_TRUE;   // required for glGenVertexArrays()
+  if (std::stoi(std::string(reinterpret_cast<const char*>(glewGetString(GLEW_VERSION_MAJOR)))) < 2) {
+    glewExperimental = GL_TRUE;   // required for glGenVertexArrays() with GLEW versions < 2.0
+  }
   GLenum error = glewInit();
   if (error != GLEW_OK) {
     throw std::runtime_error(std::string("glewInit() failed: ") + (const char*) glewGetErrorString(error)
@@ -340,7 +342,9 @@ void Viewer::createWindow_(const char* title, int width, int height, bool fullsc
   std::cout << "GLEW version: " << glewGetString(GLEW_VERSION) << std::endl;
   int major, minor, revision;
   glfwGetVersion(&major, &minor, &revision);
-  std::cout << "GLFW version: " << major << "." << minor << "." << revision << std::endl << std::endl;
+  std::cout << "GLFW version: " << major << "." << minor << "." << revision << std::endl;
+  std::cout << "GLM version: " << GLM_VERSION_MAJOR << "." << GLM_VERSION_MINOR << "."
+      << GLM_VERSION_PATCH << "." << GLM_VERSION_REVISION << std::endl << std::endl;
 
   // inititalize renderer
   renderer_->initRenderState();

@@ -6,7 +6,7 @@
  */
 
 /*
- * Copyright 2014 Volker Ahlers
+ * Copyright 2014-2019 Volker Ahlers
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -31,7 +31,8 @@ namespace scg {
 
 
 MaterialCore::MaterialCore()
-    : ubo_(0), uboOld_(0) {
+    : ubo_(0), uboOld_(0),
+      emission_(0.0f), ambient_(0.0f), diffuse_(0.0f), specular_(0.0f), shininess_(0.0f) {
   glGenBuffers(1, &ubo_);
 
   assert(!checkGLError());

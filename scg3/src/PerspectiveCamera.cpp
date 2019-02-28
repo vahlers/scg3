@@ -6,7 +6,7 @@
  */
 
 /*
- * Copyright 2014 Volker Ahlers
+ * Copyright 2014-2019 Volker Ahlers
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -28,7 +28,7 @@ namespace scg {
 
 
 PerspectiveCamera::PerspectiveCamera()
-    : fovyDeg_(60.f), near_(0.01f), far_(1000.f) {
+    : fovyRad_(glm::radians(60.0f)), near_(0.01f), far_(1000.f) {
 }
 
 
@@ -42,7 +42,7 @@ PerspectiveCameraSP PerspectiveCamera::create() {
 
 
 void PerspectiveCamera::init(float fovyDeg, float near, float far) {
-  fovyDeg_ = fovyDeg;
+  fovyRad_ = glm::radians(fovyDeg);
   near_ = near;
   far_ = far;
   updateProjection();
@@ -54,7 +54,7 @@ void PerspectiveCamera::updateProjection() {
   glGetIntegerv(GL_VIEWPORT, viewport);
   GLfloat aspect = static_cast<GLfloat> (viewport[2] - viewport[0])
       / static_cast<GLfloat> (viewport[3] - viewport[1]);
-  projection_ = glm::perspective(fovyDeg_, aspect, near_, far_);
+  projection_ = glm::perspective(fovyRad_, aspect, near_, far_);
 }
 
 

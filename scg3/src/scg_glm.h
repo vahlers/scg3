@@ -7,7 +7,7 @@
  */
 
 /*
- * Copyright 2014 Volker Ahlers
+ * Copyright 2014-2019 Volker Ahlers
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -36,11 +36,10 @@
 #undef GLM_MESSAGES
 #endif
 
-#include "../extern/glm/glm.hpp"
-#include "../extern/glm/gtc/matrix_transform.hpp"
-#include "../extern/glm/gtc/quaternion.hpp"
-#include "../extern/glm/gtc/type_ptr.hpp"
-
+#include "../extern/glm/glm/glm.hpp"
+#include "../extern/glm/glm/gtc/matrix_transform.hpp"
+#include "../extern/glm/glm/gtc/quaternion.hpp"
+#include "../extern/glm/glm/gtc/type_ptr.hpp"
 
 #if defined(__GNUC__)
 #pragma GCC diagnostic warning "-Wstrict-aliasing"

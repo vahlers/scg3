@@ -6,7 +6,7 @@
  */
 
 /*
- * Copyright 2014 Volker Ahlers
+ * Copyright 2014-2019 Volker Ahlers
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -31,8 +31,8 @@ namespace scg {
 
 
 RenderState::RenderState()
-    : colorCore_(nullptr), shaderCore_(nullptr), isLightingEnabled_(true),
-      nLights_(0), lightUBO_(0), globalAmbientLight_(0.f, 0.f, 0.f, 1.f) {
+    : colorCore_(nullptr), shaderCore_(nullptr), projection_(1.0f), viewTransform_(1.0f), tempMatrix_(1.0f),
+      isLightingEnabled_(true), nLights_(0), lightUBO_(0), globalAmbientLight_(0.f, 0.f, 0.f, 1.f) {
 }
 
 

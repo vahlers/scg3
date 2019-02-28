@@ -9,7 +9,7 @@
  */
 
 /*
- * Copyright 2014 Volker Ahlers
+ * Copyright 2014-2019 Volker Ahlers
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -128,7 +128,7 @@ void useCustomizedViewer() {
   auto viewer = Viewer::create();
   auto renderer = StandardRenderer::create();
   viewer->init(renderer)
-        ->createWindow("s c g 3   E x a m p l e", 1024, 768);
+        ->createWindow("s c g 3   e x a m p l e", 1024, 768);
 
   // create camera
   auto camera = PerspectiveCamera::create();

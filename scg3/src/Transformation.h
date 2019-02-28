@@ -7,7 +7,7 @@
  */
 
 /*
- * Copyright 2014 Volker Ahlers
+ * Copyright 2014-2019 Volker Ahlers
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -78,11 +78,21 @@ public:
 
   /**
    * Rotate subsequent geometry.
+   * \param angleDeg rotation angle (radians)
+   * \param axis rotaton axis
+   * \return this pointer for method chaining
+   */
+  virtual Transformation* rotateRad(GLfloat angleRad, glm::vec3 axis);
+
+  /**
+   * Rotate subsequent geometry.
    * \param angleDeg rotation angle (degrees)
    * \param axis rotaton axis
    * \return this pointer for method chaining
    */
-  virtual Transformation* rotate(GLfloat angleDeg, glm::vec3 axis);
+  virtual Transformation* rotate(GLfloat angleDeg, glm::vec3 axis) {
+    return rotateRad(glm::radians(angleDeg), axis);
+  }
 
   /**
    * Scale subsequent geometry.

@@ -11,7 +11,7 @@
  */
 
 /*
- * Copyright 2014 Volker Ahlers
+ * Copyright 2014-2019 Volker Ahlers
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -49,7 +49,7 @@ class MatrixStack {
 public:
 
   MatrixStack() {
-    stack_.push(glm::mat4());
+    stack_.push(glm::mat4(1.0f));
   }
 
   const glm::mat4& getMatrix() const {
@@ -64,7 +64,7 @@ public:
 
   void setIdentity() {
     assert(!stack_.empty());
-    stack_.top() = glm::mat4();
+    stack_.top() = glm::mat4(1.0f);
   }
 
   void pushMatrix() {

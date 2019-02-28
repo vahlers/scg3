@@ -12,6 +12,7 @@ scg3 To Do List
 - shadows, shadow map? -> GLSL Cookbook, shadow volumes -> Dominik
 - picking, PickingTraverser rendering shapes to FBO with different colors
 - font rendering -> FTGL?
+- menus -> Nana?
 - better model loader -> OpenMesh?
 - create sphere as geodesic dome
 - explicit method qualifiers: final, override, default, delete -> requires GCC 4.7
