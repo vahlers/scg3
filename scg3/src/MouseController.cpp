@@ -62,14 +62,14 @@ void MouseController::checkInput(ViewState* viewState) {
   static bool toggleMouseButton(false);
   GLFWwindow* window = viewState->getWindow();
   double mouseX, mouseY;
-  getCursorPosPixels(window, mouseX, mouseY);
+  // get cursor position in screen coordinates, initialize saved cursor position
+  glfwGetCursorPos(window, &mouseX, &mouseY);
   static double mouseXOld(mouseX), mouseYOld(mouseY);
 
   if (glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_LEFT) == GLFW_PRESS) {
     // left mouse button pressed: camera movement and rotation
+    // free cursor from restricted window area
     glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
-    getCursorPosPixels(window, mouseX, mouseY);
-    setCursorPosPixels(window, mouseXOld, mouseYOld);
 
     // move forward/backward or dolly
     if (glfwGetKey(window, GLFW_KEY_LEFT_ALT) == GLFW_PRESS ||
@@ -93,9 +93,8 @@ void MouseController::checkInput(ViewState* viewState) {
       ! (glfwGetKey(window, GLFW_KEY_LEFT_SUPER) == GLFW_PRESS ||
           glfwGetKey(window, GLFW_KEY_RIGHT_SUPER) == GLFW_PRESS)) {
     // right mouse button pressed: camera rotation
+    // free cursor from restricted window area
     glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
-    getCursorPosPixels(window, mouseX, mouseY);
-    setCursorPosPixels(window, mouseXOld, mouseYOld);
 
     // rotate around roll or yaw/azimuth axis
     if (glfwGetKey(window, GLFW_KEY_LEFT_ALT) == GLFW_PRESS ||
@@ -142,13 +141,15 @@ void MouseController::checkInput(ViewState* viewState) {
     toggleMouseButton = true;
   }
   else {
-    // no mouse button pressed: restore mouse cursor
-    getCursorPosPixels(window, mouseXOld, mouseYOld);
+    // no mouse button pressed: restore mouse cursor (position is restored automatically)
     if (viewState->isMouseCursorVisible()) {
       glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_NORMAL);
     }
     toggleMouseButton = false;
   }
+  // save current cursor position
+  mouseXOld = mouseX;
+  mouseYOld = mouseY;
 }
 
 
