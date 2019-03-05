@@ -3,4 +3,5 @@
 /Release*
 /*.sdf
 /*.suo
+/RemoteSystemsTempFiles
 /scg3_demo
