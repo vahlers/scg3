@@ -24,10 +24,12 @@
 							<tool id="cdt.managedbuild.tool.macosx.c.linker.macosx.exe.debug.147131716" name="MacOS X C Linker" superClass="cdt.managedbuild.tool.macosx.c.linker.macosx.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.macosx.cpp.linker.macosx.exe.debug.978975758" name="MacOS X C++ Linker" superClass="cdt.managedbuild.tool.macosx.cpp.linker.macosx.exe.debug">
 								<option id="macosx.cpp.link.option.libs.1058670863" name="Libraries (-l)" superClass="macosx.cpp.link.option.libs" useByScannerDiscovery="false" valueType="libs">
-									<listOptionValue builtIn="false" value="scg3"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="scg3"/>
 									<listOptionValue builtIn="false" value="glfw"/>
 								</option>
 								<option id="macosx.cpp.link.option.paths.1360102228" name="Library search path (-L)" superClass="macosx.cpp.link.option.paths" useByScannerDiscovery="false" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/scg3/Debug}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/scg3/DebugOSX}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/scg3/DebugMacOS}&quot;"/>
 									<listOptionValue builtIn="false" value="/usr/local/lib"/>
 								</option>
@@ -38,6 +40,9 @@
 								</inputType>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.assembler.macosx.exe.debug.1193365938" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.macosx.exe.debug">
+								<option id="gnu.both.asm.option.include.paths.1779160217" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/scg3}&quot;"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.2054908548" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.macosx.base.457300413" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.macosx.base"/>
@@ -53,13 +58,26 @@
 							<tool id="cdt.managedbuild.tool.gnu.c.compiler.macosx.exe.debug.777392874" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.macosx.exe.debug">
 								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.macosx.exe.debug.option.optimization.level.395691816" name="Optimization Level" superClass="gnu.c.compiler.macosx.exe.debug.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
 								<option id="gnu.c.compiler.macosx.exe.debug.option.debugging.level.1534812278" name="Debug Level" superClass="gnu.c.compiler.macosx.exe.debug.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.1153600034" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/scg3}&quot;"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.286558999" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
 						</toolChain>
 					</folderInfo>
 				</configuration>
 			</storageModule>
-			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings">
+				<externalSettings containerId="scg3;cdt.managedbuild.config.macosx.lib.debug.617426283" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier">
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/scg3"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/scg3/Debug"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/scg3/DebugOSX"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/scg3/DebugMacOS"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="scg3" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+			</storageModule>
 		</cconfiguration>
 		<cconfiguration id="cdt.managedbuild.config.macosx.exe.release.1570513871">
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.macosx.exe.release.1570513871" moduleId="org.eclipse.cdt.core.settings" name="ReleaseMacOS">
@@ -88,6 +106,8 @@
 									<listOptionValue builtIn="false" value="glfw"/>
 								</option>
 								<option id="macosx.cpp.link.option.paths.1179821561" name="Library search path (-L)" superClass="macosx.cpp.link.option.paths" useByScannerDiscovery="false" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/scg3/Release}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/scg3/ReleaseOSX}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/scg3/ReleaseMacOS}&quot;"/>
 									<listOptionValue builtIn="false" value="/usr/local/lib"/>
 								</option>
@@ -98,6 +118,9 @@
 								</inputType>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.assembler.macosx.exe.release.756760642" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.macosx.exe.release">
+								<option id="gnu.both.asm.option.include.paths.280988393" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/scg3}&quot;"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1506062660" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.macosx.base.231308482" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.macosx.base"/>
@@ -113,13 +136,26 @@
 							<tool id="cdt.managedbuild.tool.gnu.c.compiler.macosx.exe.release.2014854587" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.macosx.exe.release">
 								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.macosx.exe.release.option.optimization.level.1480225005" name="Optimization Level" superClass="gnu.c.compiler.macosx.exe.release.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
 								<option id="gnu.c.compiler.macosx.exe.release.option.debugging.level.382923789" name="Debug Level" superClass="gnu.c.compiler.macosx.exe.release.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.435903662" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/scg3}&quot;"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1218148857" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
 						</toolChain>
 					</folderInfo>
 				</configuration>
 			</storageModule>
-			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings">
+				<externalSettings containerId="scg3;cdt.managedbuild.config.macosx.lib.release.43237829" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier">
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/scg3"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/scg3/Release"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/scg3/ReleaseOSX"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/scg3/ReleaseMacOS"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="scg3" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+			</storageModule>
 		</cconfiguration>
 		<cconfiguration id="cdt.managedbuild.config.gnu.macosx.exe.debug.1680227599.66136554">
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.macosx.exe.debug.1680227599.66136554" moduleId="org.eclipse.cdt.core.settings" name="DebugLinux">
@@ -152,6 +188,9 @@
 							<tool id="cdt.managedbuild.tool.gnu.c.compiler.base.603245269" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.base">
 								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.2012647972" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
 								<option id="gnu.c.compiler.option.debugging.level.244040229" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.1634504109" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/scg3}&quot;"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1162206912" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.linker.base.257586246" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.base"/>
@@ -170,6 +209,7 @@
 									<listOptionValue builtIn="false" value="Xcursor"/>
 								</option>
 								<option id="gnu.cpp.link.option.paths.837689228" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" useByScannerDiscovery="false" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/scg3/Debug}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/scg3/DebugLinux}&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.563727839" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
@@ -178,13 +218,25 @@
 								</inputType>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.assembler.base.520893616" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.base">
+								<option id="gnu.both.asm.option.include.paths.1365896645" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/scg3}&quot;"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1889295812" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
 						</toolChain>
 					</folderInfo>
 				</configuration>
 			</storageModule>
-			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings">
+				<externalSettings containerId="scg3;cdt.managedbuild.config.macosx.lib.debug.617426283.768195730" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier">
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/scg3"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/scg3/Debug"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/scg3/DebugLinux"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="scg3" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+			</storageModule>
 		</cconfiguration>
 		<cconfiguration id="cdt.managedbuild.config.gnu.macosx.exe.debug.1680227599.568050650">
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.macosx.exe.debug.1680227599.568050650" moduleId="org.eclipse.cdt.core.settings" name="ReleaseLinux">
@@ -217,6 +269,9 @@
 							<tool id="cdt.managedbuild.tool.gnu.c.compiler.base.1341394109" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.base">
 								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.936987007" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
 								<option id="gnu.c.compiler.option.debugging.level.1081557005" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.874565135" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/scg3}&quot;"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1662646064" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.linker.base.1147444532" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.base"/>
@@ -235,6 +290,7 @@
 									<listOptionValue builtIn="false" value="Xcursor"/>
 								</option>
 								<option id="gnu.cpp.link.option.paths.1799065969" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" useByScannerDiscovery="false" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/scg3/Release}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/scg3/ReleaseLinux}&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1725721995" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
@@ -243,13 +299,25 @@
 								</inputType>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.assembler.base.989734350" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.base">
+								<option id="gnu.both.asm.option.include.paths.1690339382" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/scg3}&quot;"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1696922511" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
 						</toolChain>
 					</folderInfo>
 				</configuration>
 			</storageModule>
-			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings">
+				<externalSettings containerId="scg3;cdt.managedbuild.config.macosx.lib.release.43237829.110683339" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier">
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/scg3"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/scg3/Release"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/scg3/ReleaseLinux"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="scg3" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+			</storageModule>
 		</cconfiguration>
 		<cconfiguration id="cdt.managedbuild.config.gnu.macosx.exe.debug.1680227599.1019378017">
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.macosx.exe.debug.1680227599.1019378017" moduleId="org.eclipse.cdt.core.settings" name="DebugWindows">
@@ -270,6 +338,9 @@
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.PE" id="cdt.managedbuild.target.gnu.platform.mingw.base.639425342" name="Debug Platform" osList="win32" superClass="cdt.managedbuild.target.gnu.platform.mingw.base"/>
 							<builder buildPath="${workspace_loc:/scg3_example}/DebugWindows" id="cdt.managedbuild.builder.gnu.cross.992125942" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" superClass="cdt.managedbuild.builder.gnu.cross"/>
 							<tool id="cdt.managedbuild.tool.gnu.assembler.mingw.base.1304946144" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.base">
+								<option id="gnu.both.asm.option.include.paths.227339519" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/scg3}&quot;"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.836033362" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.base.2089793805" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.base"/>
@@ -285,6 +356,9 @@
 							<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.2024328790" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base">
 								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.2076066345" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
 								<option id="gnu.c.compiler.option.debugging.level.1968288376" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.975252504" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/scg3}&quot;"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.89598654" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.base.514475375" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.base"/>
@@ -296,6 +370,7 @@
 									<listOptionValue builtIn="false" value="gdi32"/>
 								</option>
 								<option id="gnu.cpp.link.option.paths.6298842" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" useByScannerDiscovery="false" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/scg3/DebugWin}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/scg3/DebugWindows}&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.684562935" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
@@ -307,7 +382,16 @@
 					</folderInfo>
 				</configuration>
 			</storageModule>
-			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings">
+				<externalSettings containerId="scg3;cdt.managedbuild.config.macosx.lib.debug.617426283.1119648044" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier">
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/scg3"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/scg3/DebugWin"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/scg3/DebugWindows"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="scg3" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+			</storageModule>
 		</cconfiguration>
 		<cconfiguration id="cdt.managedbuild.config.gnu.macosx.exe.debug.1680227599.2103038">
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.macosx.exe.debug.1680227599.2103038" moduleId="org.eclipse.cdt.core.settings" name="ReleaseWindows">
@@ -328,6 +412,9 @@
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.PE" id="cdt.managedbuild.target.gnu.platform.mingw.base.1429525879" name="Debug Platform" osList="win32" superClass="cdt.managedbuild.target.gnu.platform.mingw.base"/>
 							<builder buildPath="${workspace_loc:/scg3_example}/ReleaseWindows" id="cdt.managedbuild.builder.gnu.cross.214475404" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" superClass="cdt.managedbuild.builder.gnu.cross"/>
 							<tool id="cdt.managedbuild.tool.gnu.assembler.mingw.base.297505935" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.base">
+								<option id="gnu.both.asm.option.include.paths.27631697" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/scg3}&quot;"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.2086726501" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.base.1998980560" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.base"/>
@@ -343,6 +430,9 @@
 							<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.1814907628" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base">
 								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.699645674" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
 								<option id="gnu.c.compiler.option.debugging.level.624042626" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.738601737" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/scg3}&quot;"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1138386559" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.base.662530856" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.base"/>
@@ -354,6 +444,7 @@
 									<listOptionValue builtIn="false" value="gdi32"/>
 								</option>
 								<option id="gnu.cpp.link.option.paths.1659038192" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" useByScannerDiscovery="false" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/scg3/ReleaseWin}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/scg3/ReleaseWindows}&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1152639265" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
@@ -365,26 +456,20 @@
 					</folderInfo>
 				</configuration>
 			</storageModule>
-			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings">
+				<externalSettings containerId="scg3;cdt.managedbuild.config.macosx.lib.release.43237829.205502574" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier">
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/scg3"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/scg3/ReleaseWin"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/scg3/ReleaseWindows"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="scg3" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+			</storageModule>
 		</cconfiguration>
 	</storageModule>
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
 		<project id="scg3_example.cdt.managedbuild.target.macosx.exe.964400739" name="Executable" projectType="cdt.managedbuild.target.macosx.exe"/>
-	</storageModule>
-	<storageModule moduleId="scannerConfiguration">
-		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.macosx.exe.debug.1680227599;cdt.managedbuild.config.gnu.macosx.exe.debug.1680227599.;cdt.managedbuild.tool.gnu.c.compiler.macosx.exe.debug.777392874;cdt.managedbuild.tool.gnu.c.compiler.input.286558999">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.macosx.exe.release.1570513871;cdt.managedbuild.config.macosx.exe.release.1570513871.;cdt.managedbuild.tool.gnu.c.compiler.macosx.exe.release.2014854587;cdt.managedbuild.tool.gnu.c.compiler.input.1218148857">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.macosx.exe.debug.1680227599;cdt.managedbuild.config.gnu.macosx.exe.debug.1680227599.;cdt.managedbuild.tool.gnu.cpp.compiler.macosx.exe.debug.1841094349;cdt.managedbuild.tool.gnu.cpp.compiler.input.584686471">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.macosx.exe.release.1570513871;cdt.managedbuild.config.macosx.exe.release.1570513871.;cdt.managedbuild.tool.gnu.cpp.compiler.macosx.exe.release.126370779;cdt.managedbuild.tool.gnu.cpp.compiler.input.1388280603">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 	<storageModule moduleId="refreshScope" versionNumber="2">
@@ -396,4 +481,43 @@
 		</configuration>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.macosx.exe.debug.1680227599;cdt.managedbuild.config.gnu.macosx.exe.debug.1680227599.;cdt.managedbuild.tool.gnu.cpp.compiler.macosx.exe.debug.1841094349;cdt.managedbuild.tool.gnu.cpp.compiler.input.584686471">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.macosx.exe.debug.1680227599;cdt.managedbuild.config.gnu.macosx.exe.debug.1680227599.;cdt.managedbuild.tool.gnu.c.compiler.macosx.exe.debug.777392874;cdt.managedbuild.tool.gnu.c.compiler.input.286558999">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.macosx.exe.debug.1680227599.66136554;cdt.managedbuild.config.gnu.macosx.exe.debug.1680227599.66136554.;cdt.managedbuild.tool.gnu.cpp.compiler.base.1976283419;cdt.managedbuild.tool.gnu.cpp.compiler.input.517595010">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.macosx.exe.release.1570513871;cdt.managedbuild.config.macosx.exe.release.1570513871.;cdt.managedbuild.tool.gnu.cpp.compiler.macosx.exe.release.126370779;cdt.managedbuild.tool.gnu.cpp.compiler.input.1388280603">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.macosx.exe.debug.1680227599.2103038;cdt.managedbuild.config.gnu.macosx.exe.debug.1680227599.2103038.;cdt.managedbuild.tool.gnu.c.compiler.mingw.base.1814907628;cdt.managedbuild.tool.gnu.c.compiler.input.1138386559">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.macosx.exe.debug.1680227599.2103038;cdt.managedbuild.config.gnu.macosx.exe.debug.1680227599.2103038.;cdt.managedbuild.tool.gnu.cpp.compiler.mingw.base.1939097278;cdt.managedbuild.tool.gnu.cpp.compiler.input.327703612">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.macosx.exe.debug.1680227599.568050650;cdt.managedbuild.config.gnu.macosx.exe.debug.1680227599.568050650.;cdt.managedbuild.tool.gnu.c.compiler.base.1341394109;cdt.managedbuild.tool.gnu.c.compiler.input.1662646064">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.macosx.exe.debug.1680227599.1019378017;cdt.managedbuild.config.gnu.macosx.exe.debug.1680227599.1019378017.;cdt.managedbuild.tool.gnu.c.compiler.mingw.base.2024328790;cdt.managedbuild.tool.gnu.c.compiler.input.89598654">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.macosx.exe.debug.1680227599.1019378017;cdt.managedbuild.config.gnu.macosx.exe.debug.1680227599.1019378017.;cdt.managedbuild.tool.gnu.cpp.compiler.mingw.base.922730408;cdt.managedbuild.tool.gnu.cpp.compiler.input.1606266276">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.macosx.exe.release.1570513871;cdt.managedbuild.config.macosx.exe.release.1570513871.;cdt.managedbuild.tool.gnu.c.compiler.macosx.exe.release.2014854587;cdt.managedbuild.tool.gnu.c.compiler.input.1218148857">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.macosx.exe.debug.1680227599.568050650;cdt.managedbuild.config.gnu.macosx.exe.debug.1680227599.568050650.;cdt.managedbuild.tool.gnu.cpp.compiler.base.1164291672;cdt.managedbuild.tool.gnu.cpp.compiler.input.799621143">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.macosx.exe.debug.1680227599.66136554;cdt.managedbuild.config.gnu.macosx.exe.debug.1680227599.66136554.;cdt.managedbuild.tool.gnu.c.compiler.base.603245269;cdt.managedbuild.tool.gnu.c.compiler.input.1162206912">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
 </cproject>
