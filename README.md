@@ -33,3 +33,19 @@ Prerequisites:
 * C++11 compiler, e.g., GCC 4.5, LLVM/Clang 3.1, Visual C++ 2010 (or higher)
 * OpenGL 3.2 graphics driver (or higher)
 * GLFW 3.2.0 (or higher), cf. http://www.glfw.org/
+
+#### Building using CMake on Linux
+
+This project contains CMake files to build the project from the command line or import into into IDEs like CLion. (Only tested on Linux!)
+
+After navigating into the root directory of the project, you can build the library and example code using these commands:
+
+```
+mkdir build
+cd build
+cmake -DCMAKE_INSTALL_PREFIX=../build-output ..
+make install -j8   # replace 8 with CPU core count
+```
+
+In case you want to install the scg3 library globally into your system, use `cmake -DCMAKE_INSTALL_PREFIX=./usr ..` and `sudo make install -jX` instead.
+Uninstallation can be done using `sudo make uninstall`.
