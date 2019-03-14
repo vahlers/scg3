@@ -36,9 +36,9 @@ Prerequisites:
 
 #### Building using CMake on Linux
 
-This project contains CMake files to build the project from the command line or import into into IDEs like CLion. (Only tested on Linux!)
+This project contains CMake files to build the project from the command line or import it into IDEs like CLion. (Only tested on Linux)
 
-After navigating into the root directory of the project, you can build the library and example code using these commands:
+After navigating to the root directory of the project, you can build the library and example code using these commands:
 
 ```
 mkdir build
