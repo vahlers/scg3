@@ -27,7 +27,7 @@
 #include <iostream>
 #include <stdexcept>
 #include <vector>
-#include <scg3.h>
+#include "scg3/scg3.h"
 
 using namespace scg;
 
