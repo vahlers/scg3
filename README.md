@@ -47,5 +47,5 @@ cmake -DCMAKE_INSTALL_PREFIX=../build-output ..
 make install -j8   # replace 8 with CPU core count
 ```
 
-In case you want to install the scg3 library globally into your system, use `cmake -DCMAKE_INSTALL_PREFIX=./usr ..` and `sudo make install -jX` instead.
+In case you want to install the scg3 library globally into your system, use `cmake -DCMAKE_INSTALL_PREFIX=/usr ..` and `sudo make install -jX` instead.
 Uninstallation can be done using `sudo make uninstall`.
