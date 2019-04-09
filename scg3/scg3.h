@@ -218,7 +218,7 @@
  * \example scg3_table_scene_example.cpp
  */
 
-#include <src/scg_glew.h>
+#include "src/scg_glew.h"
 #include <GLFW/glfw3.h>
 
 #include "src/Animation.h"

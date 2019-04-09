@@ -5,3 +5,7 @@
 /*.suo
 /RemoteSystemsTempFiles
 /scg3_demo
+/build
+/build-output
+/cmake-build-debug
+/.idea
