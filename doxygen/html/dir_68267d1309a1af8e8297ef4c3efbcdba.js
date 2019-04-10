@@ -82,10 +82,10 @@ var dir_68267d1309a1af8e8297ef4c3efbcdba =
     ] ],
     [ "scg_doxygen_stub.h", "d9/d3c/scg__doxygen__stub_8h.html", "d9/d3c/scg__doxygen__stub_8h" ],
     [ "scg_glew.h", "d6/d90/scg__glew_8h.html", null ],
-    [ "scg_glm.h", "d2/d56/scg__glm_8h.html", null ],
+    [ "scg_glm.h", "d2/d56/scg__glm_8h.html", "d2/d56/scg__glm_8h" ],
     [ "scg_internals.cpp", "de/d4d/scg__internals_8cpp.html", null ],
     [ "scg_internals.h", "d9/de0/scg__internals_8h.html", "d9/de0/scg__internals_8h" ],
-    [ "scg_stb_image.h", "d0/d4f/scg__stb__image_8h.html", "d0/d4f/scg__stb__image_8h" ],
+    [ "scg_stb_image.h", "d0/d4f/scg__stb__image_8h.html", null ],
     [ "scg_utilities.h", "d7/d0b/scg__utilities_8h.html", "d7/d0b/scg__utilities_8h" ],
     [ "ShaderCore.h", "d9/d13/_shader_core_8h.html", [
       [ "ShaderID", "d1/dad/structscg_1_1_shader_i_d.html", "d1/dad/structscg_1_1_shader_i_d" ],

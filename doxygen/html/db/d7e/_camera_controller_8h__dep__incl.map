@@ -1,5 +1,6 @@
 <map id="src/CameraController.h" name="src/CameraController.h">
-<area shape="rect" id="node2" href="$d4/dd4/_keyboard_controller_8h.html" title="A camera controller using keyboard input. " alt="" coords="5,78,144,101"/>
-<area shape="rect" id="node3" href="$d4/d61/scg3_8h.html" title="Main header file for scg3 scene graph library, including all class headers. " alt="" coords="155,150,207,173"/>
-<area shape="rect" id="node4" href="$d4/d18/_mouse_controller_8h.html" title="A camera controller using mouse input. " alt="" coords="219,78,343,101"/>
+<area shape="rect" id="node1" title="Base class for all camera controllers, acting on a Camera node (abstract)." alt="" coords="116,6,247,29"/>
+<area shape="rect" id="node2" href="$d4/dd4/_keyboard_controller_8h.html" title="A camera controller using keyboard input." alt="" coords="5,78,144,101"/>
+<area shape="rect" id="node3" href="$d4/d61/scg3_8h.html" title="Main header file for scg3 scene graph library, including all class headers." alt="" coords="155,150,207,173"/>
+<area shape="rect" id="node4" href="$d4/d18/_mouse_controller_8h.html" title="A camera controller using mouse input." alt="" coords="219,78,343,101"/>
 </map>

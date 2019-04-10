@@ -1,3 +1,4 @@
 <map id="scg::StandardRenderer" name="scg::StandardRenderer">
-<area shape="rect" id="node2" href="$d8/dcf/classscg_1_1_renderer.html" title="Base class for all renderers (abstract). " alt="" coords="27,6,115,29"/>
+<area shape="rect" id="node1" title="A standard renderer that uses a PreTraverser, a RenderTraverser, and an InfoTraverser." alt="" coords="5,78,136,101"/>
+<area shape="rect" id="node2" href="$d8/dcf/classscg_1_1_renderer.html" title="Base class for all renderers (abstract)." alt="" coords="27,6,115,29"/>
 </map>

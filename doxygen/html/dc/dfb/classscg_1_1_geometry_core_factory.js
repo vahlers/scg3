@@ -19,6 +19,6 @@ var classscg_1_1_geometry_core_factory =
     [ "createTeapot", "dc/dfb/classscg_1_1_geometry_core_factory.html#a0fab5cd6f3169e018a34156fbf334aaa", null ],
     [ "createTeapotFlat", "dc/dfb/classscg_1_1_geometry_core_factory.html#adea639f25f083064cc60632d9aa7032e", null ],
     [ "createXYZAxes", "dc/dfb/classscg_1_1_geometry_core_factory.html#a32e0bf5ab32ad9f0b8e7596b1a4033e8", null ],
-    [ "loadOBJFile_", "dc/dfb/classscg_1_1_geometry_core_factory.html#ab10695e71aa1a8e398f7d9defc471782", null ],
+    [ "loadOBJFile_", "dc/dfb/classscg_1_1_geometry_core_factory.html#aaf04014da2b7df8bd371665196433b8b", null ],
     [ "filePaths_", "dc/dfb/classscg_1_1_geometry_core_factory.html#a70f173d3bd90f6e4cfa12b83e9dbbc0c", null ]
 ];

@@ -1,3 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$d7/d61/struct_light.html" title="Light" alt="" coords="6,5,50,27"/>
+<area shape="rect" id="node1" href="$de/de4/classscg_1_1_controller.html" title="Base class for all controllers (abstract)." alt="" coords="6,29,96,51"/>
+<area shape="rect" id="node2" href="$de/d6a/classscg_1_1_camera_controller.html" title="Base class for all camera controllers, acting on a Camera node (abstract)." alt="" coords="144,29,272,51"/>
+<area shape="rect" id="node3" href="$dd/d66/classscg_1_1_keyboard_controller.html" title="A camera controller using keyboard input." alt="" coords="320,5,456,27"/>
+<area shape="rect" id="node4" href="$da/d9a/classscg_1_1_mouse_controller.html" title="A camera controller using mouse input." alt="" coords="327,51,449,74"/>
 </map>

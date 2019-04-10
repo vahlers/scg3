@@ -1,9 +1,10 @@
 <map id="src/Transformation.h" name="src/Transformation.h">
-<area shape="rect" id="node2" href="$d5/d91/_camera_8h.html" title="Base class for all cameras (leaf node, abstract). " alt="" coords="307,78,392,101"/>
-<area shape="rect" id="node6" href="$d4/d61/scg3_8h.html" title="Main header file for scg3 scene graph library, including all class headers. " alt="" coords="431,222,483,245"/>
-<area shape="rect" id="node8" href="$db/d28/_transform_animation_8h.html" title="An animation that creates a transformation to be applied to ist sub&#45;tree (composite node)..." alt="" coords="603,78,745,101"/>
-<area shape="rect" id="node3" href="$d7/d68/_stereo_camera_8h.html" title="A perspective stereo camera (leaf node). " alt="" coords="5,150,141,173"/>
-<area shape="rect" id="node5" href="$d5/dea/_orthographic_camera_8h.html" title="A camera with orthographic projection(leaf node). " alt="" coords="165,150,312,173"/>
-<area shape="rect" id="node7" href="$df/db1/_perspective_camera_8h.html" title="A camera with perspective projection (leaf node). " alt="" coords="387,150,527,173"/>
-<area shape="rect" id="node4" href="$d0/d5b/scg3__ext_8h.html" title="Main header file for scg3 scene graph library extensions, including all class headers. " alt="" coords="37,222,109,245"/>
+<area shape="rect" id="node1" title="A transformation node to be used to appy a transformation to the sub&#45;tree (composite node)." alt="" coords="506,6,624,29"/>
+<area shape="rect" id="node2" href="$d5/d91/_camera_8h.html" title="Base class for all cameras (leaf node, abstract)." alt="" coords="307,78,392,101"/>
+<area shape="rect" id="node6" href="$d4/d61/scg3_8h.html" title="Main header file for scg3 scene graph library, including all class headers." alt="" coords="431,222,483,245"/>
+<area shape="rect" id="node8" href="$db/d28/_transform_animation_8h.html" title="An animation that creates a transformation to be applied to ist sub&#45;tree (composite node)." alt="" coords="603,78,745,101"/>
+<area shape="rect" id="node3" href="$d7/d68/_stereo_camera_8h.html" title="A perspective stereo camera (leaf node)." alt="" coords="5,150,141,173"/>
+<area shape="rect" id="node5" href="$d5/dea/_orthographic_camera_8h.html" title="A camera with orthographic projection(leaf node)." alt="" coords="165,150,312,173"/>
+<area shape="rect" id="node7" href="$df/db1/_perspective_camera_8h.html" title="A camera with perspective projection (leaf node)." alt="" coords="387,150,527,173"/>
+<area shape="rect" id="node4" href="$d0/d5b/scg3__ext_8h.html" title="Main header file for scg3 scene graph library extensions, including all class headers." alt="" coords="37,222,109,245"/>
 </map>

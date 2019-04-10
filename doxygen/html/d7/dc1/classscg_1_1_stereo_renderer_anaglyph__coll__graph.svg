@@ -9,293 +9,308 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 429)">
 <title>scg::StereoRendererAnaglyph</title>
 <polygon fill="white" stroke="none" points="-4,4 -4,-429 1610,-429 1610,4 -4,4"/>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node3 -->
+<g id="node1" class="node"><title>Node3</title>
+<g id="a_node1"><a xlink:title="A renderer for anaglyph stereo (left eye: red, right eye: cyan).">
 <polygon fill="#bfbfbf" stroke="black" points="1482.41,-237 1482.41,-253 1605.59,-253 1605.59,-237 1482.41,-237"/>
 <text text-anchor="middle" x="1544" y="-242.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::StereoRendererAnaglyph</text>
+</a>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d7/d2b/classscg_1_1_stereo_renderer.html" target="_top" xlink:title="Base class for all stereo renderers (abstract). ">
+</g>
+<!-- Node4 -->
+<g id="node2" class="node"><title>Node4</title>
+<g id="a_node2"><a xlink:href="../../d7/d2b/classscg_1_1_stereo_renderer.html" target="_top" xlink:title="Base class for all stereo renderers (abstract).">
 <polygon fill="white" stroke="black" points="1354.09,-237 1354.09,-253 1443.91,-253 1443.91,-237 1354.09,-237"/>
 <text text-anchor="middle" x="1399" y="-242.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::StereoRenderer</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node4&#45;&gt;Node3 -->
+<g id="edge1" class="edge"><title>Node4&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M1454.21,-245C1463.37,-245 1472.93,-245 1482.25,-245"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1454.07,-241.5 1444.07,-245 1454.07,-248.5 1454.07,-241.5"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d8/dcf/classscg_1_1_renderer.html" target="_top" xlink:title="Base class for all renderers (abstract). ">
+<!-- Node5 -->
+<g id="node3" class="node"><title>Node5</title>
+<g id="a_node3"><a xlink:href="../../d8/dcf/classscg_1_1_renderer.html" target="_top" xlink:title="Base class for all renderers (abstract).">
 <polygon fill="white" stroke="black" points="1152.88,-209 1152.88,-225 1219.12,-225 1219.12,-209 1152.88,-209"/>
 <text text-anchor="middle" x="1186" y="-214.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::Renderer</text>
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node2 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node2</title>
+<!-- Node5&#45;&gt;Node4 -->
+<g id="edge2" class="edge"><title>Node5&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M1229.74,-222.671C1265.92,-227.473 1317.57,-234.327 1354.08,-239.172"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1229.88,-219.16 1219.51,-221.314 1228.96,-226.099 1229.88,-219.16"/>
 </g>
-<!-- Node3&#45;&gt;Node2 -->
-<g id="edge39" class="edge"><title>Node3&#45;&gt;Node2</title>
+<!-- Node5&#45;&gt;Node4 -->
+<g id="edge39" class="edge"><title>Node5&#45;&gt;Node4</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1218.1,-228.245C1231.96,-232.744 1248.6,-237.456 1264,-240 1293.74,-244.916 1327.69,-246.137 1353.97,-246.145"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1219.15,-224.906 1208.56,-225.04 1216.93,-231.541 1219.15,-224.906"/>
 <text text-anchor="middle" x="1300" y="-247.6" font-family="Helvetica,sans-Serif" font-size="8.00"> concreteRenderer_</text>
 </g>
-<!-- Node21 -->
-<g id="node21" class="node"><title>Node21</title>
-<g id="a_node21"><a xlink:href="../../d1/db0/classscg_1_1_viewer.html" target="_top" xlink:title="Central viewer managing window, controllers, animations, and main loop. ">
+<!-- Node23 -->
+<g id="node21" class="node"><title>Node23</title>
+<g id="a_node21"><a xlink:href="../../d1/db0/classscg_1_1_viewer.html" target="_top" xlink:title="Central viewer managing window, controllers, animations, and main loop.">
 <polygon fill="white" stroke="black" points="1370.4,-105 1370.4,-121 1427.6,-121 1427.6,-105 1370.4,-105"/>
 <text text-anchor="middle" x="1399" y="-110.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::Viewer</text>
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node21 -->
-<g id="edge36" class="edge"><title>Node3&#45;&gt;Node21</title>
+<!-- Node5&#45;&gt;Node23 -->
+<g id="edge36" class="edge"><title>Node5&#45;&gt;Node23</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1210.71,-204.023C1225.81,-195.927 1245.86,-185.472 1264,-177 1295.41,-162.33 1304.76,-162.023 1336,-147 1352.82,-138.914 1371.52,-128.444 1383.94,-121.271"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1208.71,-201.125 1201.58,-208.959 1212.04,-207.284 1208.71,-201.125"/>
 <text text-anchor="middle" x="1300" y="-178.6" font-family="Helvetica,sans-Serif" font-size="8.00"> renderer_</text>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d4/dc7/classscg_1_1_node.html" target="_top" xlink:title="Base class for all nodes (composite pattern, abstract). ">
+<!-- Node6 -->
+<g id="node4" class="node"><title>Node6</title>
+<g id="a_node4"><a xlink:href="../../d4/dc7/classscg_1_1_node.html" target="_top" xlink:title="Base class for all nodes (composite pattern, abstract).">
 <polygon fill="white" stroke="black" points="498.99,-175 498.99,-191 551.01,-191 551.01,-175 498.99,-175"/>
 <text text-anchor="middle" x="525" y="-180.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::Node</text>
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node3 -->
-<g id="edge3" class="edge"><title>Node4&#45;&gt;Node3</title>
+<!-- Node6&#45;&gt;Node5 -->
+<g id="edge3" class="edge"><title>Node6&#45;&gt;Node5</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M560.913,-192.56C600.768,-202.617 668.071,-217 727,-217 727,-217 727,-217 1021,-217 1066.7,-217 1119.56,-217 1152.64,-217"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="561.71,-189.151 551.153,-190.045 559.963,-195.93 561.71,-189.151"/>
 <text text-anchor="middle" x="905" y="-218.6" font-family="Helvetica,sans-Serif" font-size="8.00"> scene_</text>
 </g>
-<!-- Node4&#45;&gt;Node4 -->
-<g id="edge4" class="edge"><title>Node4&#45;&gt;Node4</title>
+<!-- Node6&#45;&gt;Node6 -->
+<g id="edge4" class="edge"><title>Node6&#45;&gt;Node6</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M504.073,-200.198C504.852,-205.164 511.827,-209 525,-209 545.562,-209 551.024,-199.652 541.386,-191.253"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="507.208,-201.755 508.614,-191.253 500.967,-198.586 507.208,-201.755"/>
 <text text-anchor="middle" x="525" y="-210.6" font-family="Helvetica,sans-Serif" font-size="8.00"> rightSibling_</text>
 </g>
-<!-- Node10 -->
-<g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="../../da/d38/classscg_1_1_composite.html" target="_top" xlink:title="Base class for all composite nodes, i.e., nodes with children (composite pattern, abstract)...">
+<!-- Node12 -->
+<g id="node10" class="node"><title>Node12</title>
+<g id="a_node10"><a xlink:href="../../da/d38/classscg_1_1_composite.html" target="_top" xlink:title="Base class for all composite nodes, i.e., nodes with children (composite pattern, abstract).">
 <polygon fill="white" stroke="black" points="692.434,-154 692.434,-170 763.566,-170 763.566,-154 692.434,-154"/>
 <text text-anchor="middle" x="728" y="-159.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::Composite</text>
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node10 -->
-<g id="edge11" class="edge"><title>Node4&#45;&gt;Node10</title>
+<!-- Node6&#45;&gt;Node12 -->
+<g id="edge11" class="edge"><title>Node6&#45;&gt;Node12</title>
 <path fill="none" stroke="midnightblue" d="M561.57,-179.246C574.322,-177.903 588.805,-176.381 602,-175 632.488,-171.81 667.163,-168.206 692.245,-165.603"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="560.911,-175.797 551.333,-180.325 561.644,-182.758 560.911,-175.797"/>
 </g>
-<!-- Node4&#45;&gt;Node10 -->
-<g id="edge12" class="edge"><title>Node4&#45;&gt;Node10</title>
+<!-- Node6&#45;&gt;Node12 -->
+<g id="edge12" class="edge"><title>Node6&#45;&gt;Node12</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M552.591,-171.034C566.912,-165.24 585.07,-158.918 602,-156 632.659,-150.716 640.935,-154.311 672,-156 678.618,-156.36 685.664,-156.962 692.426,-157.649"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="551.218,-167.814 543.352,-174.912 553.928,-174.269 551.218,-167.814"/>
 <text text-anchor="middle" x="637" y="-157.6" font-family="Helvetica,sans-Serif" font-size="8.00"> leftChild_</text>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
+<!-- Node7 -->
+<g id="node5" class="node"><title>Node7</title>
+<g id="a_node5"><a xlink:title=" ">
 <polygon fill="white" stroke="#bfbfbf" points="247.199,-171 247.199,-203 334.801,-203 334.801,-171 247.199,-171"/>
 <text text-anchor="start" x="255.199" y="-192.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::unordered_map</text>
 <text text-anchor="start" x="255.199" y="-184.6" font-family="Helvetica,sans-Serif" font-size="8.00">&lt; std::string, std::</text>
 <text text-anchor="middle" x="291" y="-176.6" font-family="Helvetica,sans-Serif" font-size="8.00">string &gt;</text>
+</a>
 </g>
-<!-- Node5&#45;&gt;Node4 -->
-<g id="edge5" class="edge"><title>Node5&#45;&gt;Node4</title>
+</g>
+<!-- Node7&#45;&gt;Node6 -->
+<g id="edge5" class="edge"><title>Node7&#45;&gt;Node6</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M345.082,-186.085C393.309,-185.253 462.341,-184.063 498.958,-183.432"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="344.761,-182.59 334.823,-186.262 344.882,-189.589 344.761,-182.59"/>
 <text text-anchor="middle" x="404" y="-187.6" font-family="Helvetica,sans-Serif" font-size="8.00"> metaInfo_</text>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:title="STL class. ">
+<!-- Node8 -->
+<g id="node6" class="node"><title>Node8</title>
+<g id="a_node6"><a xlink:title="STL class.">
 <polygon fill="white" stroke="#bfbfbf" points="116.66,-226 116.66,-242 167.34,-242 167.34,-226 116.66,-226"/>
 <text text-anchor="middle" x="142" y="-231.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::string</text>
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node5 -->
-<g id="edge6" class="edge"><title>Node6&#45;&gt;Node5</title>
+<!-- Node8&#45;&gt;Node7 -->
+<g id="edge6" class="edge"><title>Node8&#45;&gt;Node7</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M167.947,-221.469C173.786,-218.796 180.043,-216.139 186,-214 205.664,-206.94 228.028,-200.89 246.966,-196.317"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="166.17,-218.438 158.64,-225.89 169.174,-224.76 166.17,-218.438"/>
 <text text-anchor="middle" x="204" y="-223.6" font-family="Helvetica,sans-Serif" font-size="8.00"> keys</text>
 <text text-anchor="middle" x="204" y="-215.6" font-family="Helvetica,sans-Serif" font-size="8.00">elements</text>
 </g>
-<!-- Node13 -->
-<g id="node13" class="node"><title>Node13</title>
+<!-- Node15 -->
+<g id="node13" class="node"><title>Node15</title>
+<g id="a_node13"><a xlink:title=" ">
 <polygon fill="white" stroke="#bfbfbf" points="359.982,-303 359.982,-327 448.018,-327 448.018,-303 359.982,-303"/>
 <text text-anchor="start" x="367.982" y="-316.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::unordered_map</text>
 <text text-anchor="middle" x="404" y="-308.6" font-family="Helvetica,sans-Serif" font-size="8.00">&lt; std::string, GLint &gt;</text>
+</a>
 </g>
-<!-- Node6&#45;&gt;Node13 -->
-<g id="edge18" class="edge"><title>Node6&#45;&gt;Node13</title>
+</g>
+<!-- Node8&#45;&gt;Node15 -->
+<g id="edge18" class="edge"><title>Node8&#45;&gt;Node15</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M163.432,-247.433C182.483,-259.343 212.077,-276.308 240,-286 279.373,-299.666 326.437,-307.155 359.848,-311.08"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="165.294,-244.469 154.98,-242.046 161.532,-250.372 165.294,-244.469"/>
 <text text-anchor="middle" x="204" y="-280.6" font-family="Helvetica,sans-Serif" font-size="8.00"> keys</text>
 </g>
-<!-- Node15 -->
-<g id="node15" class="node"><title>Node15</title>
+<!-- Node17 -->
+<g id="node15" class="node"><title>Node17</title>
 <g id="a_node15"><a xlink:href="../../d1/dad/structscg_1_1_shader_i_d.html" target="_top" xlink:title="A shader ID to identify shaders in error messages. An arbitrary name can be added to the OpnGL shader...">
 <polygon fill="white" stroke="black" points="257.654,-226 257.654,-242 324.346,-242 324.346,-226 257.654,-226"/>
 <text text-anchor="middle" x="291" y="-231.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::ShaderID</text>
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node15 -->
-<g id="edge21" class="edge"><title>Node6&#45;&gt;Node15</title>
+<!-- Node8&#45;&gt;Node17 -->
+<g id="edge21" class="edge"><title>Node8&#45;&gt;Node17</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M177.769,-234C201.94,-234 233.935,-234 257.577,-234"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="177.605,-230.5 167.604,-234 177.604,-237.5 177.605,-230.5"/>
 <text text-anchor="middle" x="204" y="-235.6" font-family="Helvetica,sans-Serif" font-size="8.00"> name</text>
 </g>
-<!-- Node7 -->
-<g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:title="STL class. ">
+<!-- Node9 -->
+<g id="node7" class="node"><title>Node9</title>
+<g id="a_node7"><a xlink:title="STL class.">
 <polygon fill="white" stroke="#bfbfbf" points="-0.238281,-222 -0.238281,-246 78.2383,-246 78.2383,-222 -0.238281,-222"/>
 <text text-anchor="start" x="7.76172" y="-235.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::basic_string&lt;</text>
 <text text-anchor="middle" x="39" y="-227.6" font-family="Helvetica,sans-Serif" font-size="8.00"> char &gt;</text>
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node6 -->
-<g id="edge7" class="edge"><title>Node7&#45;&gt;Node6</title>
+<!-- Node9&#45;&gt;Node8 -->
+<g id="edge7" class="edge"><title>Node9&#45;&gt;Node8</title>
 <path fill="none" stroke="midnightblue" d="M88.5466,-234C98.3068,-234 108.164,-234 116.658,-234"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="88.4719,-230.5 78.4719,-234 88.4719,-237.5 88.4719,-230.5"/>
 </g>
-<!-- Node8 -->
-<g id="node8" class="node"><title>Node8</title>
+<!-- Node10 -->
+<g id="node8" class="node"><title>Node10</title>
+<g id="a_node8"><a xlink:title=" ">
 <polygon fill="white" stroke="#bfbfbf" points="240.537,-261 240.537,-277 341.463,-277 341.463,-261 240.537,-261"/>
 <text text-anchor="middle" x="291" y="-266.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::vector&lt; scg::Core &gt;</text>
+</a>
 </g>
-<!-- Node8&#45;&gt;Node4 -->
-<g id="edge8" class="edge"><title>Node8&#45;&gt;Node4</title>
+</g>
+<!-- Node10&#45;&gt;Node6 -->
+<g id="edge8" class="edge"><title>Node10&#45;&gt;Node6</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M329.321,-257.214C333.699,-255.353 338.02,-253.28 342,-251 351.036,-245.824 350.879,-241.026 360,-236 405.861,-210.728 465.659,-195.24 498.908,-187.97"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="327.799,-254.051 319.755,-260.946 330.343,-260.572 327.799,-254.051"/>
 <text text-anchor="middle" x="404" y="-237.6" font-family="Helvetica,sans-Serif" font-size="8.00"> cores_</text>
 </g>
-<!-- Node9 -->
-<g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="../../d0/d79/classscg_1_1_core.html" target="_top" xlink:title="Base class for all cores (abstract). ">
+<!-- Node11 -->
+<g id="node9" class="node"><title>Node11</title>
+<g id="a_node9"><a xlink:href="../../d0/d79/classscg_1_1_core.html" target="_top" xlink:title="Base class for all cores (abstract).">
 <polygon fill="white" stroke="black" points="116.883,-352 116.883,-368 167.117,-368 167.117,-352 116.883,-352"/>
 <text text-anchor="middle" x="142" y="-357.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::Core</text>
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node8 -->
-<g id="edge9" class="edge"><title>Node9&#45;&gt;Node8</title>
+<!-- Node11&#45;&gt;Node10 -->
+<g id="edge9" class="edge"><title>Node11&#45;&gt;Node10</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M167.14,-346.882C182.929,-338.148 203.906,-326.25 222,-315 242.335,-302.356 265.265,-286.497 278.627,-277.088"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="165.13,-343.993 158.052,-351.877 168.501,-350.127 165.13,-343.993"/>
 <text text-anchor="middle" x="204" y="-336.6" font-family="Helvetica,sans-Serif" font-size="8.00"> elements</text>
 </g>
-<!-- Node12 -->
-<g id="node12" class="node"><title>Node12</title>
-<g id="a_node12"><a xlink:href="../../df/de9/classscg_1_1_shader_core.html" target="_top" xlink:title="A core to set a shader program to be applied to subsequent nodes. ">
+<!-- Node14 -->
+<g id="node12" class="node"><title>Node14</title>
+<g id="a_node12"><a xlink:href="../../df/de9/classscg_1_1_shader_core.html" target="_top" xlink:title="A core to set a shader program to be applied to subsequent nodes.">
 <polygon fill="white" stroke="black" points="689.984,-308 689.984,-324 766.016,-324 766.016,-308 689.984,-308"/>
 <text text-anchor="middle" x="728" y="-313.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::ShaderCore</text>
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node12 -->
-<g id="edge15" class="edge"><title>Node9&#45;&gt;Node12</title>
+<!-- Node11&#45;&gt;Node14 -->
+<g id="edge15" class="edge"><title>Node11&#45;&gt;Node14</title>
 <path fill="none" stroke="midnightblue" d="M177.192,-360.044C261.648,-359.71 486.717,-356.116 672,-329 680.252,-327.792 689.088,-325.953 697.21,-324.036"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="177.132,-356.544 167.141,-360.071 177.15,-363.544 177.132,-356.544"/>
 </g>
-<!-- Node18 -->
-<g id="node18" class="node"><title>Node18</title>
-<g id="a_node18"><a xlink:href="../../d9/dc2/classscg_1_1_color_core.html" target="_top" xlink:title="A core to set a vertex color or a color transformation to be applied to subsequent geometry...">
+<!-- Node20 -->
+<g id="node18" class="node"><title>Node20</title>
+<g id="a_node18"><a xlink:href="../../d9/dc2/classscg_1_1_color_core.html" target="_top" xlink:title="A core to set a vertex color or a color transformation to be applied to subsequent geometry.">
 <polygon fill="white" stroke="black" points="602.324,-383 602.324,-399 671.676,-399 671.676,-383 602.324,-383"/>
 <text text-anchor="middle" x="637" y="-388.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::ColorCore</text>
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node18 -->
-<g id="edge25" class="edge"><title>Node9&#45;&gt;Node18</title>
+<!-- Node11&#45;&gt;Node20 -->
+<g id="edge25" class="edge"><title>Node11&#45;&gt;Node20</title>
 <path fill="none" stroke="midnightblue" d="M173.271,-371.005C177.5,-372.204 181.826,-373.257 186,-374 339.362,-401.315 526.596,-396.409 602.072,-392.891"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="174.288,-367.656 163.699,-368.022 172.204,-374.339 174.288,-367.656"/>
 </g>
-<!-- Node10&#45;&gt;Node4 -->
-<g id="edge10" class="edge"><title>Node10&#45;&gt;Node4</title>
+<!-- Node12&#45;&gt;Node6 -->
+<g id="edge10" class="edge"><title>Node12&#45;&gt;Node6</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M682.037,-170.571C678.647,-171.096 675.273,-171.58 672,-172 629.769,-177.415 580.298,-180.453 551.14,-181.907"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="682.874,-173.98 692.171,-168.9 681.735,-167.073 682.874,-173.98"/>
 <text text-anchor="middle" x="637" y="-180.6" font-family="Helvetica,sans-Serif" font-size="8.00"> parent_</text>
 </g>
-<!-- Node20 -->
-<g id="node20" class="node"><title>Node20</title>
-<g id="a_node20"><a xlink:href="../../d0/d99/classscg_1_1_transformation.html" target="_top" xlink:title="A transformation node to be used to appy a transformation to the sub&#45;tree (composite node)...">
+<!-- Node22 -->
+<g id="node20" class="node"><title>Node22</title>
+<g id="a_node20"><a xlink:href="../../d0/d99/classscg_1_1_transformation.html" target="_top" xlink:title="A transformation node to be used to appy a transformation to the sub&#45;tree (composite node).">
 <polygon fill="white" stroke="black" points="861.801,-162 861.801,-178 948.199,-178 948.199,-162 861.801,-162"/>
 <text text-anchor="middle" x="905" y="-167.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::Transformation</text>
 </a>
 </g>
 </g>
-<!-- Node10&#45;&gt;Node20 -->
-<g id="edge29" class="edge"><title>Node10&#45;&gt;Node20</title>
+<!-- Node12&#45;&gt;Node22 -->
+<g id="edge29" class="edge"><title>Node12&#45;&gt;Node22</title>
 <path fill="none" stroke="midnightblue" d="M773.575,-164.038C800.684,-165.277 835.1,-166.85 861.772,-168.07"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="773.724,-160.541 763.574,-163.581 773.404,-167.534 773.724,-160.541"/>
 </g>
-<!-- Node11 -->
-<g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="../../db/dfa/classscg_1_1_render_state.html" target="_top" xlink:title="The central render state that collects information about the current shader, transformations, matrix stacks, light and color properties. ">
+<!-- Node13 -->
+<g id="node11" class="node"><title>Node13</title>
+<g id="a_node11"><a xlink:href="../../db/dfa/classscg_1_1_render_state.html" target="_top" xlink:title="The central render state that collects information about the current shader, transformations,...">
 <polygon fill="white" stroke="black" points="866.094,-293 866.094,-309 943.906,-309 943.906,-293 866.094,-293"/>
 <text text-anchor="middle" x="905" y="-298.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::RenderState</text>
 </a>
 </g>
 </g>
-<!-- Node11&#45;&gt;Node3 -->
-<g id="edge13" class="edge"><title>Node11&#45;&gt;Node3</title>
+<!-- Node13&#45;&gt;Node5 -->
+<g id="edge13" class="edge"><title>Node13&#45;&gt;Node5</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M942.421,-290.034C999.348,-272.895 1108.08,-240.157 1158.33,-225.03"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="941.318,-286.711 932.752,-292.946 943.336,-293.414 941.318,-286.711"/>
 <text text-anchor="middle" x="1020" y="-278.6" font-family="Helvetica,sans-Serif" font-size="8.00"> renderState_</text>
 </g>
-<!-- Node12&#45;&gt;Node11 -->
-<g id="edge14" class="edge"><title>Node12&#45;&gt;Node11</title>
+<!-- Node14&#45;&gt;Node13 -->
+<g id="edge14" class="edge"><title>Node14&#45;&gt;Node13</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M776.142,-311.959C804.324,-309.544 839.657,-306.515 866.034,-304.254"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="775.778,-308.478 766.113,-312.819 776.375,-315.452 775.778,-308.478"/>
 <text text-anchor="middle" x="814" y="-312.6" font-family="Helvetica,sans-Serif" font-size="8.00"> shaderCore_</text>
 </g>
-<!-- Node12&#45;&gt;Node12 -->
-<g id="edge16" class="edge"><title>Node12&#45;&gt;Node12</title>
+<!-- Node14&#45;&gt;Node14 -->
+<g id="edge16" class="edge"><title>Node14&#45;&gt;Node14</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M712.053,-333.916C713.063,-338.529 718.379,-342 728,-342 743.789,-342 747.983,-332.652 740.582,-324.253"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="715.434,-334.848 715.418,-324.253 708.824,-332.546 715.434,-334.848"/>
 <text text-anchor="middle" x="728" y="-343.6" font-family="Helvetica,sans-Serif" font-size="8.00"> shaderCoreOld_</text>
 </g>
-<!-- Node13&#45;&gt;Node12 -->
-<g id="edge17" class="edge"><title>Node13&#45;&gt;Node12</title>
+<!-- Node15&#45;&gt;Node14 -->
+<g id="edge17" class="edge"><title>Node15&#45;&gt;Node14</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M458.183,-315.165C523.494,-315.368 632.605,-315.707 689.659,-315.884"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="458.103,-311.665 448.092,-315.134 458.081,-318.665 458.103,-311.665"/>
 <text text-anchor="middle" x="525" y="-316.6" font-family="Helvetica,sans-Serif" font-size="8.00"> uniformLocMap_</text>
 </g>
-<!-- Node14 -->
-<g id="node14" class="node"><title>Node14</title>
+<!-- Node16 -->
+<g id="node14" class="node"><title>Node16</title>
+<g id="a_node14"><a xlink:title=" ">
 <polygon fill="white" stroke="#bfbfbf" points="466.309,-271 466.309,-287 583.691,-287 583.691,-271 466.309,-271"/>
 <text text-anchor="middle" x="525" y="-276.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::vector&lt; scg::ShaderID &gt;</text>
+</a>
 </g>
-<!-- Node14&#45;&gt;Node12 -->
-<g id="edge19" class="edge"><title>Node14&#45;&gt;Node12</title>
+</g>
+<!-- Node16&#45;&gt;Node14 -->
+<g id="edge19" class="edge"><title>Node16&#45;&gt;Node14</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M593.782,-288.337C618.493,-292.094 646.596,-296.778 672,-302 680.3,-303.706 689.231,-305.846 697.431,-307.936"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="594.186,-284.859 583.778,-286.838 593.149,-291.781 594.186,-284.859"/>
 <text text-anchor="middle" x="637" y="-303.6" font-family="Helvetica,sans-Serif" font-size="8.00"> shaderIDs_</text>
 </g>
-<!-- Node15&#45;&gt;Node14 -->
-<g id="edge20" class="edge"><title>Node15&#45;&gt;Node14</title>
+<!-- Node17&#45;&gt;Node16 -->
+<g id="edge20" class="edge"><title>Node17&#45;&gt;Node16</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M334.69,-242.28C376.782,-250.445 440.694,-262.841 482.403,-270.932"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="335.231,-238.82 324.748,-240.352 333.898,-245.692 335.231,-238.82"/>
 <text text-anchor="middle" x="404" y="-265.6" font-family="Helvetica,sans-Serif" font-size="8.00"> elements</text>
 </g>
-<!-- Node16 -->
-<g id="node16" class="node"><title>Node16</title>
-<g id="a_node16"><a xlink:href="../../d4/dab/classscg_1_1_matrix_stack.html" target="_top" xlink:title="Matrix stack to store model&#45;view, projection, texture, and color matrices, used by RenderState...">
+<!-- Node18 -->
+<g id="node16" class="node"><title>Node18</title>
+<g id="a_node16"><a xlink:href="../../d4/dab/classscg_1_1_matrix_stack.html" target="_top" xlink:title="Matrix stack to store model&#45;view, projection, texture, and color matrices, used by RenderState.">
 <polygon fill="white" stroke="black" points="690.66,-250 690.66,-266 765.34,-266 765.34,-250 690.66,-250"/>
 <text text-anchor="middle" x="728" y="-255.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::MatrixStack</text>
 </a>
 </g>
 </g>
-<!-- Node16&#45;&gt;Node11 -->
-<g id="edge22" class="edge"><title>Node16&#45;&gt;Node11</title>
+<!-- Node18&#45;&gt;Node13 -->
+<g id="edge22" class="edge"><title>Node18&#45;&gt;Node13</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M775.492,-258.921C796.74,-260.334 822.017,-263.43 844,-270 861.525,-275.238 879.971,-285.604 891.709,-292.903"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="775.598,-255.421 765.417,-258.354 775.205,-262.41 775.598,-255.421"/>
 <text text-anchor="middle" x="814" y="-295.6" font-family="Helvetica,sans-Serif" font-size="8.00"> textureStack</text>
@@ -303,142 +318,151 @@
 <text text-anchor="middle" x="814" y="-279.6" font-family="Helvetica,sans-Serif" font-size="8.00">modelViewStack</text>
 <text text-anchor="middle" x="814" y="-271.6" font-family="Helvetica,sans-Serif" font-size="8.00">colorStack</text>
 </g>
-<!-- Node17 -->
-<g id="node17" class="node"><title>Node17</title>
+<!-- Node19 -->
+<g id="node17" class="node"><title>Node19</title>
+<g id="a_node17"><a xlink:title=" ">
 <polygon fill="white" stroke="#bfbfbf" points="475.65,-236 475.65,-252 574.35,-252 574.35,-236 475.65,-236"/>
 <text text-anchor="middle" x="525" y="-241.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::stack&lt; glm::mat4 &gt;</text>
+</a>
 </g>
-<!-- Node17&#45;&gt;Node16 -->
-<g id="edge23" class="edge"><title>Node17&#45;&gt;Node16</title>
+</g>
+<!-- Node19&#45;&gt;Node18 -->
+<g id="edge23" class="edge"><title>Node19&#45;&gt;Node18</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M584.727,-248.09C618.884,-250.47 660.872,-253.394 690.35,-255.447"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="584.619,-244.575 574.4,-247.371 584.133,-251.558 584.619,-244.575"/>
 <text text-anchor="middle" x="637" y="-255.6" font-family="Helvetica,sans-Serif" font-size="8.00"> stack_</text>
 </g>
-<!-- Node18&#45;&gt;Node11 -->
-<g id="edge24" class="edge"><title>Node18&#45;&gt;Node11</title>
+<!-- Node20&#45;&gt;Node13 -->
+<g id="edge24" class="edge"><title>Node20&#45;&gt;Node13</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M681.723,-381.814C706.681,-376.138 738.399,-368.191 766,-359 810.63,-344.139 861.136,-321.299 886.898,-309.191"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="680.817,-378.43 671.821,-384.028 682.344,-385.261 680.817,-378.43"/>
 <text text-anchor="middle" x="728" y="-380.6" font-family="Helvetica,sans-Serif" font-size="8.00"> colorCore_</text>
 </g>
-<!-- Node18&#45;&gt;Node18 -->
-<g id="edge26" class="edge"><title>Node18&#45;&gt;Node18</title>
+<!-- Node20&#45;&gt;Node20 -->
+<g id="edge26" class="edge"><title>Node20&#45;&gt;Node20</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M620.311,-408.916C621.368,-413.529 626.931,-417 637,-417 653.523,-417 657.912,-407.652 650.167,-399.253"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="623.697,-409.847 623.833,-399.253 617.12,-407.45 623.697,-409.847"/>
 <text text-anchor="middle" x="637" y="-418.6" font-family="Helvetica,sans-Serif" font-size="8.00"> colorCoreOld_</text>
 </g>
-<!-- Node19 -->
-<g id="node19" class="node"><title>Node19</title>
-<g id="a_node19"><a xlink:href="../../d4/dc9/classscg_1_1_camera.html" target="_top" xlink:title="Base class for all cameras (composite node, abstract). ">
+<!-- Node21 -->
+<g id="node19" class="node"><title>Node21</title>
+<g id="a_node19"><a xlink:href="../../d4/dc9/classscg_1_1_camera.html" target="_top" xlink:title="Base class for all cameras (composite node, abstract).">
 <polygon fill="white" stroke="black" points="989.326,-170 989.326,-186 1050.67,-186 1050.67,-170 989.326,-170"/>
 <text text-anchor="middle" x="1020" y="-175.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::Camera</text>
 </a>
 </g>
 </g>
-<!-- Node19&#45;&gt;Node3 -->
-<g id="edge27" class="edge"><title>Node19&#45;&gt;Node3</title>
+<!-- Node21&#45;&gt;Node5 -->
+<g id="edge27" class="edge"><title>Node21&#45;&gt;Node5</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1060.84,-185.045C1075.7,-187.867 1092.68,-191.322 1108,-195 1125.03,-199.09 1143.95,-204.483 1158.78,-208.906"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1061.4,-181.59 1050.93,-183.197 1060.12,-188.471 1061.4,-181.59"/>
 <text text-anchor="middle" x="1090" y="-196.6" font-family="Helvetica,sans-Serif" font-size="8.00"> camera_</text>
 </g>
-<!-- Node20&#45;&gt;Node19 -->
-<g id="edge28" class="edge"><title>Node20&#45;&gt;Node19</title>
+<!-- Node22&#45;&gt;Node21 -->
+<g id="edge28" class="edge"><title>Node22&#45;&gt;Node21</title>
 <path fill="none" stroke="midnightblue" d="M958.382,-173.708C968.905,-174.453 979.62,-175.212 989.056,-175.88"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="958.621,-170.217 948.399,-173.002 958.126,-177.199 958.621,-170.217"/>
 </g>
-<!-- Node21&#45;&gt;Node3 -->
-<g id="edge30" class="edge"><title>Node21&#45;&gt;Node3</title>
+<!-- Node23&#45;&gt;Node5 -->
+<g id="edge30" class="edge"><title>Node23&#45;&gt;Node5</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1387.98,-129.675C1377.22,-146.093 1358.59,-170.598 1336,-184 1299.77,-205.495 1251.07,-213.019 1219.36,-215.635"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1391.02,-131.417 1393.38,-121.088 1385.1,-127.693 1391.02,-131.417"/>
 <text text-anchor="middle" x="1300" y="-211.6" font-family="Helvetica,sans-Serif" font-size="8.00"> viewer_</text>
 </g>
-<!-- Node22 -->
-<g id="node22" class="node"><title>Node22</title>
+<!-- Node24 -->
+<g id="node22" class="node"><title>Node24</title>
+<g id="a_node22"><a xlink:title=" ">
 <polygon fill="white" stroke="#bfbfbf" points="1126.42,-70 1126.42,-86 1245.58,-86 1245.58,-70 1126.42,-70"/>
 <text text-anchor="middle" x="1186" y="-75.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::vector&lt; scg::Animation &gt;</text>
+</a>
 </g>
-<!-- Node22&#45;&gt;Node21 -->
-<g id="edge31" class="edge"><title>Node22&#45;&gt;Node21</title>
+</g>
+<!-- Node24&#45;&gt;Node23 -->
+<g id="edge31" class="edge"><title>Node24&#45;&gt;Node23</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1252.41,-87.5469C1278.46,-91.4921 1308.68,-96.2496 1336,-101 1347.23,-102.953 1359.57,-105.3 1370.26,-107.398"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1252.68,-84.0489 1242.27,-86.0207 1251.64,-90.9708 1252.68,-84.0489"/>
 <text text-anchor="middle" x="1300" y="-102.6" font-family="Helvetica,sans-Serif" font-size="8.00"> animations_</text>
 </g>
-<!-- Node23 -->
-<g id="node23" class="node"><title>Node23</title>
-<g id="a_node23"><a xlink:href="../../d2/df5/classscg_1_1_animation.html" target="_top" xlink:title="Base class for all animations (abstract), providing general functionality. ">
+<!-- Node25 -->
+<g id="node23" class="node"><title>Node25</title>
+<g id="a_node23"><a xlink:href="../../d2/df5/classscg_1_1_animation.html" target="_top" xlink:title="Base class for all animations (abstract), providing general functionality.">
 <polygon fill="white" stroke="black" points="985.766,-70 985.766,-86 1054.23,-86 1054.23,-70 985.766,-70"/>
 <text text-anchor="middle" x="1020" y="-75.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::Animation</text>
 </a>
 </g>
 </g>
-<!-- Node23&#45;&gt;Node22 -->
-<g id="edge32" class="edge"><title>Node23&#45;&gt;Node22</title>
+<!-- Node25&#45;&gt;Node24 -->
+<g id="edge32" class="edge"><title>Node25&#45;&gt;Node24</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1064.68,-78C1083.56,-78 1105.94,-78 1126.24,-78"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1064.58,-74.5001 1054.58,-78 1064.58,-81.5001 1064.58,-74.5001"/>
 <text text-anchor="middle" x="1090" y="-79.6" font-family="Helvetica,sans-Serif" font-size="8.00"> elements</text>
 </g>
-<!-- Node24 -->
-<g id="node24" class="node"><title>Node24</title>
+<!-- Node26 -->
+<g id="node24" class="node"><title>Node26</title>
+<g id="a_node24"><a xlink:title=" ">
 <polygon fill="white" stroke="#bfbfbf" points="1126.87,-35 1126.87,-51 1245.13,-51 1245.13,-35 1126.87,-35"/>
 <text text-anchor="middle" x="1186" y="-40.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::vector&lt; scg::Controller &gt;</text>
+</a>
 </g>
-<!-- Node24&#45;&gt;Node21 -->
-<g id="edge33" class="edge"><title>Node24&#45;&gt;Node21</title>
+</g>
+<!-- Node26&#45;&gt;Node23 -->
+<g id="edge33" class="edge"><title>Node26&#45;&gt;Node23</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1246.66,-52.9907C1274.38,-58.644 1307.45,-66.8513 1336,-78 1354.42,-85.1944 1374.04,-97.0676 1386.15,-104.961"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1247.2,-49.5291 1236.71,-51.0228 1245.84,-56.3961 1247.2,-49.5291"/>
 <text text-anchor="middle" x="1300" y="-79.6" font-family="Helvetica,sans-Serif" font-size="8.00"> controllers_</text>
 </g>
-<!-- Node25 -->
-<g id="node25" class="node"><title>Node25</title>
-<g id="a_node25"><a xlink:href="../../de/de4/classscg_1_1_controller.html" target="_top" xlink:title="Base class for all controllers (abstract). ">
+<!-- Node27 -->
+<g id="node25" class="node"><title>Node27</title>
+<g id="a_node25"><a xlink:href="../../de/de4/classscg_1_1_controller.html" target="_top" xlink:title="Base class for all controllers (abstract).">
 <polygon fill="white" stroke="black" points="986.213,-35 986.213,-51 1053.79,-51 1053.79,-35 986.213,-35"/>
 <text text-anchor="middle" x="1020" y="-40.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::Controller</text>
 </a>
 </g>
 </g>
-<!-- Node25&#45;&gt;Node24 -->
-<g id="edge34" class="edge"><title>Node25&#45;&gt;Node24</title>
+<!-- Node27&#45;&gt;Node26 -->
+<g id="edge34" class="edge"><title>Node27&#45;&gt;Node26</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1064.02,-43C1083.18,-43 1106.04,-43 1126.71,-43"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1063.79,-39.5001 1053.79,-43 1063.79,-46.5001 1063.79,-39.5001"/>
 <text text-anchor="middle" x="1090" y="-44.6" font-family="Helvetica,sans-Serif" font-size="8.00"> elements</text>
 </g>
-<!-- Node26 -->
-<g id="node26" class="node"><title>Node26</title>
-<g id="a_node26"><a xlink:href="../../d7/d72/structscg_1_1_o_g_l_config.html" target="_top" xlink:title="OpenGL configuration, may be set by user before calling Viewer::init(). ">
+<!-- Node28 -->
+<g id="node26" class="node"><title>Node28</title>
+<g id="a_node26"><a xlink:href="../../d7/d72/structscg_1_1_o_g_l_config.html" target="_top" xlink:title="OpenGL configuration, may be set by user before calling Viewer::init().">
 <polygon fill="white" stroke="black" points="1149.54,-0 1149.54,-16 1222.46,-16 1222.46,-0 1149.54,-0"/>
 <text text-anchor="middle" x="1186" y="-5.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::OGLConfig</text>
 </a>
 </g>
 </g>
-<!-- Node26&#45;&gt;Node21 -->
-<g id="edge35" class="edge"><title>Node26&#45;&gt;Node21</title>
+<!-- Node28&#45;&gt;Node23 -->
+<g id="edge35" class="edge"><title>Node28&#45;&gt;Node23</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1232.67,-12.7765C1263.57,-17.5985 1304.36,-27.1685 1336,-46 1361.6,-61.2398 1383.04,-90.2297 1392.62,-104.555"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1233,-9.28723 1222.6,-11.3168 1231.99,-16.2149 1233,-9.28723"/>
 <text text-anchor="middle" x="1300" y="-47.6" font-family="Helvetica,sans-Serif" font-size="8.00"> oglConfig_</text>
 </g>
-<!-- Node27 -->
-<g id="node27" class="node"><title>Node27</title>
-<g id="a_node27"><a xlink:href="../../db/d02/structscg_1_1_frame_buffer_size.html" target="_top" xlink:title="Frame buffer size, to be set by renderer in Renderer::initViewer(), called by Viewer::init(). ">
+<!-- Node29 -->
+<g id="node27" class="node"><title>Node29</title>
+<g id="a_node27"><a xlink:href="../../db/d02/structscg_1_1_frame_buffer_size.html" target="_top" xlink:title="Frame buffer size, to be set by renderer in Renderer::initViewer(), called by Viewer::init().">
 <polygon fill="white" stroke="black" points="1139.61,-140 1139.61,-156 1232.39,-156 1232.39,-140 1139.61,-140"/>
 <text text-anchor="middle" x="1186" y="-145.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::FrameBufferSize</text>
 </a>
 </g>
 </g>
-<!-- Node27&#45;&gt;Node21 -->
-<g id="edge37" class="edge"><title>Node27&#45;&gt;Node21</title>
+<!-- Node29&#45;&gt;Node23 -->
+<g id="edge37" class="edge"><title>Node29&#45;&gt;Node23</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1242.41,-138.808C1283.56,-131.983 1337.94,-122.962 1370.31,-117.592"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1241.82,-135.359 1232.52,-140.449 1242.96,-142.265 1241.82,-135.359"/>
 <text text-anchor="middle" x="1300" y="-136.6" font-family="Helvetica,sans-Serif" font-size="8.00"> frameBufferSize_</text>
 </g>
-<!-- Node28 -->
-<g id="node28" class="node"><title>Node28</title>
+<!-- Node30 -->
+<g id="node28" class="node"><title>Node30</title>
 <g id="a_node28"><a xlink:href="../../d3/dde/classscg_1_1_view_state.html" target="_top" xlink:title="The view state of the application, managed by Viewer and accessible by Controller::checkInput() (or d...">
 <polygon fill="white" stroke="black" points="1151.61,-105 1151.61,-121 1220.39,-121 1220.39,-105 1151.61,-105"/>
 <text text-anchor="middle" x="1186" y="-110.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::ViewState</text>
 </a>
 </g>
 </g>
-<!-- Node28&#45;&gt;Node21 -->
-<g id="edge38" class="edge"><title>Node28&#45;&gt;Node21</title>
+<!-- Node30&#45;&gt;Node23 -->
+<g id="edge38" class="edge"><title>Node30&#45;&gt;Node23</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1230.62,-113C1272.5,-113 1334.51,-113 1370.11,-113"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1230.43,-109.5 1220.43,-113 1230.43,-116.5 1230.43,-109.5"/>
 <text text-anchor="middle" x="1300" y="-114.6" font-family="Helvetica,sans-Serif" font-size="8.00"> viewState_</text>

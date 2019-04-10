@@ -9,34 +9,37 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 130)">
 <title>scg::Shape</title>
 <polygon fill="white" stroke="none" points="-4,4 -4,-130 60,-130 60,4 -4,4"/>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
+<g id="a_node1"><a xlink:title="A shape node that contains geometry to be rendered (leaf node).">
 <polygon fill="#bfbfbf" stroke="black" points="-0.0136719,-1 -0.0136719,-17 56.0137,-17 56.0137,-1 -0.0136719,-1"/>
 <text text-anchor="middle" x="28" y="-6.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::Shape</text>
+</a>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d7/dc9/classscg_1_1_leaf.html" target="_top" xlink:title="Base class for all leaf nodes, i.e., nodes without children (composite pattern, abstract). ">
+</g>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
+<g id="a_node2"><a xlink:href="../../d7/dc9/classscg_1_1_leaf.html" target="_top" xlink:title="Base class for all leaf nodes, i.e., nodes without children (composite pattern, abstract).">
 <polygon fill="white" stroke="black" points="3.76758,-55 3.76758,-71 52.2324,-71 52.2324,-55 3.76758,-55"/>
 <text text-anchor="middle" x="28" y="-60.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::Leaf</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node1&#45;&gt;Node0 -->
+<g id="edge1" class="edge"><title>Node1&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M28,-44.5708C28,-35.2222 28,-24.2089 28,-17.169"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="24.5001,-44.7696 28,-54.7696 31.5001,-44.7697 24.5001,-44.7696"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d4/dc7/classscg_1_1_node.html" target="_top" xlink:title="Base class for all nodes (composite pattern, abstract). ">
+<!-- Node2 -->
+<g id="node3" class="node"><title>Node2</title>
+<g id="a_node3"><a xlink:href="../../d4/dc7/classscg_1_1_node.html" target="_top" xlink:title="Base class for all nodes (composite pattern, abstract).">
 <polygon fill="white" stroke="black" points="1.99023,-109 1.99023,-125 54.0098,-125 54.0098,-109 1.99023,-109"/>
 <text text-anchor="middle" x="28" y="-114.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::Node</text>
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node2 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node2</title>
+<!-- Node2&#45;&gt;Node1 -->
+<g id="edge2" class="edge"><title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="midnightblue" d="M28,-98.5708C28,-89.2222 28,-78.2089 28,-71.169"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="24.5001,-98.7696 28,-108.77 31.5001,-98.7697 24.5001,-98.7696"/>
 </g>

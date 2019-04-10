@@ -1,3 +1,4 @@
 <map id="src_ext/StereoRendererPassive.h" name="src_ext/StereoRendererPassive.h">
-<area shape="rect" id="node2" href="$d0/d5b/scg3__ext_8h.html" title="Main header file for scg3 scene graph library extensions, including all class headers. " alt="" coords="58,78,131,101"/>
+<area shape="rect" id="node1" title="A renderer for passive stereo (e.g., polarized projection)." alt="" coords="4,6,184,29"/>
+<area shape="rect" id="node2" href="$d0/d5b/scg3__ext_8h.html" title="Main header file for scg3 scene graph library extensions, including all class headers." alt="" coords="58,78,131,101"/>
 </map>

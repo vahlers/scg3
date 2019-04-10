@@ -11,14 +11,20 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-98 846,-98 846,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
+<g id="a_node1"><a xlink:title=" ">
 <polygon fill="#bfbfbf" stroke="black" points="729.986,-39 729.986,-63 842.014,-63 842.014,-39 729.986,-39"/>
 <text text-anchor="start" x="737.986" y="-52.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::GeometryCoreFactory</text>
 <text text-anchor="middle" x="786" y="-44.6" font-family="Helvetica,sans-Serif" font-size="8.00">::OBJModel</text>
+</a>
+</g>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
+<g id="a_node2"><a xlink:title=" ">
 <polygon fill="white" stroke="#bfbfbf" points="547.537,-78 547.537,-94 648.463,-94 648.463,-78 547.537,-78"/>
 <text text-anchor="middle" x="598" y="-83.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::vector&lt; glm::vec3 &gt;</text>
+</a>
+</g>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
@@ -29,8 +35,11 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
+<g id="a_node3"><a xlink:title=" ">
 <polygon fill="white" stroke="#bfbfbf" points="547.537,-43 547.537,-59 648.463,-59 648.463,-43 547.537,-43"/>
 <text text-anchor="middle" x="598" y="-48.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::vector&lt; glm::vec2 &gt;</text>
+</a>
+</g>
 </g>
 <!-- Node3&#45;&gt;Node1 -->
 <g id="edge2" class="edge"><title>Node3&#45;&gt;Node1</title>
@@ -40,9 +49,12 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
+<g id="a_node4"><a xlink:title=" ">
 <polygon fill="white" stroke="#bfbfbf" points="542.094,-0 542.094,-24 653.906,-24 653.906,-0 542.094,-0"/>
 <text text-anchor="start" x="550.094" y="-13.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::vector&lt; scg::Geometry</text>
 <text text-anchor="middle" x="598" y="-5.6" font-family="Helvetica,sans-Serif" font-size="8.00">CoreFactory::Face &gt;</text>
+</a>
+</g>
 </g>
 <!-- Node4&#45;&gt;Node1 -->
 <g id="edge3" class="edge"><title>Node4&#45;&gt;Node1</title>
@@ -52,7 +64,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="../../d0/d68/structscg_1_1_geometry_core_factory_1_1_face.html" target="_top" xlink:title="scg::GeometryCoreFactory\l::Face">
+<g id="a_node5"><a xlink:href="../../d0/d68/structscg_1_1_geometry_core_factory_1_1_face.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="357.986,-0 357.986,-24 470.014,-24 470.014,-0 357.986,-0"/>
 <text text-anchor="start" x="365.986" y="-13.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::GeometryCoreFactory</text>
 <text text-anchor="middle" x="414" y="-5.6" font-family="Helvetica,sans-Serif" font-size="8.00">::Face</text>
@@ -67,9 +79,12 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
+<g id="a_node6"><a xlink:title=" ">
 <polygon fill="white" stroke="#bfbfbf" points="184.094,-0 184.094,-24 295.906,-24 295.906,-0 184.094,-0"/>
 <text text-anchor="start" x="192.094" y="-13.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::vector&lt; scg::Geometry</text>
 <text text-anchor="middle" x="240" y="-5.6" font-family="Helvetica,sans-Serif" font-size="8.00">CoreFactory::FaceEntry &gt;</text>
+</a>
+</g>
 </g>
 <!-- Node6&#45;&gt;Node5 -->
 <g id="edge5" class="edge"><title>Node6&#45;&gt;Node5</title>
@@ -79,7 +94,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="../../d4/dee/structscg_1_1_geometry_core_factory_1_1_face_entry.html" target="_top" xlink:title="scg::GeometryCoreFactory\l::FaceEntry">
+<g id="a_node7"><a xlink:href="../../d4/dee/structscg_1_1_geometry_core_factory_1_1_face_entry.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="-0.0136719,-0 -0.0136719,-24 112.014,-24 112.014,-0 -0.0136719,-0"/>
 <text text-anchor="start" x="7.98633" y="-13.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::GeometryCoreFactory</text>
 <text text-anchor="middle" x="56" y="-5.6" font-family="Helvetica,sans-Serif" font-size="8.00">::FaceEntry</text>

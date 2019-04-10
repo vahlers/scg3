@@ -1,9 +1,12 @@
 <map id="scg::TransformAnimation" name="scg::TransformAnimation">
-<area shape="rect" id="node2" href="$d2/df5/classscg_1_1_animation.html" title="Base class for all animations (abstract), providing general functionality. " alt="" coords="5,289,96,311"/>
-<area shape="rect" id="node3" href="$d0/d99/classscg_1_1_transformation.html" title="A transformation node to be used to appy a transformation to the sub&#45;tree (composite node)..." alt="" coords="120,289,235,311"/>
-<area shape="rect" id="node4" href="$da/d38/classscg_1_1_composite.html" title="Base class for all composite nodes, i.e., nodes with children (composite pattern, abstract)..." alt="" coords="187,195,281,218"/>
-<area shape="rect" id="node5" href="$d4/dc7/classscg_1_1_node.html" title="Base class for all nodes (composite pattern, abstract). " alt="" coords="289,289,359,311"/>
-<area shape="rect" id="node7" title="STL class. " alt="" coords="356,91,423,114"/>
-<area shape="rect" id="node8" title="STL class. " alt="" coords="337,6,441,39"/>
-<area shape="rect" id="node10" href="$d0/d79/classscg_1_1_core.html" title="Base class for all cores (abstract). " alt="" coords="505,91,572,114"/>
+<area shape="rect" id="node1" title="An animation that creates a transformation to be applied to its sub&#45;tree (composite node)." alt="" coords="21,363,160,386"/>
+<area shape="rect" id="node2" href="$d2/df5/classscg_1_1_animation.html" title="Base class for all animations (abstract), providing general functionality." alt="" coords="5,289,96,311"/>
+<area shape="rect" id="node3" href="$d0/d99/classscg_1_1_transformation.html" title="A transformation node to be used to appy a transformation to the sub&#45;tree (composite node)." alt="" coords="120,289,235,311"/>
+<area shape="rect" id="node4" href="$da/d38/classscg_1_1_composite.html" title="Base class for all composite nodes, i.e., nodes with children (composite pattern, abstract)." alt="" coords="187,195,281,218"/>
+<area shape="rect" id="node5" href="$d4/dc7/classscg_1_1_node.html" title="Base class for all nodes (composite pattern, abstract)." alt="" coords="289,289,359,311"/>
+<area shape="rect" id="node6" title=" " alt="" coords="331,185,447,229"/>
+<area shape="rect" id="node7" title="STL class." alt="" coords="356,91,423,114"/>
+<area shape="rect" id="node8" title="STL class." alt="" coords="337,6,441,39"/>
+<area shape="rect" id="node9" title=" " alt="" coords="471,195,605,218"/>
+<area shape="rect" id="node10" href="$d0/d79/classscg_1_1_core.html" title="Base class for all cores (abstract)." alt="" coords="505,91,572,114"/>
 </map>

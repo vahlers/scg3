@@ -1,3 +1,4 @@
 <map id="scg::PreTraverser" name="scg::PreTraverser">
-<area shape="rect" id="node2" href="$dc/d03/classscg_1_1_traverser.html" title="Base class for all traversers (visitor pattern, abstract). " alt="" coords="13,6,101,29"/>
+<area shape="rect" id="node1" title="A traverser that searches Camera and LightPosition nodes in the scene graph (visitor pattern)." alt="" coords="4,78,109,101"/>
+<area shape="rect" id="node2" href="$dc/d03/classscg_1_1_traverser.html" title="Base class for all traversers (visitor pattern, abstract)." alt="" coords="13,6,101,29"/>
 </map>

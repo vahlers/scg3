@@ -1,9 +1,12 @@
 <map id="scg::OrthographicCamera" name="scg::OrthographicCamera">
-<area shape="rect" id="node2" href="$d4/dc9/classscg_1_1_camera.html" title="Base class for all cameras (composite node, abstract). " alt="" coords="35,363,116,386"/>
-<area shape="rect" id="node3" href="$d0/d99/classscg_1_1_transformation.html" title="A transformation node to be used to appy a transformation to the sub&#45;tree (composite node)..." alt="" coords="18,289,133,311"/>
-<area shape="rect" id="node4" href="$da/d38/classscg_1_1_composite.html" title="Base class for all composite nodes, i.e., nodes with children (composite pattern, abstract)..." alt="" coords="86,195,180,218"/>
-<area shape="rect" id="node5" href="$d4/dc7/classscg_1_1_node.html" title="Base class for all nodes (composite pattern, abstract). " alt="" coords="188,289,257,311"/>
-<area shape="rect" id="node7" title="STL class. " alt="" coords="254,91,321,114"/>
-<area shape="rect" id="node8" title="STL class. " alt="" coords="236,6,340,39"/>
-<area shape="rect" id="node10" href="$d0/d79/classscg_1_1_core.html" title="Base class for all cores (abstract). " alt="" coords="404,91,471,114"/>
+<area shape="rect" id="node1" title="A camera with orthographic projection(composite node)." alt="" coords="4,438,147,461"/>
+<area shape="rect" id="node2" href="$d4/dc9/classscg_1_1_camera.html" title="Base class for all cameras (composite node, abstract)." alt="" coords="35,363,116,386"/>
+<area shape="rect" id="node3" href="$d0/d99/classscg_1_1_transformation.html" title="A transformation node to be used to appy a transformation to the sub&#45;tree (composite node)." alt="" coords="18,289,133,311"/>
+<area shape="rect" id="node4" href="$da/d38/classscg_1_1_composite.html" title="Base class for all composite nodes, i.e., nodes with children (composite pattern, abstract)." alt="" coords="86,195,180,218"/>
+<area shape="rect" id="node5" href="$d4/dc7/classscg_1_1_node.html" title="Base class for all nodes (composite pattern, abstract)." alt="" coords="188,289,257,311"/>
+<area shape="rect" id="node6" title=" " alt="" coords="230,185,345,229"/>
+<area shape="rect" id="node7" title="STL class." alt="" coords="254,91,321,114"/>
+<area shape="rect" id="node8" title="STL class." alt="" coords="236,6,340,39"/>
+<area shape="rect" id="node9" title=" " alt="" coords="370,195,504,218"/>
+<area shape="rect" id="node10" href="$d0/d79/classscg_1_1_core.html" title="Base class for all cores (abstract)." alt="" coords="404,91,471,114"/>
 </map>

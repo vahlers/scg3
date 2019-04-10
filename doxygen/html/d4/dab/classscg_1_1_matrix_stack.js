@@ -1,7 +1,7 @@
 var classscg_1_1_matrix_stack =
 [
     [ "MatrixStack", "d4/dab/classscg_1_1_matrix_stack.html#aa4387095a61ea16b0e55a9a2aa40c3c3", null ],
-    [ "getMatrix", "d4/dab/classscg_1_1_matrix_stack.html#aea10db4c9b78d8b2173ffb9640efe6a7", null ],
+    [ "getMatrix", "d4/dab/classscg_1_1_matrix_stack.html#a890ea5a377c959027d86494f997567f7", null ],
     [ "multMatrix", "d4/dab/classscg_1_1_matrix_stack.html#aa170df47ea0857f54280ca963262e43a", null ],
     [ "popMatrix", "d4/dab/classscg_1_1_matrix_stack.html#a09462a91a5fbddb19e3185baddb55281", null ],
     [ "pushMatrix", "d4/dab/classscg_1_1_matrix_stack.html#a34864800df6c91113297a885801cea7b", null ],

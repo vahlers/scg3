@@ -9,21 +9,24 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 76)">
 <title>scg::ShaderCore</title>
 <polygon fill="white" stroke="none" points="-4,4 -4,-76 80,-76 80,4 -4,4"/>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
+<g id="a_node1"><a xlink:title="A core to set a shader program to be applied to subsequent nodes.">
 <polygon fill="#bfbfbf" stroke="black" points="-0.015625,-1 -0.015625,-17 76.0156,-17 76.0156,-1 -0.015625,-1"/>
 <text text-anchor="middle" x="38" y="-6.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::ShaderCore</text>
+</a>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d0/d79/classscg_1_1_core.html" target="_top" xlink:title="Base class for all cores (abstract). ">
+</g>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
+<g id="a_node2"><a xlink:href="../../d0/d79/classscg_1_1_core.html" target="_top" xlink:title="Base class for all cores (abstract).">
 <polygon fill="white" stroke="black" points="12.8828,-55 12.8828,-71 63.1172,-71 63.1172,-55 12.8828,-55"/>
 <text text-anchor="middle" x="38" y="-60.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::Core</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node1&#45;&gt;Node0 -->
+<g id="edge1" class="edge"><title>Node1&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M38,-44.5708C38,-35.2222 38,-24.2089 38,-17.169"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="34.5001,-44.7696 38,-54.7696 41.5001,-44.7697 34.5001,-44.7696"/>
 </g>

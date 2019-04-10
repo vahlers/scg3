@@ -1,9 +1,12 @@
 <map id="scg::LightPosition" name="scg::LightPosition">
-<area shape="rect" id="node2" href="$d7/dc9/classscg_1_1_leaf.html" title="Base class for all leaf nodes, i.e., nodes without children (composite pattern, abstract). " alt="" coords="61,419,125,442"/>
-<area shape="rect" id="node3" href="$d4/dc7/classscg_1_1_node.html" title="Base class for all nodes (composite pattern, abstract). " alt="" coords="111,289,180,311"/>
-<area shape="rect" id="node9" href="$da/d38/classscg_1_1_composite.html" title="Base class for all composite nodes, i.e., nodes with children (composite pattern, abstract)..." alt="" coords="125,371,219,394"/>
-<area shape="rect" id="node5" title="STL class. " alt="" coords="29,91,96,114"/>
-<area shape="rect" id="node6" title="STL class. " alt="" coords="10,6,115,39"/>
-<area shape="rect" id="node8" href="$d0/d79/classscg_1_1_core.html" title="Base class for all cores (abstract). " alt="" coords="179,91,245,114"/>
-<area shape="rect" id="node10" href="$da/d81/classscg_1_1_light.html" title="A light to be applied to all nodes of its sub&#45;tree (composite node). " alt="" coords="133,467,200,490"/>
+<area shape="rect" id="node1" title="A light position node to define the position of an associated light within the scene graph (leaf node..." alt="" coords="70,550,175,573"/>
+<area shape="rect" id="node2" href="$d7/dc9/classscg_1_1_leaf.html" title="Base class for all leaf nodes, i.e., nodes without children (composite pattern, abstract)." alt="" coords="61,419,125,442"/>
+<area shape="rect" id="node3" href="$d4/dc7/classscg_1_1_node.html" title="Base class for all nodes (composite pattern, abstract)." alt="" coords="111,289,180,311"/>
+<area shape="rect" id="node9" href="$da/d38/classscg_1_1_composite.html" title="Base class for all composite nodes, i.e., nodes with children (composite pattern, abstract)." alt="" coords="125,371,219,394"/>
+<area shape="rect" id="node4" title=" " alt="" coords="4,185,120,229"/>
+<area shape="rect" id="node5" title="STL class." alt="" coords="29,91,96,114"/>
+<area shape="rect" id="node6" title="STL class." alt="" coords="10,6,115,39"/>
+<area shape="rect" id="node7" title=" " alt="" coords="145,195,279,218"/>
+<area shape="rect" id="node8" href="$d0/d79/classscg_1_1_core.html" title="Base class for all cores (abstract)." alt="" coords="179,91,245,114"/>
+<area shape="rect" id="node10" href="$da/d81/classscg_1_1_light.html" title="A light to be applied to all nodes of its sub&#45;tree (composite node)." alt="" coords="133,467,200,490"/>
 </map>

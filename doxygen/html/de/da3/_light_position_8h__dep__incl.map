@@ -1,3 +1,4 @@
 <map id="src/LightPosition.h" name="src/LightPosition.h">
-<area shape="rect" id="node2" href="$d4/d61/scg3_8h.html" title="Main header file for scg3 scene graph library, including all class headers. " alt="" coords="32,78,84,101"/>
+<area shape="rect" id="node1" title="A light position node to define the position of an associated light within the scene graph (leaf node..." alt="" coords="4,6,112,29"/>
+<area shape="rect" id="node2" href="$d4/d61/scg3_8h.html" title="Main header file for scg3 scene graph library, including all class headers." alt="" coords="32,78,84,101"/>
 </map>

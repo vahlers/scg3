@@ -1,4 +1,5 @@
 <map id="scg::CubeMapCore" name="scg::CubeMapCore">
-<area shape="rect" id="node2" href="$d1/d4f/classscg_1_1_texture_core.html" title="Base class for all texture cores (abstract). " alt="" coords="10,78,112,101"/>
-<area shape="rect" id="node3" href="$d0/d79/classscg_1_1_core.html" title="Base class for all cores (abstract). " alt="" coords="28,6,95,29"/>
+<area shape="rect" id="node1" title="Cube map textue core." alt="" coords="5,150,117,173"/>
+<area shape="rect" id="node2" href="$d1/d4f/classscg_1_1_texture_core.html" title="Base class for all texture cores (abstract)." alt="" coords="10,78,112,101"/>
+<area shape="rect" id="node3" href="$d0/d79/classscg_1_1_core.html" title="Base class for all cores (abstract)." alt="" coords="28,6,95,29"/>
 </map>

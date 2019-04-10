@@ -1,4 +1,5 @@
 <map id="src/Texture2DCore.h" name="src/Texture2DCore.h">
-<area shape="rect" id="node2" href="$d6/d52/_bump_map_core_8h.html" title="Bump map core storing a texture (optional) and a normal map. " alt="" coords="4,78,123,101"/>
-<area shape="rect" id="node3" href="$d4/d61/scg3_8h.html" title="Main header file for scg3 scene graph library, including all class headers. " alt="" coords="86,150,137,173"/>
+<area shape="rect" id="node1" title="2D texture core." alt="" coords="52,6,171,29"/>
+<area shape="rect" id="node2" href="$d6/d52/_bump_map_core_8h.html" title="Bump map core storing a texture (optional) and a normal map." alt="" coords="4,78,123,101"/>
+<area shape="rect" id="node3" href="$d4/d61/scg3_8h.html" title="Main header file for scg3 scene graph library, including all class headers." alt="" coords="86,150,137,173"/>
 </map>

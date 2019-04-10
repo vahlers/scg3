@@ -1,4 +1,6 @@
 <map id="scg::GeometryCoreFactory" name="scg::GeometryCoreFactory">
-<area shape="rect" id="node3" title="STL class. " alt="" coords="46,91,113,114"/>
-<area shape="rect" id="node4" title="STL class. " alt="" coords="28,6,132,39"/>
+<area shape="rect" id="node1" title="A factory to create geometry cores." alt="" coords="5,257,155,279"/>
+<area shape="rect" id="node2" title=" " alt="" coords="12,174,147,197"/>
+<area shape="rect" id="node3" title="STL class." alt="" coords="46,91,113,114"/>
+<area shape="rect" id="node4" title="STL class." alt="" coords="28,6,132,39"/>
 </map>

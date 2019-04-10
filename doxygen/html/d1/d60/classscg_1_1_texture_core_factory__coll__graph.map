@@ -1,4 +1,6 @@
 <map id="scg::TextureCoreFactory" name="scg::TextureCoreFactory">
-<area shape="rect" id="node3" title="STL class. " alt="" coords="40,91,107,114"/>
-<area shape="rect" id="node4" title="STL class. " alt="" coords="21,6,125,39"/>
+<area shape="rect" id="node1" title="A factory to create textures." alt="" coords="5,257,141,279"/>
+<area shape="rect" id="node2" title=" " alt="" coords="6,174,140,197"/>
+<area shape="rect" id="node3" title="STL class." alt="" coords="40,91,107,114"/>
+<area shape="rect" id="node4" title="STL class." alt="" coords="21,6,125,39"/>
 </map>

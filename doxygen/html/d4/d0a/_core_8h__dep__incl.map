@@ -1,11 +1,12 @@
 <map id="src/Core.h" name="src/Core.h">
-<area shape="rect" id="node2" href="$df/d62/_texture_core_8h.html" title="Base class for all texture cores (abstract). " alt="" coords="193,78,297,101"/>
-<area shape="rect" id="node5" href="$d4/d61/scg3_8h.html" title="Main header file for scg3 scene graph library, including all class headers. " alt="" coords="378,294,429,317"/>
-<area shape="rect" id="node7" href="$de/df9/_color_core_8h.html" title="A core to set a vertex color or a color transformation to be applied to subsequent geometry..." alt="" coords="407,150,503,173"/>
-<area shape="rect" id="node8" href="$d2/d02/_geometry_core_8h.html" title="A core that contains geometry information to be rendered. " alt="" coords="527,150,644,173"/>
-<area shape="rect" id="node9" href="$db/d01/_material_core_8h.html" title="A core to set material properties for lighting to be applied to subsequent geometry. " alt="" coords="590,222,697,245"/>
-<area shape="rect" id="node10" href="$d9/d13/_shader_core_8h.html" title="A core to set a shader program to be applied to subsequent nodes. " alt="" coords="718,78,823,101"/>
-<area shape="rect" id="node3" href="$d3/dd2/_texture2_d_core_8h.html" title="2D texture core. " alt="" coords="55,150,173,173"/>
-<area shape="rect" id="node6" href="$d1/d6d/_cube_map_core_8h.html" title="Cube map texture core. " alt="" coords="250,222,365,245"/>
-<area shape="rect" id="node4" href="$d6/d52/_bump_map_core_8h.html" title="Bump map core storing a texture (optional) and a normal map. " alt="" coords="4,222,123,245"/>
+<area shape="rect" id="node1" title="Base class for all cores (abstract)." alt="" coords="485,6,555,29"/>
+<area shape="rect" id="node2" href="$df/d62/_texture_core_8h.html" title="Base class for all texture cores (abstract)." alt="" coords="193,78,297,101"/>
+<area shape="rect" id="node5" href="$d4/d61/scg3_8h.html" title="Main header file for scg3 scene graph library, including all class headers." alt="" coords="378,294,429,317"/>
+<area shape="rect" id="node7" href="$de/df9/_color_core_8h.html" title="A core to set a vertex color or a color transformation to be applied to subsequent geometry." alt="" coords="407,150,503,173"/>
+<area shape="rect" id="node8" href="$d2/d02/_geometry_core_8h.html" title="A core that contains geometry information to be rendered." alt="" coords="527,150,644,173"/>
+<area shape="rect" id="node9" href="$db/d01/_material_core_8h.html" title="A core to set material properties for lighting to be applied to subsequent geometry." alt="" coords="590,222,697,245"/>
+<area shape="rect" id="node10" href="$d9/d13/_shader_core_8h.html" title="A core to set a shader program to be applied to subsequent nodes." alt="" coords="718,78,823,101"/>
+<area shape="rect" id="node3" href="$d3/dd2/_texture2_d_core_8h.html" title="2D texture core." alt="" coords="55,150,173,173"/>
+<area shape="rect" id="node6" href="$d1/d6d/_cube_map_core_8h.html" title="Cube map texture core." alt="" coords="250,222,365,245"/>
+<area shape="rect" id="node4" href="$d6/d52/_bump_map_core_8h.html" title="Bump map core storing a texture (optional) and a normal map." alt="" coords="4,222,123,245"/>
 </map>

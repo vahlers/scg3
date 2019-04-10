@@ -1,8 +1,9 @@
 <map id="scg::Camera" name="scg::Camera">
-<area shape="rect" id="node5" href="$d0/d02/classscg_1_1_orthographic_camera.html" title="A camera with orthographic projection(composite node). " alt="" coords="4,294,147,317"/>
-<area shape="rect" id="node6" href="$d2/d30/classscg_1_1_perspective_camera.html" title="A camera with perspective projection (composite node). " alt="" coords="171,294,308,317"/>
-<area shape="rect" id="node7" href="$df/d9b/classscg_1_1_stereo_camera.html" title="A perspective stereo camera (composite node). " alt="" coords="333,294,445,317"/>
-<area shape="rect" id="node2" href="$d0/d99/classscg_1_1_transformation.html" title="A transformation node to be used to appy a transformation to the sub&#45;tree (composite node)..." alt="" coords="182,150,297,173"/>
-<area shape="rect" id="node3" href="$da/d38/classscg_1_1_composite.html" title="Base class for all composite nodes, i.e., nodes with children (composite pattern, abstract)..." alt="" coords="193,78,287,101"/>
-<area shape="rect" id="node4" href="$d4/dc7/classscg_1_1_node.html" title="Base class for all nodes (composite pattern, abstract). " alt="" coords="205,6,275,29"/>
+<area shape="rect" id="node1" title="Base class for all cameras (composite node, abstract)." alt="" coords="199,222,280,245"/>
+<area shape="rect" id="node5" href="$d0/d02/classscg_1_1_orthographic_camera.html" title="A camera with orthographic projection(composite node)." alt="" coords="4,294,147,317"/>
+<area shape="rect" id="node6" href="$d2/d30/classscg_1_1_perspective_camera.html" title="A camera with perspective projection (composite node)." alt="" coords="171,294,308,317"/>
+<area shape="rect" id="node7" href="$df/d9b/classscg_1_1_stereo_camera.html" title="A perspective stereo camera (composite node)." alt="" coords="333,294,445,317"/>
+<area shape="rect" id="node2" href="$d0/d99/classscg_1_1_transformation.html" title="A transformation node to be used to appy a transformation to the sub&#45;tree (composite node)." alt="" coords="182,150,297,173"/>
+<area shape="rect" id="node3" href="$da/d38/classscg_1_1_composite.html" title="Base class for all composite nodes, i.e., nodes with children (composite pattern, abstract)." alt="" coords="193,78,287,101"/>
+<area shape="rect" id="node4" href="$d4/dc7/classscg_1_1_node.html" title="Base class for all nodes (composite pattern, abstract)." alt="" coords="205,6,275,29"/>
 </map>

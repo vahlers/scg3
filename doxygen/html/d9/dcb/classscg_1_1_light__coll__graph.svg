@@ -9,118 +9,127 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 234)">
 <title>scg::Light</title>
 <polygon fill="white" stroke="none" points="-4,4 -4,-234 351,-234 351,4 -4,4"/>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node3 -->
+<g id="node1" class="node"><title>Node3</title>
+<g id="a_node1"><a xlink:title="A light to be applied to all nodes of its sub&#45;tree (composite node).">
 <polygon fill="#bfbfbf" stroke="black" points="-0.121094,-1 -0.121094,-17 50.1211,-17 50.1211,-1 -0.121094,-1"/>
 <text text-anchor="middle" x="25" y="-6.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::Light</text>
+</a>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="../../da/d38/classscg_1_1_composite.html" target="_top" xlink:title="Base class for all composite nodes, i.e., nodes with children (composite pattern, abstract)...">
+</g>
+<!-- Node4 -->
+<g id="node2" class="node"><title>Node4</title>
+<g id="a_node2"><a xlink:href="../../da/d38/classscg_1_1_composite.html" target="_top" xlink:title="Base class for all composite nodes, i.e., nodes with children (composite pattern, abstract).">
 <polygon fill="white" stroke="black" points="32.4336,-71 32.4336,-87 103.566,-87 103.566,-71 32.4336,-71"/>
 <text text-anchor="middle" x="68" y="-76.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::Composite</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node4&#45;&gt;Node3 -->
+<g id="edge1" class="edge"><title>Node4&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M53.8396,-63.4684C48.7243,-57.7173 43.1849,-50.8503 39,-44 33.6753,-35.284 29.5377,-24.1818 27.1833,-17.0808"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="51.446,-66.0337 60.8237,-70.9642 56.5675,-61.2619 51.446,-66.0337"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d4/dc7/classscg_1_1_node.html" target="_top" xlink:title="Base class for all nodes (composite pattern, abstract). ">
+<!-- Node5 -->
+<g id="node3" class="node"><title>Node5</title>
+<g id="a_node3"><a xlink:href="../../d4/dc7/classscg_1_1_node.html" target="_top" xlink:title="Base class for all nodes (composite pattern, abstract).">
 <polygon fill="white" stroke="black" points="108.99,-1 108.99,-17 161.01,-17 161.01,-1 108.99,-1"/>
 <text text-anchor="middle" x="135" y="-6.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::Node</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node3 -->
-<g id="edge9" class="edge"><title>Node2&#45;&gt;Node3</title>
+<!-- Node4&#45;&gt;Node5 -->
+<g id="edge9" class="edge"><title>Node4&#45;&gt;Node5</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M64.0905,-60.7603C63.2185,-52.5872 63.7303,-43.0861 68.6445,-36 77.7402,-22.8844 94.5182,-16.3849 108.927,-13.164"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="60.6657,-61.4932 65.8539,-70.7308 67.5587,-60.274 60.6657,-61.4932"/>
 <text text-anchor="middle" x="83.6777" y="-37.6" font-family="Helvetica,sans-Serif" font-size="8.00"> parent_</text>
 </g>
-<!-- Node3&#45;&gt;Node2 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node2</title>
+<!-- Node5&#45;&gt;Node4 -->
+<g id="edge2" class="edge"><title>Node5&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M120.635,-24.5792C106.542,-38.883 85.6502,-60.0863 74.9178,-70.9789"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="123.494,-26.6645 128.019,-17.0848 118.508,-21.7515 123.494,-26.6645"/>
 </g>
-<!-- Node3&#45;&gt;Node2 -->
-<g id="edge10" class="edge"><title>Node3&#45;&gt;Node2</title>
+<!-- Node5&#45;&gt;Node4 -->
+<g id="edge10" class="edge"><title>Node5&#45;&gt;Node4</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M126.185,-26.0994C122.524,-32.0575 117.968,-38.6563 113,-44 102.999,-54.7565 89.2683,-64.5807 79.6123,-70.8722"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="129.461,-27.4247 131.417,-17.012 123.394,-23.9322 129.461,-27.4247"/>
 <text text-anchor="middle" x="137.787" y="-37.6" font-family="Helvetica,sans-Serif" font-size="8.00"> leftChild_</text>
 </g>
-<!-- Node3&#45;&gt;Node3 -->
-<g id="edge3" class="edge"><title>Node3&#45;&gt;Node3</title>
+<!-- Node5&#45;&gt;Node5 -->
+<g id="edge3" class="edge"><title>Node5&#45;&gt;Node5</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M171.475,-13.8876C176.016,-13.0215 179,-11.3923 179,-9 179,-5.07422 170.963,-3.20334 161.199,-3.38736"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="170.928,-10.4174 161.199,-14.6126 171.421,-17.4 170.928,-10.4174"/>
 <text text-anchor="middle" x="202.125" y="-6.6" font-family="Helvetica,sans-Serif" font-size="8.00"> rightSibling_</text>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node6 -->
+<g id="node4" class="node"><title>Node6</title>
+<g id="a_node4"><a xlink:title=" ">
 <polygon fill="white" stroke="#bfbfbf" points="140.199,-63 140.199,-95 227.801,-95 227.801,-63 140.199,-63"/>
 <text text-anchor="start" x="148.199" y="-84.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::unordered_map</text>
 <text text-anchor="start" x="148.199" y="-76.6" font-family="Helvetica,sans-Serif" font-size="8.00">&lt; std::string, std::</text>
 <text text-anchor="middle" x="184" y="-68.6" font-family="Helvetica,sans-Serif" font-size="8.00">string &gt;</text>
+</a>
 </g>
-<!-- Node4&#45;&gt;Node3 -->
-<g id="edge4" class="edge"><title>Node4&#45;&gt;Node3</title>
+</g>
+<!-- Node6&#45;&gt;Node5 -->
+<g id="edge4" class="edge"><title>Node6&#45;&gt;Node5</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M179.9,-53.1899C178.131,-47.1975 175.604,-41.0673 172,-36 166.266,-27.939 157.213,-21.5146 149.498,-17.0685"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="176.499,-54.0149 182.22,-62.9324 183.309,-52.3936 176.499,-54.0149"/>
 <text text-anchor="middle" x="195.9" y="-37.6" font-family="Helvetica,sans-Serif" font-size="8.00"> metaInfo_</text>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:title="STL class. ">
+<!-- Node7 -->
+<g id="node5" class="node"><title>Node7</title>
+<g id="a_node5"><a xlink:title="STL class.">
 <polygon fill="white" stroke="#bfbfbf" points="158.66,-149 158.66,-165 209.34,-165 209.34,-149 158.66,-149"/>
 <text text-anchor="middle" x="184" y="-154.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::string</text>
 </a>
 </g>
 </g>
-<!-- Node5&#45;&gt;Node4 -->
-<g id="edge5" class="edge"><title>Node5&#45;&gt;Node4</title>
+<!-- Node7&#45;&gt;Node6 -->
+<g id="edge5" class="edge"><title>Node7&#45;&gt;Node6</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M184,-138.922C184,-125.748 184,-107.699 184,-95.0606"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="180.5,-138.986 184,-148.986 187.5,-138.986 180.5,-138.986"/>
 <text text-anchor="middle" x="200.23" y="-123.6" font-family="Helvetica,sans-Serif" font-size="8.00"> keys</text>
 <text text-anchor="middle" x="200.23" y="-115.6" font-family="Helvetica,sans-Serif" font-size="8.00">elements</text>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:title="STL class. ">
+<!-- Node8 -->
+<g id="node6" class="node"><title>Node8</title>
+<g id="a_node6"><a xlink:title="STL class.">
 <polygon fill="white" stroke="#bfbfbf" points="144.762,-205 144.762,-229 223.238,-229 223.238,-205 144.762,-205"/>
 <text text-anchor="start" x="152.762" y="-218.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::basic_string&lt;</text>
 <text text-anchor="middle" x="184" y="-210.6" font-family="Helvetica,sans-Serif" font-size="8.00"> char &gt;</text>
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node5 -->
-<g id="edge6" class="edge"><title>Node6&#45;&gt;Node5</title>
+<!-- Node8&#45;&gt;Node7 -->
+<g id="edge6" class="edge"><title>Node8&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M184,-194.738C184,-184.329 184,-172.485 184,-165.126"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="180.5,-194.817 184,-204.817 187.5,-194.817 180.5,-194.817"/>
 </g>
-<!-- Node7 -->
-<g id="node7" class="node"><title>Node7</title>
+<!-- Node9 -->
+<g id="node7" class="node"><title>Node9</title>
+<g id="a_node7"><a xlink:title=" ">
 <polygon fill="white" stroke="#bfbfbf" points="245.537,-71 245.537,-87 346.463,-87 346.463,-71 245.537,-71"/>
 <text text-anchor="middle" x="296" y="-76.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::vector&lt; scg::Core &gt;</text>
+</a>
 </g>
-<!-- Node7&#45;&gt;Node3 -->
-<g id="edge7" class="edge"><title>Node7&#45;&gt;Node3</title>
+</g>
+<!-- Node9&#45;&gt;Node5 -->
+<g id="edge7" class="edge"><title>Node9&#45;&gt;Node5</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M275.757,-65.7162C260.312,-56.6888 238.306,-44.5553 218,-36 199.492,-28.2022 177.813,-21.4891 161.252,-16.8383"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="274.066,-68.7823 284.452,-70.8759 277.638,-62.7625 274.066,-68.7823"/>
 <text text-anchor="middle" x="247.117" y="-37.6" font-family="Helvetica,sans-Serif" font-size="8.00"> cores_</text>
 </g>
-<!-- Node8 -->
-<g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="../../d0/d79/classscg_1_1_core.html" target="_top" xlink:title="Base class for all cores (abstract). ">
+<!-- Node10 -->
+<g id="node8" class="node"><title>Node10</title>
+<g id="a_node8"><a xlink:href="../../d0/d79/classscg_1_1_core.html" target="_top" xlink:title="Base class for all cores (abstract).">
 <polygon fill="white" stroke="black" points="270.883,-149 270.883,-165 321.117,-165 321.117,-149 270.883,-149"/>
 <text text-anchor="middle" x="296" y="-154.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::Core</text>
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node7 -->
-<g id="edge8" class="edge"><title>Node8&#45;&gt;Node7</title>
+<!-- Node10&#45;&gt;Node9 -->
+<g id="edge8" class="edge"><title>Node10&#45;&gt;Node9</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M296,-138.715C296,-122.469 296,-98.9485 296,-87.2184"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="292.5,-138.986 296,-148.986 299.5,-138.986 292.5,-138.986"/>
 <text text-anchor="middle" x="313.342" y="-119.6" font-family="Helvetica,sans-Serif" font-size="8.00"> elements</text>

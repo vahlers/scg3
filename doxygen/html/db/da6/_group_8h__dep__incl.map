@@ -1,3 +1,4 @@
 <map id="src/Group.h" name="src/Group.h">
-<area shape="rect" id="node2" href="$d4/d61/scg3_8h.html" title="Main header file for scg3 scene graph library, including all class headers. " alt="" coords="16,78,68,101"/>
+<area shape="rect" id="node1" title="A group node to be used as root of a sub&#45;tree of nodes (composite node)." alt="" coords="4,6,80,29"/>
+<area shape="rect" id="node2" href="$d4/d61/scg3_8h.html" title="Main header file for scg3 scene graph library, including all class headers." alt="" coords="16,78,68,101"/>
 </map>

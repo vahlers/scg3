@@ -11,12 +11,15 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-344 1288,-344 1288,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
+<g id="a_node1"><a xlink:title="Central viewer managing window, controllers, animations, and main loop.">
 <polygon fill="#bfbfbf" stroke="black" points="1084.4,-219 1084.4,-235 1141.6,-235 1141.6,-219 1084.4,-219"/>
 <text text-anchor="middle" x="1113" y="-224.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::Viewer</text>
+</a>
+</g>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="../../d8/dcf/classscg_1_1_renderer.html" target="_top" xlink:title="Base class for all renderers (abstract). ">
+<g id="a_node7"><a xlink:href="../../d8/dcf/classscg_1_1_renderer.html" target="_top" xlink:title="Base class for all renderers (abstract).">
 <polygon fill="white" stroke="black" points="1217.88,-149 1217.88,-165 1284.12,-165 1284.12,-149 1217.88,-149"/>
 <text text-anchor="middle" x="1251" y="-154.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::Renderer</text>
 </a>
@@ -30,8 +33,11 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
+<g id="a_node2"><a xlink:title=" ">
 <polygon fill="white" stroke="#bfbfbf" points="862.42,-184 862.42,-200 981.58,-200 981.58,-184 862.42,-184"/>
 <text text-anchor="middle" x="922" y="-189.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::vector&lt; scg::Animation &gt;</text>
+</a>
+</g>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
@@ -41,7 +47,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d2/df5/classscg_1_1_animation.html" target="_top" xlink:title="Base class for all animations (abstract), providing general functionality. ">
+<g id="a_node3"><a xlink:href="../../d2/df5/classscg_1_1_animation.html" target="_top" xlink:title="Base class for all animations (abstract), providing general functionality.">
 <polygon fill="white" stroke="black" points="693.766,-267 693.766,-283 762.234,-283 762.234,-267 693.766,-267"/>
 <text text-anchor="middle" x="728" y="-272.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::Animation</text>
 </a>
@@ -55,8 +61,11 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
+<g id="a_node4"><a xlink:title=" ">
 <polygon fill="white" stroke="#bfbfbf" points="862.867,-324 862.867,-340 981.133,-340 981.133,-324 862.867,-324"/>
 <text text-anchor="middle" x="922" y="-329.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::vector&lt; scg::Controller &gt;</text>
+</a>
+</g>
 </g>
 <!-- Node4&#45;&gt;Node1 -->
 <g id="edge3" class="edge"><title>Node4&#45;&gt;Node1</title>
@@ -66,7 +75,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="../../de/de4/classscg_1_1_controller.html" target="_top" xlink:title="Base class for all controllers (abstract). ">
+<g id="a_node5"><a xlink:href="../../de/de4/classscg_1_1_controller.html" target="_top" xlink:title="Base class for all controllers (abstract).">
 <polygon fill="white" stroke="black" points="694.213,-324 694.213,-340 761.787,-340 761.787,-324 694.213,-324"/>
 <text text-anchor="middle" x="728" y="-329.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::Controller</text>
 </a>
@@ -80,7 +89,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="../../d7/d72/structscg_1_1_o_g_l_config.html" target="_top" xlink:title="OpenGL configuration, may be set by user before calling Viewer::init(). ">
+<g id="a_node6"><a xlink:href="../../d7/d72/structscg_1_1_o_g_l_config.html" target="_top" xlink:title="OpenGL configuration, may be set by user before calling Viewer::init().">
 <polygon fill="white" stroke="black" points="885.543,-289 885.543,-305 958.457,-305 958.457,-289 885.543,-289"/>
 <text text-anchor="middle" x="922" y="-294.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::OGLConfig</text>
 </a>
@@ -100,7 +109,7 @@
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="../../d4/dc7/classscg_1_1_node.html" target="_top" xlink:title="Base class for all nodes (composite pattern, abstract). ">
+<g id="a_node8"><a xlink:href="../../d4/dc7/classscg_1_1_node.html" target="_top" xlink:title="Base class for all nodes (composite pattern, abstract).">
 <polygon fill="white" stroke="black" points="498.99,-15 498.99,-31 551.01,-31 551.01,-15 498.99,-15"/>
 <text text-anchor="middle" x="525" y="-20.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::Node</text>
 </a>
@@ -120,7 +129,7 @@
 </g>
 <!-- Node14 -->
 <g id="node14" class="node"><title>Node14</title>
-<g id="a_node14"><a xlink:href="../../da/d38/classscg_1_1_composite.html" target="_top" xlink:title="Base class for all composite nodes, i.e., nodes with children (composite pattern, abstract)...">
+<g id="a_node14"><a xlink:href="../../da/d38/classscg_1_1_composite.html" target="_top" xlink:title="Base class for all composite nodes, i.e., nodes with children (composite pattern, abstract).">
 <polygon fill="white" stroke="black" points="692.434,-15 692.434,-31 763.566,-31 763.566,-15 692.434,-15"/>
 <text text-anchor="middle" x="728" y="-20.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::Composite</text>
 </a>
@@ -139,10 +148,13 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
+<g id="a_node9"><a xlink:title=" ">
 <polygon fill="white" stroke="#bfbfbf" points="247.199,-0 247.199,-32 334.801,-32 334.801,-0 247.199,-0"/>
 <text text-anchor="start" x="255.199" y="-21.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::unordered_map</text>
 <text text-anchor="start" x="255.199" y="-13.6" font-family="Helvetica,sans-Serif" font-size="8.00">&lt; std::string, std::</text>
 <text text-anchor="middle" x="291" y="-5.6" font-family="Helvetica,sans-Serif" font-size="8.00">string &gt;</text>
+</a>
+</g>
 </g>
 <!-- Node9&#45;&gt;Node8 -->
 <g id="edge9" class="edge"><title>Node9&#45;&gt;Node8</title>
@@ -152,7 +164,7 @@
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:title="STL class. ">
+<g id="a_node10"><a xlink:title="STL class.">
 <polygon fill="white" stroke="#bfbfbf" points="116.66,-51 116.66,-67 167.34,-67 167.34,-51 116.66,-51"/>
 <text text-anchor="middle" x="142" y="-56.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::string</text>
 </a>
@@ -167,9 +179,12 @@
 </g>
 <!-- Node17 -->
 <g id="node17" class="node"><title>Node17</title>
+<g id="a_node17"><a xlink:title=" ">
 <polygon fill="white" stroke="#bfbfbf" points="359.982,-84 359.982,-108 448.018,-108 448.018,-84 359.982,-84"/>
 <text text-anchor="start" x="367.982" y="-97.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::unordered_map</text>
 <text text-anchor="middle" x="404" y="-89.6" font-family="Helvetica,sans-Serif" font-size="8.00">&lt; std::string, GLint &gt;</text>
+</a>
+</g>
 </g>
 <!-- Node10&#45;&gt;Node17 -->
 <g id="edge22" class="edge"><title>Node10&#45;&gt;Node17</title>
@@ -193,7 +208,7 @@
 </g>
 <!-- Node11 -->
 <g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:title="STL class. ">
+<g id="a_node11"><a xlink:title="STL class.">
 <polygon fill="white" stroke="#bfbfbf" points="-0.238281,-47 -0.238281,-71 78.2383,-71 78.2383,-47 -0.238281,-47"/>
 <text text-anchor="start" x="7.76172" y="-60.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::basic_string&lt;</text>
 <text text-anchor="middle" x="39" y="-52.6" font-family="Helvetica,sans-Serif" font-size="8.00"> char &gt;</text>
@@ -207,8 +222,11 @@
 </g>
 <!-- Node12 -->
 <g id="node12" class="node"><title>Node12</title>
+<g id="a_node12"><a xlink:title=" ">
 <polygon fill="white" stroke="#bfbfbf" points="240.537,-125 240.537,-141 341.463,-141 341.463,-125 240.537,-125"/>
 <text text-anchor="middle" x="291" y="-130.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::vector&lt; scg::Core &gt;</text>
+</a>
+</g>
 </g>
 <!-- Node12&#45;&gt;Node8 -->
 <g id="edge12" class="edge"><title>Node12&#45;&gt;Node8</title>
@@ -218,7 +236,7 @@
 </g>
 <!-- Node13 -->
 <g id="node13" class="node"><title>Node13</title>
-<g id="a_node13"><a xlink:href="../../d0/d79/classscg_1_1_core.html" target="_top" xlink:title="Base class for all cores (abstract). ">
+<g id="a_node13"><a xlink:href="../../d0/d79/classscg_1_1_core.html" target="_top" xlink:title="Base class for all cores (abstract).">
 <polygon fill="white" stroke="black" points="116.883,-162 116.883,-178 167.117,-178 167.117,-162 116.883,-162"/>
 <text text-anchor="middle" x="142" y="-167.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::Core</text>
 </a>
@@ -232,7 +250,7 @@
 </g>
 <!-- Node16 -->
 <g id="node16" class="node"><title>Node16</title>
-<g id="a_node16"><a xlink:href="../../df/de9/classscg_1_1_shader_core.html" target="_top" xlink:title="A core to set a shader program to be applied to subsequent nodes. ">
+<g id="a_node16"><a xlink:href="../../df/de9/classscg_1_1_shader_core.html" target="_top" xlink:title="A core to set a shader program to be applied to subsequent nodes.">
 <polygon fill="white" stroke="black" points="689.984,-126 689.984,-142 766.016,-142 766.016,-126 689.984,-126"/>
 <text text-anchor="middle" x="728" y="-131.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::ShaderCore</text>
 </a>
@@ -245,7 +263,7 @@
 </g>
 <!-- Node22 -->
 <g id="node22" class="node"><title>Node22</title>
-<g id="a_node22"><a xlink:href="../../d9/dc2/classscg_1_1_color_core.html" target="_top" xlink:title="A core to set a vertex color or a color transformation to be applied to subsequent geometry...">
+<g id="a_node22"><a xlink:href="../../d9/dc2/classscg_1_1_color_core.html" target="_top" xlink:title="A core to set a vertex color or a color transformation to be applied to subsequent geometry.">
 <polygon fill="white" stroke="black" points="602.324,-234 602.324,-250 671.676,-250 671.676,-234 602.324,-234"/>
 <text text-anchor="middle" x="637" y="-239.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::ColorCore</text>
 </a>
@@ -264,7 +282,7 @@
 </g>
 <!-- Node24 -->
 <g id="node24" class="node"><title>Node24</title>
-<g id="a_node24"><a xlink:href="../../d0/d99/classscg_1_1_transformation.html" target="_top" xlink:title="A transformation node to be used to appy a transformation to the sub&#45;tree (composite node)...">
+<g id="a_node24"><a xlink:href="../../d0/d99/classscg_1_1_transformation.html" target="_top" xlink:title="A transformation node to be used to appy a transformation to the sub&#45;tree (composite node).">
 <polygon fill="white" stroke="black" points="878.801,-20 878.801,-36 965.199,-36 965.199,-20 878.801,-20"/>
 <text text-anchor="middle" x="922" y="-25.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::Transformation</text>
 </a>
@@ -277,7 +295,7 @@
 </g>
 <!-- Node15 -->
 <g id="node15" class="node"><title>Node15</title>
-<g id="a_node15"><a xlink:href="../../db/dfa/classscg_1_1_render_state.html" target="_top" xlink:title="The central render state that collects information about the current shader, transformations, matrix stacks, light and color properties. ">
+<g id="a_node15"><a xlink:href="../../db/dfa/classscg_1_1_render_state.html" target="_top" xlink:title="The central render state that collects information about the current shader, transformations,...">
 <polygon fill="white" stroke="black" points="883.094,-149 883.094,-165 960.906,-165 960.906,-149 883.094,-149"/>
 <text text-anchor="middle" x="922" y="-154.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::RenderState</text>
 </a>
@@ -309,8 +327,11 @@
 </g>
 <!-- Node18 -->
 <g id="node18" class="node"><title>Node18</title>
+<g id="a_node18"><a xlink:title=" ">
 <polygon fill="white" stroke="#bfbfbf" points="466.309,-78 466.309,-94 583.691,-94 583.691,-78 466.309,-78"/>
 <text text-anchor="middle" x="525" y="-83.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::vector&lt; scg::ShaderID &gt;</text>
+</a>
+</g>
 </g>
 <!-- Node18&#45;&gt;Node16 -->
 <g id="edge23" class="edge"><title>Node18&#45;&gt;Node16</title>
@@ -326,7 +347,7 @@
 </g>
 <!-- Node20 -->
 <g id="node20" class="node"><title>Node20</title>
-<g id="a_node20"><a xlink:href="../../d4/dab/classscg_1_1_matrix_stack.html" target="_top" xlink:title="Matrix stack to store model&#45;view, projection, texture, and color matrices, used by RenderState...">
+<g id="a_node20"><a xlink:href="../../d4/dab/classscg_1_1_matrix_stack.html" target="_top" xlink:title="Matrix stack to store model&#45;view, projection, texture, and color matrices, used by RenderState.">
 <polygon fill="white" stroke="black" points="690.66,-187 690.66,-203 765.34,-203 765.34,-187 690.66,-187"/>
 <text text-anchor="middle" x="728" y="-192.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::MatrixStack</text>
 </a>
@@ -343,8 +364,11 @@
 </g>
 <!-- Node21 -->
 <g id="node21" class="node"><title>Node21</title>
+<g id="a_node21"><a xlink:title=" ">
 <polygon fill="white" stroke="#bfbfbf" points="475.65,-199 475.65,-215 574.35,-215 574.35,-199 475.65,-199"/>
 <text text-anchor="middle" x="525" y="-204.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::stack&lt; glm::mat4 &gt;</text>
+</a>
+</g>
 </g>
 <!-- Node21&#45;&gt;Node20 -->
 <g id="edge27" class="edge"><title>Node21&#45;&gt;Node20</title>
@@ -366,7 +390,7 @@
 </g>
 <!-- Node23 -->
 <g id="node23" class="node"><title>Node23</title>
-<g id="a_node23"><a xlink:href="../../d4/dc9/classscg_1_1_camera.html" target="_top" xlink:title="Base class for all cameras (composite node, abstract). ">
+<g id="a_node23"><a xlink:href="../../d4/dc9/classscg_1_1_camera.html" target="_top" xlink:title="Base class for all cameras (composite node, abstract).">
 <polygon fill="white" stroke="black" points="1082.33,-30 1082.33,-46 1143.67,-46 1143.67,-30 1082.33,-30"/>
 <text text-anchor="middle" x="1113" y="-35.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::Camera</text>
 </a>
@@ -385,7 +409,7 @@
 </g>
 <!-- Node25 -->
 <g id="node25" class="node"><title>Node25</title>
-<g id="a_node25"><a xlink:href="../../db/d02/structscg_1_1_frame_buffer_size.html" target="_top" xlink:title="Frame buffer size, to be set by renderer in Renderer::initViewer(), called by Viewer::init(). ">
+<g id="a_node25"><a xlink:href="../../db/d02/structscg_1_1_frame_buffer_size.html" target="_top" xlink:title="Frame buffer size, to be set by renderer in Renderer::initViewer(), called by Viewer::init().">
 <polygon fill="white" stroke="black" points="875.613,-254 875.613,-270 968.387,-270 968.387,-254 875.613,-254"/>
 <text text-anchor="middle" x="922" y="-259.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::FrameBufferSize</text>
 </a>

@@ -11,12 +11,15 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-148 82,-148 82,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
+<g id="a_node1"><a xlink:title="A shader ID to identify shaders in error messages. An arbitrary name can be added to the OpnGL shader...">
 <polygon fill="#bfbfbf" stroke="black" points="5.6543,-1 5.6543,-17 72.3457,-17 72.3457,-1 5.6543,-1"/>
 <text text-anchor="middle" x="39" y="-6.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::ShaderID</text>
+</a>
+</g>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:title="STL class. ">
+<g id="a_node2"><a xlink:title="STL class.">
 <polygon fill="white" stroke="#bfbfbf" points="13.6602,-63 13.6602,-79 64.3398,-79 64.3398,-63 13.6602,-63"/>
 <text text-anchor="middle" x="39" y="-68.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::string</text>
 </a>
@@ -30,7 +33,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:title="STL class. ">
+<g id="a_node3"><a xlink:title="STL class.">
 <polygon fill="white" stroke="#bfbfbf" points="-0.238281,-119 -0.238281,-143 78.2383,-143 78.2383,-119 -0.238281,-119"/>
 <text text-anchor="start" x="7.76172" y="-132.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::basic_string&lt;</text>
 <text text-anchor="middle" x="39" y="-124.6" font-family="Helvetica,sans-Serif" font-size="8.00"> char &gt;</text>

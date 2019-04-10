@@ -1,3 +1,4 @@
 <map id="src/ColorCore.h" name="src/ColorCore.h">
-<area shape="rect" id="node2" href="$d4/d61/scg3_8h.html" title="Main header file for scg3 scene graph library, including all class headers. " alt="" coords="27,78,79,101"/>
+<area shape="rect" id="node1" title="A core to set a vertex color or a color transformation to be applied to subsequent geometry." alt="" coords="5,6,101,29"/>
+<area shape="rect" id="node2" href="$d4/d61/scg3_8h.html" title="Main header file for scg3 scene graph library, including all class headers." alt="" coords="27,78,79,101"/>
 </map>

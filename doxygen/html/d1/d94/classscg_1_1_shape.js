@@ -8,6 +8,6 @@ var classscg_1_1_shape =
     [ "addTextureCore", "d1/d94/classscg_1_1_shape.html#a07ec4161cdf469b4938551dbe770d27c", null ],
     [ "create", "d1/d94/classscg_1_1_shape.html#ad361e687db85ae7ff7ef88cecc7d642e", null ],
     [ "create", "d1/d94/classscg_1_1_shape.html#a341ca7ea6eab7291ab255a1bcda92640", null ],
-    [ "getNTriangles", "d1/d94/classscg_1_1_shape.html#af005015c6c2637b5fceb7873a0ac09ea", null ],
+    [ "getNTriangles", "d1/d94/classscg_1_1_shape.html#ae6c87fd8207ce8d0b2841d9a78b267ea", null ],
     [ "render", "d1/d94/classscg_1_1_shape.html#a97df6f44b74136372618ebfaae3ad04e", null ]
 ];

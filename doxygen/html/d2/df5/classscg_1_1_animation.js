@@ -2,8 +2,8 @@ var classscg_1_1_animation =
 [
     [ "Animation", "d2/df5/classscg_1_1_animation.html#abc06dd2f88c02062fbc8ce048a3d96ba", null ],
     [ "~Animation", "d2/df5/classscg_1_1_animation.html#a2ce68d6634cfa1eb4e5c4ff87afcede1", null ],
-    [ "isRunning", "d2/df5/classscg_1_1_animation.html#a2faaed14cd62c65328b95101c10d232a", null ],
-    [ "isStarted", "d2/df5/classscg_1_1_animation.html#a9945df80381a509afb5186580e53bbcd", null ],
+    [ "isRunning", "d2/df5/classscg_1_1_animation.html#a5ac76531d831b1da55bcbce5e58879e4", null ],
+    [ "isStarted", "d2/df5/classscg_1_1_animation.html#a501400aa8fc74de33edb22165e2b4146", null ],
     [ "reset", "d2/df5/classscg_1_1_animation.html#a16c033ef7d486954a3cecc1be581458e", null ],
     [ "start", "d2/df5/classscg_1_1_animation.html#a88372fb7a8f60e0fe755e8289ffdcb1b", null ],
     [ "stop", "d2/df5/classscg_1_1_animation.html#aa3a1c3b3b8999d87589b222b6b42d03f", null ],

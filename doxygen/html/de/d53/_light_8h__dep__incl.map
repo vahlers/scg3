@@ -1,3 +1,4 @@
 <map id="src/Light.h" name="src/Light.h">
-<area shape="rect" id="node2" href="$d4/d61/scg3_8h.html" title="Main header file for scg3 scene graph library, including all class headers. " alt="" coords="14,78,65,101"/>
+<area shape="rect" id="node1" title="A light to be applied to all nodes of its sub&#45;tree (composite node)." alt="" coords="5,6,75,29"/>
+<area shape="rect" id="node2" href="$d4/d61/scg3_8h.html" title="Main header file for scg3 scene graph library, including all class headers." alt="" coords="14,78,65,101"/>
 </map>

@@ -1,7 +1,10 @@
 <map id="scg::Leaf" name="scg::Leaf">
-<area shape="rect" id="node2" href="$d4/dc7/classscg_1_1_node.html" title="Base class for all nodes (composite pattern, abstract). " alt="" coords="560,54,629,77"/>
-<area shape="rect" id="node8" href="$da/d38/classscg_1_1_composite.html" title="Base class for all composite nodes, i.e., nodes with children (composite pattern, abstract)..." alt="" coords="726,69,821,91"/>
-<area shape="rect" id="node4" title="STL class. " alt="" coords="161,27,228,50"/>
-<area shape="rect" id="node5" title="STL class. " alt="" coords="5,22,110,55"/>
-<area shape="rect" id="node7" href="$d0/d79/classscg_1_1_core.html" title="Base class for all cores (abstract). " alt="" coords="161,85,228,107"/>
+<area shape="rect" id="node1" title="Base class for all leaf nodes, i.e., nodes without children (composite pattern, abstract)." alt="" coords="741,5,806,27"/>
+<area shape="rect" id="node2" href="$d4/dc7/classscg_1_1_node.html" title="Base class for all nodes (composite pattern, abstract)." alt="" coords="560,54,629,77"/>
+<area shape="rect" id="node8" href="$da/d38/classscg_1_1_composite.html" title="Base class for all composite nodes, i.e., nodes with children (composite pattern, abstract)." alt="" coords="726,69,821,91"/>
+<area shape="rect" id="node3" title=" " alt="" coords="335,17,452,61"/>
+<area shape="rect" id="node4" title="STL class." alt="" coords="161,27,228,50"/>
+<area shape="rect" id="node5" title="STL class." alt="" coords="5,22,110,55"/>
+<area shape="rect" id="node6" title=" " alt="" coords="326,85,461,107"/>
+<area shape="rect" id="node7" href="$d0/d79/classscg_1_1_core.html" title="Base class for all cores (abstract)." alt="" coords="161,85,228,107"/>
 </map>

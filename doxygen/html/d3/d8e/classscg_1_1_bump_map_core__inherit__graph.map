@@ -1,5 +1,6 @@
 <map id="scg::BumpMapCore" name="scg::BumpMapCore">
-<area shape="rect" id="node2" href="$dc/d19/classscg_1_1_texture2_d_core.html" title="2D texture core. " alt="" coords="5,150,120,173"/>
-<area shape="rect" id="node3" href="$d1/d4f/classscg_1_1_texture_core.html" title="Base class for all texture cores (abstract). " alt="" coords="12,78,113,101"/>
-<area shape="rect" id="node4" href="$d0/d79/classscg_1_1_core.html" title="Base class for all cores (abstract). " alt="" coords="29,6,96,29"/>
+<area shape="rect" id="node1" title="2D bump map core storing a texture (optional) and a normal map." alt="" coords="5,222,120,245"/>
+<area shape="rect" id="node2" href="$dc/d19/classscg_1_1_texture2_d_core.html" title="2D texture core." alt="" coords="5,150,120,173"/>
+<area shape="rect" id="node3" href="$d1/d4f/classscg_1_1_texture_core.html" title="Base class for all texture cores (abstract)." alt="" coords="12,78,113,101"/>
+<area shape="rect" id="node4" href="$d0/d79/classscg_1_1_core.html" title="Base class for all cores (abstract)." alt="" coords="29,6,96,29"/>
 </map>

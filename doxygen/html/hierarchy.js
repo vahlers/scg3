@@ -25,8 +25,6 @@ var hierarchy =
     [ "scg::GeometryCoreFactory::FaceEntry", "d4/dee/structscg_1_1_geometry_core_factory_1_1_face_entry.html", null ],
     [ "scg::FrameBufferSize", "db/d02/structscg_1_1_frame_buffer_size.html", null ],
     [ "scg::GeometryCoreFactory", "dc/dfb/classscg_1_1_geometry_core_factory.html", null ],
-    [ "Light", "d7/d61/struct_light.html", null ],
-    [ "Material", "d3/d0a/struct_material.html", null ],
     [ "scg::MatrixStack", "d4/dab/classscg_1_1_matrix_stack.html", null ],
     [ "scg::Node", "d4/dc7/classscg_1_1_node.html", [
       [ "scg::Composite", "da/d38/classscg_1_1_composite.html", [

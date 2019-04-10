@@ -6,6 +6,6 @@ var classscg_1_1_perspective_camera =
     [ "init", "d2/d30/classscg_1_1_perspective_camera.html#a21c450834011c57713668c031b0769e4", null ],
     [ "updateProjection", "d2/d30/classscg_1_1_perspective_camera.html#add2814ee38cc957e5b6b128a5c2f14c0", null ],
     [ "far_", "d2/d30/classscg_1_1_perspective_camera.html#ab9177d567ad434ffce0b7f4d63972ecb", null ],
-    [ "fovyDeg_", "d2/d30/classscg_1_1_perspective_camera.html#a37cf68c6387e841284652b8f04353c79", null ],
+    [ "fovyRad_", "d2/d30/classscg_1_1_perspective_camera.html#aead2122590c5bf61c778b5143a13c75e", null ],
     [ "near_", "d2/d30/classscg_1_1_perspective_camera.html#ac9d08d1434ae8568252c212d604b4027", null ]
 ];

@@ -12,8 +12,14 @@ var searchData=
   ['rotate',['rotate',['../d4/dc9/classscg_1_1_camera.html#aff3a91d7b7c0dee605bcfbc2b33b9a4e',1,'scg::Camera::rotate()'],['../d1/d4f/classscg_1_1_texture_core.html#a14ca5effebedd428225fe46e884d7c97',1,'scg::TextureCore::rotate()'],['../d0/d99/classscg_1_1_transformation.html#a07f494f277afe046c0c1a8b2ce58e778',1,'scg::Transformation::rotate()']]],
   ['rotate2d',['rotate2D',['../dc/d19/classscg_1_1_texture2_d_core.html#a9e4a2bf6669c0c13737d7122d253a57a',1,'scg::Texture2DCore']]],
   ['rotateazimuth',['rotateAzimuth',['../d4/dc9/classscg_1_1_camera.html#a092e69c4497f7f4c04bb370c0078f131',1,'scg::Camera']]],
+  ['rotateazimuthrad',['rotateAzimuthRad',['../d4/dc9/classscg_1_1_camera.html#aeb3331b151082612b0d0898cfadae51a',1,'scg::Camera']]],
   ['rotateelevation',['rotateElevation',['../d4/dc9/classscg_1_1_camera.html#aff9f1c47989900f005b19996df8ff2f9',1,'scg::Camera']]],
+  ['rotateelevationrad',['rotateElevationRad',['../d4/dc9/classscg_1_1_camera.html#ad36c5379e91bded4bc933d93681d9216',1,'scg::Camera']]],
   ['rotatepitch',['rotatePitch',['../d4/dc9/classscg_1_1_camera.html#a3008247eb60f0388da6a218ac002a28d',1,'scg::Camera']]],
+  ['rotatepitchrad',['rotatePitchRad',['../d4/dc9/classscg_1_1_camera.html#a93e794644d29474a4a9d73ad401dc589',1,'scg::Camera']]],
+  ['rotaterad',['rotateRad',['../d4/dc9/classscg_1_1_camera.html#ad328f100ccd4dca71dd17b6a359fa2ec',1,'scg::Camera::rotateRad()'],['../d0/d99/classscg_1_1_transformation.html#a941e6f96f059b00f9dd4fc8719390bac',1,'scg::Transformation::rotateRad()']]],
   ['rotateroll',['rotateRoll',['../d4/dc9/classscg_1_1_camera.html#af321394f274fdcc2ca71d69faa0335f1',1,'scg::Camera']]],
-  ['rotateyaw',['rotateYaw',['../d4/dc9/classscg_1_1_camera.html#aab32b4a2b85a0dcfd4a6203afdd0a2c6',1,'scg::Camera']]]
+  ['rotaterollrad',['rotateRollRad',['../d4/dc9/classscg_1_1_camera.html#ac2f67f9aa3bd26d1728983bba54753b7',1,'scg::Camera']]],
+  ['rotateyaw',['rotateYaw',['../d4/dc9/classscg_1_1_camera.html#aab32b4a2b85a0dcfd4a6203afdd0a2c6',1,'scg::Camera']]],
+  ['rotateyawrad',['rotateYawRad',['../d4/dc9/classscg_1_1_camera.html#aca3dd44d281b2d0976f707c16ebc1bca',1,'scg::Camera']]]
 ];

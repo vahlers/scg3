@@ -9,39 +9,42 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 130)">
 <title>src/Animation.h</title>
 <polygon fill="white" stroke="none" points="-4,4 -4,-130 133,-130 133,4 -4,4"/>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
+<g id="a_node1"><a xlink:title="Base class for all animations (abstract), providing general functionality.">
 <polygon fill="#bfbfbf" stroke="black" points="58.4336,-109 58.4336,-125 129.566,-125 129.566,-109 58.4336,-109"/>
 <text text-anchor="middle" x="94" y="-114.6" font-family="Helvetica,sans-Serif" font-size="8.00">src/Animation.h</text>
+</a>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="../../db/d28/_transform_animation_8h.html" target="_top" xlink:title="An animation that creates a transformation to be applied to ist sub&#45;tree (composite node)...">
+</g>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
+<g id="a_node2"><a xlink:href="../../db/d28/_transform_animation_8h.html" target="_top" xlink:title="An animation that creates a transformation to be applied to ist sub&#45;tree (composite node).">
 <polygon fill="white" stroke="black" points="-0.644531,-55 -0.644531,-71 106.645,-71 106.645,-55 -0.644531,-55"/>
 <text text-anchor="middle" x="53" y="-60.6" font-family="Helvetica,sans-Serif" font-size="8.00">src/TransformAnimation.h</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node2 -->
-<g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
+<!-- Node0&#45;&gt;Node1 -->
+<g id="edge1" class="edge"><title>Node0&#45;&gt;Node1</title>
 <path fill="none" stroke="midnightblue" d="M81.9335,-100.696C74.2412,-90.94 64.6302,-78.7505 58.6525,-71.169"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="79.3591,-103.084 88.2991,-108.77 84.856,-98.7499 79.3591,-103.084"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d4/d61/scg3_8h.html" target="_top" xlink:title="Main header file for scg3 scene graph library, including all class headers. ">
+<!-- Node2 -->
+<g id="node3" class="node"><title>Node2</title>
+<g id="a_node3"><a xlink:href="../../d4/d61/scg3_8h.html" target="_top" xlink:title="Main header file for scg3 scene graph library, including all class headers.">
 <polygon fill="white" stroke="black" points="74.2148,-1 74.2148,-17 113.785,-17 113.785,-1 74.2148,-1"/>
 <text text-anchor="middle" x="94" y="-6.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg3.h</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node3 -->
-<g id="edge3" class="edge"><title>Node1&#45;&gt;Node3</title>
+<!-- Node0&#45;&gt;Node2 -->
+<g id="edge3" class="edge"><title>Node0&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M103.646,-100.213C108.047,-92.0971 112.768,-81.86 115,-72 119.617,-51.6054 106.749,-28.4987 99.1447,-17.1145"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="100.603,-98.4846 98.6252,-108.893 106.662,-101.99 100.603,-98.4846"/>
 </g>
-<!-- Node2&#45;&gt;Node3 -->
-<g id="edge2" class="edge"><title>Node2&#45;&gt;Node3</title>
+<!-- Node1&#45;&gt;Node2 -->
+<g id="edge2" class="edge"><title>Node1&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M65.0665,-46.6961C72.7588,-36.94 82.3698,-24.7505 88.3475,-17.169"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="62.144,-44.7499 58.7009,-54.7696 67.6409,-49.084 62.144,-44.7499"/>
 </g>

@@ -1,3 +1,4 @@
 <map id="scg::ShaderCore" name="scg::ShaderCore">
-<area shape="rect" id="node2" href="$d0/d79/classscg_1_1_core.html" title="Base class for all cores (abstract). " alt="" coords="23,6,89,29"/>
+<area shape="rect" id="node1" title="A core to set a shader program to be applied to subsequent nodes." alt="" coords="5,78,107,101"/>
+<area shape="rect" id="node2" href="$d0/d79/classscg_1_1_core.html" title="Base class for all cores (abstract)." alt="" coords="23,6,89,29"/>
 </map>

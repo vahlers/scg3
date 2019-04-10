@@ -8,7 +8,7 @@ var classscg_1_1_renderer =
     [ "getScene", "d8/dcf/classscg_1_1_renderer.html#aad48f9775af11cb047248c5b3b1019e5", null ],
     [ "initRenderState", "d8/dcf/classscg_1_1_renderer.html#a1f24d31b94b9f8e2b4c9e8af54e8d507", null ],
     [ "initViewer", "d8/dcf/classscg_1_1_renderer.html#a182d0010ce3123437260d09aa0632e17", null ],
-    [ "isLightingEnabled", "d8/dcf/classscg_1_1_renderer.html#af22f334df5e0fd22c20f3cb6fa3be89e", null ],
+    [ "isLightingEnabled", "d8/dcf/classscg_1_1_renderer.html#ab1ccf298fe59914831eaf2b185d4c2ec", null ],
     [ "render", "d8/dcf/classscg_1_1_renderer.html#ab9af8d1be722a4f8fc7c47caf1bb808c", null ],
     [ "setCamera", "d8/dcf/classscg_1_1_renderer.html#af6ff85e3dddc9a1cf5a48e0d34d86aa3", null ],
     [ "setGlobalAmbientLight", "d8/dcf/classscg_1_1_renderer.html#a94445d020b67b233715cf184d6943540", null ],

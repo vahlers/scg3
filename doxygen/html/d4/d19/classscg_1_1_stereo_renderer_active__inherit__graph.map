@@ -1,4 +1,5 @@
 <map id="scg::StereoRendererActive" name="scg::StereoRendererActive">
-<area shape="rect" id="node2" href="$d7/d2b/classscg_1_1_stereo_renderer.html" title="Base class for all stereo renderers (abstract). " alt="" coords="19,78,137,101"/>
-<area shape="rect" id="node3" href="$d8/dcf/classscg_1_1_renderer.html" title="Base class for all renderers (abstract). " alt="" coords="35,6,123,29"/>
+<area shape="rect" id="node1" title="A renderer for active stereo (e.g., shutter glasses)." alt="" coords="4,150,152,173"/>
+<area shape="rect" id="node2" href="$d7/d2b/classscg_1_1_stereo_renderer.html" title="Base class for all stereo renderers (abstract)." alt="" coords="19,78,137,101"/>
+<area shape="rect" id="node3" href="$d8/dcf/classscg_1_1_renderer.html" title="Base class for all renderers (abstract)." alt="" coords="35,6,123,29"/>
 </map>

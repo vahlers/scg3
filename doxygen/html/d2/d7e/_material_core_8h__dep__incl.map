@@ -1,3 +1,4 @@
 <map id="src/MaterialCore.h" name="src/MaterialCore.h">
-<area shape="rect" id="node2" href="$d4/d61/scg3_8h.html" title="Main header file for scg3 scene graph library, including all class headers. " alt="" coords="32,78,84,101"/>
+<area shape="rect" id="node1" title="A core to set material properties for lighting to be applied to subsequent geometry." alt="" coords="4,6,112,29"/>
+<area shape="rect" id="node2" href="$d4/d61/scg3_8h.html" title="Main header file for scg3 scene graph library, including all class headers." alt="" coords="32,78,84,101"/>
 </map>

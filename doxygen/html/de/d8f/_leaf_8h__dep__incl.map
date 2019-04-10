@@ -1,5 +1,6 @@
 <map id="src/Leaf.h" name="src/Leaf.h">
+<area shape="rect" id="node1" title="Base class for all leaf nodes, i.e., nodes without children (composite pattern, abstract)." alt="" coords="117,6,184,29"/>
 <area shape="rect" id="node2" href="$d2/db4/_light_position_8h.html" title="A light position node to define the position of an associated light within the scene graph (leaf node..." alt="" coords="4,78,112,101"/>
-<area shape="rect" id="node3" href="$d4/d61/scg3_8h.html" title="Main header file for scg3 scene graph library, including all class headers. " alt="" coords="124,150,176,173"/>
-<area shape="rect" id="node4" href="$da/d05/_shape_8h.html" title="A shape node that contains geometry to be rendered (leaf node). " alt="" coords="188,78,265,101"/>
+<area shape="rect" id="node3" href="$d4/d61/scg3_8h.html" title="Main header file for scg3 scene graph library, including all class headers." alt="" coords="124,150,176,173"/>
+<area shape="rect" id="node4" href="$da/d05/_shape_8h.html" title="A shape node that contains geometry to be rendered (leaf node)." alt="" coords="188,78,265,101"/>
 </map>

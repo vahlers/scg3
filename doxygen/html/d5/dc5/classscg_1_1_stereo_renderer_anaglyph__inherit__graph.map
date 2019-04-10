@@ -1,4 +1,5 @@
 <map id="scg::StereoRendererAnaglyph" name="scg::StereoRendererAnaglyph">
-<area shape="rect" id="node2" href="$d7/d2b/classscg_1_1_stereo_renderer.html" title="Base class for all stereo renderers (abstract). " alt="" coords="27,78,145,101"/>
-<area shape="rect" id="node3" href="$d8/dcf/classscg_1_1_renderer.html" title="Base class for all renderers (abstract). " alt="" coords="43,6,131,29"/>
+<area shape="rect" id="node1" title="A renderer for anaglyph stereo (left eye: red, right eye: cyan)." alt="" coords="5,150,168,173"/>
+<area shape="rect" id="node2" href="$d7/d2b/classscg_1_1_stereo_renderer.html" title="Base class for all stereo renderers (abstract)." alt="" coords="27,78,145,101"/>
+<area shape="rect" id="node3" href="$d8/dcf/classscg_1_1_renderer.html" title="Base class for all renderers (abstract)." alt="" coords="43,6,131,29"/>
 </map>

@@ -11,12 +11,15 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-176 870,-176 870,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
+<g id="a_node1"><a xlink:title="The central render state that collects information about the current shader, transformations,...">
 <polygon fill="#bfbfbf" stroke="black" points="788.094,-69 788.094,-85 865.906,-85 865.906,-69 788.094,-69"/>
 <text text-anchor="middle" x="827" y="-74.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::RenderState</text>
+</a>
+</g>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="../../df/de9/classscg_1_1_shader_core.html" target="_top" xlink:title="A core to set a shader program to be applied to subsequent nodes. ">
+<g id="a_node2"><a xlink:href="../../df/de9/classscg_1_1_shader_core.html" target="_top" xlink:title="A core to set a shader program to be applied to subsequent nodes.">
 <polygon fill="white" stroke="black" points="615.984,-69 615.984,-85 692.016,-85 692.016,-69 615.984,-69"/>
 <text text-anchor="middle" x="654" y="-74.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::ShaderCore</text>
 </a>
@@ -36,7 +39,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d0/d79/classscg_1_1_core.html" target="_top" xlink:title="Base class for all cores (abstract). ">
+<g id="a_node3"><a xlink:href="../../d0/d79/classscg_1_1_core.html" target="_top" xlink:title="Base class for all cores (abstract).">
 <polygon fill="white" stroke="black" points="451.883,-123 451.883,-139 502.117,-139 502.117,-123 451.883,-123"/>
 <text text-anchor="middle" x="477" y="-128.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::Core</text>
 </a>
@@ -49,7 +52,7 @@
 </g>
 <!-- Node11 -->
 <g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="../../d9/dc2/classscg_1_1_color_core.html" target="_top" xlink:title="A core to set a vertex color or a color transformation to be applied to subsequent geometry...">
+<g id="a_node11"><a xlink:href="../../d9/dc2/classscg_1_1_color_core.html" target="_top" xlink:title="A core to set a vertex color or a color transformation to be applied to subsequent geometry.">
 <polygon fill="white" stroke="black" points="619.324,-130 619.324,-146 688.676,-146 688.676,-130 619.324,-130"/>
 <text text-anchor="middle" x="654" y="-135.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::ColorCore</text>
 </a>
@@ -62,9 +65,12 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
+<g id="a_node4"><a xlink:title=" ">
 <polygon fill="white" stroke="#bfbfbf" points="311.982,-75 311.982,-99 400.018,-99 400.018,-75 311.982,-75"/>
 <text text-anchor="start" x="319.982" y="-88.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::unordered_map</text>
 <text text-anchor="middle" x="356" y="-80.6" font-family="Helvetica,sans-Serif" font-size="8.00">&lt; std::string, GLint &gt;</text>
+</a>
+</g>
 </g>
 <!-- Node4&#45;&gt;Node2 -->
 <g id="edge4" class="edge"><title>Node4&#45;&gt;Node2</title>
@@ -74,7 +80,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:title="STL class. ">
+<g id="a_node5"><a xlink:title="STL class.">
 <polygon fill="white" stroke="#bfbfbf" points="116.66,-60 116.66,-76 167.34,-76 167.34,-60 116.66,-60"/>
 <text text-anchor="middle" x="142" y="-65.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::string</text>
 </a>
@@ -102,7 +108,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:title="STL class. ">
+<g id="a_node6"><a xlink:title="STL class.">
 <polygon fill="white" stroke="#bfbfbf" points="-0.238281,-56 -0.238281,-80 78.2383,-80 78.2383,-56 -0.238281,-56"/>
 <text text-anchor="start" x="7.76172" y="-69.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::basic_string&lt;</text>
 <text text-anchor="middle" x="39" y="-61.6" font-family="Helvetica,sans-Serif" font-size="8.00"> char &gt;</text>
@@ -116,8 +122,11 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
+<g id="a_node7"><a xlink:title=" ">
 <polygon fill="white" stroke="#bfbfbf" points="418.309,-35 418.309,-51 535.691,-51 535.691,-35 418.309,-35"/>
 <text text-anchor="middle" x="477" y="-40.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::vector&lt; scg::ShaderID &gt;</text>
+</a>
+</g>
 </g>
 <!-- Node7&#45;&gt;Node2 -->
 <g id="edge7" class="edge"><title>Node7&#45;&gt;Node2</title>
@@ -133,7 +142,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="../../d4/dab/classscg_1_1_matrix_stack.html" target="_top" xlink:title="Matrix stack to store model&#45;view, projection, texture, and color matrices, used by RenderState...">
+<g id="a_node9"><a xlink:href="../../d4/dab/classscg_1_1_matrix_stack.html" target="_top" xlink:title="Matrix stack to store model&#45;view, projection, texture, and color matrices, used by RenderState.">
 <polygon fill="white" stroke="black" points="616.66,-4 616.66,-20 691.34,-20 691.34,-4 616.66,-4"/>
 <text text-anchor="middle" x="654" y="-9.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::MatrixStack</text>
 </a>
@@ -150,8 +159,11 @@
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
+<g id="a_node10"><a xlink:title=" ">
 <polygon fill="white" stroke="#bfbfbf" points="427.65,-0 427.65,-16 526.35,-16 526.35,-0 427.65,-0"/>
 <text text-anchor="middle" x="477" y="-5.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::stack&lt; glm::mat4 &gt;</text>
+</a>
+</g>
 </g>
 <!-- Node10&#45;&gt;Node9 -->
 <g id="edge11" class="edge"><title>Node10&#45;&gt;Node9</title>

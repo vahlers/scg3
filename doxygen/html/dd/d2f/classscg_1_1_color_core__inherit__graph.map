@@ -1,3 +1,4 @@
 <map id="scg::ColorCore" name="scg::ColorCore">
-<area shape="rect" id="node2" href="$d0/d79/classscg_1_1_core.html" title="Base class for all cores (abstract). " alt="" coords="17,6,84,29"/>
+<area shape="rect" id="node1" title="A core to set a vertex color or a color transformation to be applied to subsequent geometry." alt="" coords="4,78,96,101"/>
+<area shape="rect" id="node2" href="$d0/d79/classscg_1_1_core.html" title="Base class for all cores (abstract)." alt="" coords="17,6,84,29"/>
 </map>

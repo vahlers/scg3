@@ -1,4 +1,5 @@
 <map id="scg::ShaderID" name="scg::ShaderID">
-<area shape="rect" id="node2" title="STL class. " alt="" coords="24,91,91,114"/>
-<area shape="rect" id="node3" title="STL class. " alt="" coords="5,6,109,39"/>
+<area shape="rect" id="node1" title="A shader ID to identify shaders in error messages. An arbitrary name can be added to the OpnGL shader..." alt="" coords="13,174,101,197"/>
+<area shape="rect" id="node2" title="STL class." alt="" coords="24,91,91,114"/>
+<area shape="rect" id="node3" title="STL class." alt="" coords="5,6,109,39"/>
 </map>

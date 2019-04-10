@@ -1,6 +1,7 @@
 <map id="src/TextureCore.h" name="src/TextureCore.h">
-<area shape="rect" id="node2" href="$d3/dd2/_texture2_d_core_8h.html" title="2D texture core. " alt="" coords="55,78,173,101"/>
-<area shape="rect" id="node4" href="$d4/d61/scg3_8h.html" title="Main header file for scg3 scene graph library, including all class headers. " alt="" coords="160,222,212,245"/>
-<area shape="rect" id="node5" href="$d1/d6d/_cube_map_core_8h.html" title="Cube map texture core. " alt="" coords="250,150,365,173"/>
-<area shape="rect" id="node3" href="$d6/d52/_bump_map_core_8h.html" title="Bump map core storing a texture (optional) and a normal map. " alt="" coords="4,150,123,173"/>
+<area shape="rect" id="node1" title="Base class for all texture cores (abstract)." alt="" coords="159,6,264,29"/>
+<area shape="rect" id="node2" href="$d3/dd2/_texture2_d_core_8h.html" title="2D texture core." alt="" coords="55,78,173,101"/>
+<area shape="rect" id="node4" href="$d4/d61/scg3_8h.html" title="Main header file for scg3 scene graph library, including all class headers." alt="" coords="160,222,212,245"/>
+<area shape="rect" id="node5" href="$d1/d6d/_cube_map_core_8h.html" title="Cube map texture core." alt="" coords="250,150,365,173"/>
+<area shape="rect" id="node3" href="$d6/d52/_bump_map_core_8h.html" title="Bump map core storing a texture (optional) and a normal map." alt="" coords="4,150,123,173"/>
 </map>

@@ -1,4 +1,5 @@
 <map id="scg::Shape" name="scg::Shape">
-<area shape="rect" id="node2" href="$d7/dc9/classscg_1_1_leaf.html" title="Base class for all leaf nodes, i.e., nodes without children (composite pattern, abstract). " alt="" coords="10,78,75,101"/>
-<area shape="rect" id="node3" href="$d4/dc7/classscg_1_1_node.html" title="Base class for all nodes (composite pattern, abstract). " alt="" coords="8,6,77,29"/>
+<area shape="rect" id="node1" title="A shape node that contains geometry to be rendered (leaf node)." alt="" coords="5,150,80,173"/>
+<area shape="rect" id="node2" href="$d7/dc9/classscg_1_1_leaf.html" title="Base class for all leaf nodes, i.e., nodes without children (composite pattern, abstract)." alt="" coords="10,78,75,101"/>
+<area shape="rect" id="node3" href="$d4/dc7/classscg_1_1_node.html" title="Base class for all nodes (composite pattern, abstract)." alt="" coords="8,6,77,29"/>
 </map>

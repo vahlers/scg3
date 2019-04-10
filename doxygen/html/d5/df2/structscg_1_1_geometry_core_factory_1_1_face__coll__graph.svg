@@ -11,15 +11,21 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-170 116,-170 116,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
+<g id="a_node1"><a xlink:title=" ">
 <polygon fill="#bfbfbf" stroke="black" points="-0.0136719,-1 -0.0136719,-25 112.014,-25 112.014,-1 -0.0136719,-1"/>
 <text text-anchor="start" x="7.98633" y="-14.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::GeometryCoreFactory</text>
 <text text-anchor="middle" x="56" y="-6.6" font-family="Helvetica,sans-Serif" font-size="8.00">::Face</text>
+</a>
+</g>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
+<g id="a_node2"><a xlink:title=" ">
 <polygon fill="white" stroke="#bfbfbf" points="0.09375,-71 0.09375,-95 111.906,-95 111.906,-71 0.09375,-71"/>
 <text text-anchor="start" x="8.09375" y="-84.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::vector&lt; scg::Geometry</text>
 <text text-anchor="middle" x="56" y="-76.6" font-family="Helvetica,sans-Serif" font-size="8.00">CoreFactory::FaceEntry &gt;</text>
+</a>
+</g>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
@@ -29,7 +35,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d4/dee/structscg_1_1_geometry_core_factory_1_1_face_entry.html" target="_top" xlink:title="scg::GeometryCoreFactory\l::FaceEntry">
+<g id="a_node3"><a xlink:href="../../d4/dee/structscg_1_1_geometry_core_factory_1_1_face_entry.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="-0.0136719,-141 -0.0136719,-165 112.014,-165 112.014,-141 -0.0136719,-141"/>
 <text text-anchor="start" x="7.98633" y="-154.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::GeometryCoreFactory</text>
 <text text-anchor="middle" x="56" y="-146.6" font-family="Helvetica,sans-Serif" font-size="8.00">::FaceEntry</text>

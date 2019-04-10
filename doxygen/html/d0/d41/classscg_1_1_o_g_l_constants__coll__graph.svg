@@ -11,12 +11,15 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-132 385.867,-132 385.867,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
+<g id="a_node1"><a xlink:title="OpenGL attribute names and locations, uniform names, etc., to be used by ShaderCore,...">
 <polygon fill="#bfbfbf" stroke="black" points="160.096,-1 160.096,-17 245.904,-17 245.904,-1 160.096,-1"/>
 <text text-anchor="middle" x="203" y="-6.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::OGLConstants</text>
+</a>
+</g>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d3/da9/structscg_1_1_o_g_l_uniform_block.html" target="_top" xlink:title="Uniform block name and index. ">
+<g id="a_node2"><a xlink:href="../../d3/da9/structscg_1_1_o_g_l_uniform_block.html" target="_top" xlink:title="Uniform block name and index.">
 <polygon fill="white" stroke="black" points="-0.677734,-111 -0.677734,-127 96.6777,-127 96.6777,-111 -0.677734,-111"/>
 <text text-anchor="middle" x="48" y="-116.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::OGLUniformBlock</text>
 </a>
@@ -31,7 +34,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d1/d28/structscg_1_1_o_g_l_frag_data.html" target="_top" xlink:title="Fragment data name and location. ">
+<g id="a_node3"><a xlink:href="../../d1/d28/structscg_1_1_o_g_l_frag_data.html" target="_top" xlink:title="Fragment data name and location.">
 <polygon fill="white" stroke="black" points="114.432,-111 114.432,-127 197.568,-127 197.568,-111 114.432,-111"/>
 <text text-anchor="middle" x="156" y="-116.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::OGLFragData</text>
 </a>
@@ -45,7 +48,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d4/d10/structscg_1_1_o_g_l_attrib.html" target="_top" xlink:title="Attribute name and location. ">
+<g id="a_node4"><a xlink:href="../../d4/d10/structscg_1_1_o_g_l_attrib.html" target="_top" xlink:title="Attribute name and location.">
 <polygon fill="white" stroke="black" points="215.77,-111 215.77,-127 284.23,-127 284.23,-111 215.77,-111"/>
 <text text-anchor="middle" x="250" y="-116.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::OGLAttrib</text>
 </a>
@@ -65,7 +68,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="../../d9/d36/structscg_1_1_o_g_l_sampler.html" target="_top" xlink:title="Sampler name and texture unit. ">
+<g id="a_node5"><a xlink:href="../../d9/d36/structscg_1_1_o_g_l_sampler.html" target="_top" xlink:title="Sampler name and texture unit.">
 <polygon fill="white" stroke="black" points="302.211,-111 302.211,-127 381.789,-127 381.789,-111 302.211,-111"/>
 <text text-anchor="middle" x="342" y="-116.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::OGLSampler</text>
 </a>

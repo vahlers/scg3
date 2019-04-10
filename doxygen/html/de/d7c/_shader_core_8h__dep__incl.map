@@ -1,3 +1,4 @@
 <map id="src/ShaderCore.h" name="src/ShaderCore.h">
-<area shape="rect" id="node2" href="$d4/d61/scg3_8h.html" title="Main header file for scg3 scene graph library, including all class headers. " alt="" coords="31,78,83,101"/>
+<area shape="rect" id="node1" title="A core to set a shader program to be applied to subsequent nodes." alt="" coords="5,6,109,29"/>
+<area shape="rect" id="node2" href="$d4/d61/scg3_8h.html" title="Main header file for scg3 scene graph library, including all class headers." alt="" coords="31,78,83,101"/>
 </map>

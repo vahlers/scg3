@@ -1,5 +1,6 @@
 <map id="scg::Controller" name="scg::Controller">
-<area shape="rect" id="node2" href="$de/d6a/classscg_1_1_camera_controller.html" title="Base class for all camera controllers, acting on a Camera node (abstract). " alt="" coords="84,78,212,101"/>
-<area shape="rect" id="node3" href="$dd/d66/classscg_1_1_keyboard_controller.html" title="A camera controller using keyboard input. " alt="" coords="4,150,139,173"/>
-<area shape="rect" id="node4" href="$da/d9a/classscg_1_1_mouse_controller.html" title="A camera controller using mouse input. " alt="" coords="164,150,285,173"/>
+<area shape="rect" id="node1" title="Base class for all controllers (abstract)." alt="" coords="103,6,192,29"/>
+<area shape="rect" id="node2" href="$de/d6a/classscg_1_1_camera_controller.html" title="Base class for all camera controllers, acting on a Camera node (abstract)." alt="" coords="84,78,212,101"/>
+<area shape="rect" id="node3" href="$dd/d66/classscg_1_1_keyboard_controller.html" title="A camera controller using keyboard input." alt="" coords="4,150,139,173"/>
+<area shape="rect" id="node4" href="$da/d9a/classscg_1_1_mouse_controller.html" title="A camera controller using mouse input." alt="" coords="164,150,285,173"/>
 </map>

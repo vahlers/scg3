@@ -9,245 +9,248 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 292)">
 <title>src/Node.h</title>
 <polygon fill="white" stroke="none" points="-4,4 -4,-292 839,-292 839,4 -4,4"/>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
+<g id="a_node1"><a xlink:title="Base class for all nodes (composite pattern, abstract).">
 <polygon fill="#bfbfbf" stroke="black" points="598.658,-271 598.658,-287 653.342,-287 653.342,-271 598.658,-271"/>
 <text text-anchor="middle" x="626" y="-276.6" font-family="Helvetica,sans-Serif" font-size="8.00">src/Node.h</text>
+</a>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d4/d6d/_composite_8h.html" target="_top" xlink:title="Base class for all composite nodes, i.e., nodes with children (composite pattern, abstract)...">
+</g>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
+<g id="a_node2"><a xlink:href="../../d4/d6d/_composite_8h.html" target="_top" xlink:title="Base class for all composite nodes, i.e., nodes with children (composite pattern, abstract).">
 <polygon fill="white" stroke="black" points="462.102,-217 462.102,-233 535.898,-233 535.898,-217 462.102,-217"/>
 <text text-anchor="middle" x="499" y="-222.6" font-family="Helvetica,sans-Serif" font-size="8.00">src/Composite.h</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node2 -->
-<g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
+<!-- Node0&#45;&gt;Node1 -->
+<g id="edge1" class="edge"><title>Node0&#45;&gt;Node1</title>
 <path fill="none" stroke="midnightblue" d="M599.598,-267.19C574.578,-256.945 537.725,-241.856 516.262,-233.068"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="598.292,-270.437 608.872,-270.987 600.944,-263.959 598.292,-270.437"/>
 </g>
-<!-- Node8 -->
-<g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="../../d4/d61/scg3_8h.html" target="_top" xlink:title="Main header file for scg3 scene graph library, including all class headers. ">
+<!-- Node7 -->
+<g id="node8" class="node"><title>Node7</title>
+<g id="a_node8"><a xlink:href="../../d4/d61/scg3_8h.html" target="_top" xlink:title="Main header file for scg3 scene graph library, including all class headers.">
 <polygon fill="white" stroke="black" points="495.215,-1 495.215,-17 534.785,-17 534.785,-1 495.215,-1"/>
 <text text-anchor="middle" x="515" y="-6.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg3.h</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node8 -->
-<g id="edge25" class="edge"><title>Node1&#45;&gt;Node8</title>
+<!-- Node0&#45;&gt;Node7 -->
+<g id="edge25" class="edge"><title>Node0&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M624.972,-260.482C623.204,-237.373 618.584,-195.689 607,-162 589.216,-110.277 577.596,-99.9966 548,-54 539.32,-40.5097 527.82,-25.7762 520.94,-17.241"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="621.498,-260.989 625.658,-270.733 628.482,-260.522 621.498,-260.989"/>
 </g>
-<!-- Node13 -->
-<g id="node13" class="node"><title>Node13</title>
-<g id="a_node13"><a xlink:href="../../d4/dfd/_leaf_8h.html" target="_top" xlink:title="Base class for all leaf nodes, i.e., nodes without children (composite pattern, abstract). ">
+<!-- Node12 -->
+<g id="node13" class="node"><title>Node12</title>
+<g id="a_node13"><a xlink:href="../../d4/dfd/_leaf_8h.html" target="_top" xlink:title="Base class for all leaf nodes, i.e., nodes without children (composite pattern, abstract).">
 <polygon fill="white" stroke="black" points="672.436,-109 672.436,-125 723.564,-125 723.564,-109 672.436,-109"/>
 <text text-anchor="middle" x="698" y="-114.6" font-family="Helvetica,sans-Serif" font-size="8.00">src/Leaf.h</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node13 -->
-<g id="edge19" class="edge"><title>Node1&#45;&gt;Node13</title>
+<!-- Node0&#45;&gt;Node12 -->
+<g id="edge19" class="edge"><title>Node0&#45;&gt;Node12</title>
 <path fill="none" stroke="midnightblue" d="M633.581,-261.153C649.081,-226.709 683.848,-149.448 694.7,-125.333"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="630.193,-260.154 629.281,-270.709 636.576,-263.026 630.193,-260.154"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d3/d21/_transformation_8h.html" target="_top" xlink:title="A transformation node to be used to appy a transformation to the sub&#45;tree (composite node)...">
+<!-- Node2 -->
+<g id="node3" class="node"><title>Node2</title>
+<g id="a_node3"><a xlink:href="../../d3/d21/_transformation_8h.html" target="_top" xlink:title="A transformation node to be used to appy a transformation to the sub&#45;tree (composite node).">
 <polygon fill="white" stroke="black" points="305.469,-163 305.469,-179 394.531,-179 394.531,-163 305.469,-163"/>
 <text text-anchor="middle" x="350" y="-168.6" font-family="Helvetica,sans-Serif" font-size="8.00">src/Transformation.h</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node3 -->
-<g id="edge2" class="edge"><title>Node2&#45;&gt;Node3</title>
+<!-- Node1&#45;&gt;Node2 -->
+<g id="edge2" class="edge"><title>Node1&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M469.186,-213.595C439.821,-203.347 395.767,-187.972 370.252,-179.068"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="468.31,-216.996 478.905,-216.987 470.617,-210.387 468.31,-216.996"/>
 </g>
-<!-- Node2&#45;&gt;Node8 -->
-<g id="edge18" class="edge"><title>Node2&#45;&gt;Node8</title>
+<!-- Node1&#45;&gt;Node7 -->
+<g id="edge18" class="edge"><title>Node1&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M482.095,-209.844C474.053,-201.989 465.276,-191.494 461,-180 458.21,-172.502 459.431,-169.845 461,-162 464.399,-145.003 469.901,-142.225 476,-126 491.326,-85.2298 507.115,-35.3705 512.798,-17.1228"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="479.945,-212.62 489.698,-216.758 484.655,-207.441 479.945,-212.62"/>
 </g>
-<!-- Node11 -->
-<g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="../../d7/dc4/_group_8h.html" target="_top" xlink:title="A group node to be used as root of a sub&#45;tree of nodes (composite node). ">
+<!-- Node10 -->
+<g id="node11" class="node"><title>Node10</title>
+<g id="a_node11"><a xlink:href="../../d7/dc4/_group_8h.html" target="_top" xlink:title="A group node to be used as root of a sub&#45;tree of nodes (composite node).">
 <polygon fill="white" stroke="black" points="470.104,-163 470.104,-179 527.896,-179 527.896,-163 470.104,-163"/>
 <text text-anchor="middle" x="499" y="-168.6" font-family="Helvetica,sans-Serif" font-size="8.00">src/Group.h</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node11 -->
-<g id="edge14" class="edge"><title>Node2&#45;&gt;Node11</title>
+<!-- Node1&#45;&gt;Node10 -->
+<g id="edge14" class="edge"><title>Node1&#45;&gt;Node10</title>
 <path fill="none" stroke="midnightblue" d="M499,-206.571C499,-197.222 499,-186.209 499,-179.169"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="495.5,-206.77 499,-216.77 502.5,-206.77 495.5,-206.77"/>
 </g>
-<!-- Node12 -->
-<g id="node12" class="node"><title>Node12</title>
-<g id="a_node12"><a xlink:href="../../d2/d46/_light_8h.html" target="_top" xlink:title="A light to be applied to all nodes of its sub&#45;tree (composite node). ">
+<!-- Node11 -->
+<g id="node12" class="node"><title>Node11</title>
+<g id="a_node12"><a xlink:href="../../d2/d46/_light_8h.html" target="_top" xlink:title="A light to be applied to all nodes of its sub&#45;tree (composite node).">
 <polygon fill="white" stroke="black" points="545.547,-163 545.547,-179 598.453,-179 598.453,-163 545.547,-163"/>
 <text text-anchor="middle" x="572" y="-168.6" font-family="Helvetica,sans-Serif" font-size="8.00">src/Light.h</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node12 -->
-<g id="edge16" class="edge"><title>Node2&#45;&gt;Node12</title>
+<!-- Node1&#45;&gt;Node11 -->
+<g id="edge16" class="edge"><title>Node1&#45;&gt;Node11</title>
 <path fill="none" stroke="midnightblue" d="M517.275,-210.982C531.369,-200.942 550.34,-187.429 561.842,-179.236"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="514.959,-208.334 508.845,-216.987 519.021,-214.036 514.959,-208.334"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d5/d91/_camera_8h.html" target="_top" xlink:title="Base class for all cameras (leaf node, abstract). ">
+<!-- Node3 -->
+<g id="node4" class="node"><title>Node3</title>
+<g id="a_node4"><a xlink:href="../../d5/d91/_camera_8h.html" target="_top" xlink:title="Base class for all cameras (leaf node, abstract).">
 <polygon fill="white" stroke="black" points="225.994,-109 225.994,-125 290.006,-125 290.006,-109 225.994,-109"/>
 <text text-anchor="middle" x="258" y="-114.6" font-family="Helvetica,sans-Serif" font-size="8.00">src/Camera.h</text>
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node4 -->
-<g id="edge3" class="edge"><title>Node3&#45;&gt;Node4</title>
+<!-- Node2&#45;&gt;Node3 -->
+<g id="edge3" class="edge"><title>Node2&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M328.419,-157.802C310.409,-147.622 285.365,-133.467 270.505,-125.068"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="327.165,-161.113 337.592,-162.987 330.609,-155.019 327.165,-161.113"/>
 </g>
-<!-- Node3&#45;&gt;Node8 -->
-<g id="edge13" class="edge"><title>Node3&#45;&gt;Node8</title>
+<!-- Node2&#45;&gt;Node7 -->
+<g id="edge13" class="edge"><title>Node2&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M346.012,-152.872C343.909,-139.711 343.166,-121.552 351,-108 359.694,-92.9603 463.991,-36.9046 501.594,-17.0368"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="342.628,-153.795 348.03,-162.909 349.491,-152.416 342.628,-153.795"/>
 </g>
-<!-- Node10 -->
-<g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="../../db/d28/_transform_animation_8h.html" target="_top" xlink:title="An animation that creates a transformation to be applied to ist sub&#45;tree (composite node)...">
+<!-- Node9 -->
+<g id="node10" class="node"><title>Node9</title>
+<g id="a_node10"><a xlink:href="../../db/d28/_transform_animation_8h.html" target="_top" xlink:title="An animation that creates a transformation to be applied to ist sub&#45;tree (composite node).">
 <polygon fill="white" stroke="black" points="360.355,-109 360.355,-125 467.645,-125 467.645,-109 360.355,-109"/>
 <text text-anchor="middle" x="414" y="-114.6" font-family="Helvetica,sans-Serif" font-size="8.00">src/TransformAnimation.h</text>
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node10 -->
-<g id="edge11" class="edge"><title>Node3&#45;&gt;Node10</title>
+<!-- Node2&#45;&gt;Node9 -->
+<g id="edge11" class="edge"><title>Node2&#45;&gt;Node9</title>
 <path fill="none" stroke="midnightblue" d="M366.733,-156.405C379.01,-146.43 395.203,-133.273 405.095,-125.236"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="364.185,-153.965 358.631,-162.987 368.6,-159.397 364.185,-153.965"/>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="../../d7/d68/_stereo_camera_8h.html" target="_top" xlink:title="A perspective stereo camera (leaf node). ">
+<!-- Node4 -->
+<g id="node5" class="node"><title>Node4</title>
+<g id="a_node5"><a xlink:href="../../d7/d68/_stereo_camera_8h.html" target="_top" xlink:title="A perspective stereo camera (leaf node).">
 <polygon fill="white" stroke="black" points="-0.351562,-55 -0.351562,-71 102.352,-71 102.352,-55 -0.351562,-55"/>
 <text text-anchor="middle" x="51" y="-60.6" font-family="Helvetica,sans-Serif" font-size="8.00">src_ext/StereoCamera.h</text>
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node5 -->
-<g id="edge4" class="edge"><title>Node4&#45;&gt;Node5</title>
+<!-- Node3&#45;&gt;Node4 -->
+<g id="edge4" class="edge"><title>Node3&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M220.263,-106.52C179.551,-96.2931 115.666,-80.2446 79.1357,-71.0679"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="219.532,-109.945 230.083,-108.987 221.237,-103.156 219.532,-109.945"/>
 </g>
-<!-- Node7 -->
-<g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="../../d5/dea/_orthographic_camera_8h.html" target="_top" xlink:title="A camera with orthographic projection(leaf node). ">
+<!-- Node6 -->
+<g id="node7" class="node"><title>Node6</title>
+<g id="a_node7"><a xlink:href="../../d5/dea/_orthographic_camera_8h.html" target="_top" xlink:title="A camera with orthographic projection(leaf node).">
 <polygon fill="white" stroke="black" points="119.871,-55 119.871,-71 230.129,-71 230.129,-55 119.871,-55"/>
 <text text-anchor="middle" x="175" y="-60.6" font-family="Helvetica,sans-Serif" font-size="8.00">src/OrthographicCamera.h</text>
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node7 -->
-<g id="edge6" class="edge"><title>Node4&#45;&gt;Node7</title>
+<!-- Node3&#45;&gt;Node6 -->
+<g id="edge6" class="edge"><title>Node3&#45;&gt;Node6</title>
 <path fill="none" stroke="midnightblue" d="M238.078,-103.519C221.864,-93.3607 199.564,-79.3892 186.281,-71.0679"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="236.474,-106.644 246.806,-108.987 240.19,-100.712 236.474,-106.644"/>
 </g>
-<!-- Node4&#45;&gt;Node8 -->
-<g id="edge10" class="edge"><title>Node4&#45;&gt;Node8</title>
+<!-- Node3&#45;&gt;Node7 -->
+<g id="edge10" class="edge"><title>Node3&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M258.638,-98.2512C260.13,-84.1899 264.526,-65.1207 277,-54 309.305,-25.1984 443.73,-14.2584 495.007,-11.0837"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="255.121,-98.3912 257.954,-108.6 262.106,-98.853 255.121,-98.3912"/>
 </g>
-<!-- Node9 -->
-<g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="../../df/db1/_perspective_camera_8h.html" target="_top" xlink:title="A camera with perspective projection (leaf node). ">
+<!-- Node8 -->
+<g id="node9" class="node"><title>Node8</title>
+<g id="a_node9"><a xlink:href="../../df/db1/_perspective_camera_8h.html" target="_top" xlink:title="A camera with perspective projection (leaf node).">
 <polygon fill="white" stroke="black" points="286.096,-55 286.096,-71 391.904,-71 391.904,-55 286.096,-55"/>
 <text text-anchor="middle" x="339" y="-60.6" font-family="Helvetica,sans-Serif" font-size="8.00">src/PerspectiveCamera.h</text>
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node9 -->
-<g id="edge8" class="edge"><title>Node4&#45;&gt;Node9</title>
+<!-- Node3&#45;&gt;Node8 -->
+<g id="edge8" class="edge"><title>Node3&#45;&gt;Node8</title>
 <path fill="none" stroke="midnightblue" d="M277.442,-103.519C293.265,-93.3607 315.028,-79.3892 327.99,-71.0679"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="275.448,-100.639 268.924,-108.987 279.23,-106.53 275.448,-100.639"/>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="../../d0/d5b/scg3__ext_8h.html" target="_top" xlink:title="Main header file for scg3 scene graph library extensions, including all class headers. ">
+<!-- Node5 -->
+<g id="node6" class="node"><title>Node5</title>
+<g id="a_node6"><a xlink:href="../../d0/d5b/scg3__ext_8h.html" target="_top" xlink:title="Main header file for scg3 scene graph library extensions, including all class headers.">
 <polygon fill="white" stroke="black" points="23.6543,-1 23.6543,-17 78.3457,-17 78.3457,-1 23.6543,-1"/>
 <text text-anchor="middle" x="51" y="-6.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg3_ext.h</text>
 </a>
 </g>
 </g>
-<!-- Node5&#45;&gt;Node6 -->
-<g id="edge5" class="edge"><title>Node5&#45;&gt;Node6</title>
+<!-- Node4&#45;&gt;Node5 -->
+<g id="edge5" class="edge"><title>Node4&#45;&gt;Node5</title>
 <path fill="none" stroke="midnightblue" d="M51,-44.5708C51,-35.2222 51,-24.2089 51,-17.169"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="47.5001,-44.7696 51,-54.7696 54.5001,-44.7697 47.5001,-44.7696"/>
 </g>
-<!-- Node7&#45;&gt;Node8 -->
-<g id="edge7" class="edge"><title>Node7&#45;&gt;Node8</title>
+<!-- Node6&#45;&gt;Node7 -->
+<g id="edge7" class="edge"><title>Node6&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M230.907,-53.4495C308.272,-41.6173 444.184,-20.8307 495.044,-13.0521"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="230.21,-50.0154 220.854,-54.987 231.268,-56.9349 230.21,-50.0154"/>
 </g>
-<!-- Node9&#45;&gt;Node8 -->
-<g id="edge9" class="edge"><title>Node9&#45;&gt;Node8</title>
+<!-- Node8&#45;&gt;Node7 -->
+<g id="edge9" class="edge"><title>Node8&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M372.38,-52.1376C408.637,-41.4255 465.354,-24.6683 495.165,-15.8604"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="371.335,-48.797 362.736,-54.987 373.318,-55.5101 371.335,-48.797"/>
 </g>
-<!-- Node10&#45;&gt;Node8 -->
-<g id="edge12" class="edge"><title>Node10&#45;&gt;Node8</title>
+<!-- Node9&#45;&gt;Node7 -->
+<g id="edge12" class="edge"><title>Node9&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M428.089,-101.214C450.145,-78.0657 491.988,-34.1514 508.275,-17.0576"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="425.307,-99.06 420.942,-108.714 430.374,-103.889 425.307,-99.06"/>
 </g>
-<!-- Node11&#45;&gt;Node8 -->
-<g id="edge15" class="edge"><title>Node11&#45;&gt;Node8</title>
+<!-- Node10&#45;&gt;Node7 -->
+<g id="edge15" class="edge"><title>Node10&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M504.045,-153.209C506.272,-145.07 508.679,-135.107 510,-126 515.931,-85.1048 515.569,-35.3208 515.19,-17.108"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="500.651,-152.346 501.24,-162.925 507.376,-154.288 500.651,-152.346"/>
 </g>
-<!-- Node12&#45;&gt;Node8 -->
-<g id="edge17" class="edge"><title>Node12&#45;&gt;Node8</title>
+<!-- Node11&#45;&gt;Node7 -->
+<g id="edge17" class="edge"><title>Node11&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M565.998,-153.153C553.728,-118.709 526.203,-41.448 517.613,-17.3335"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="562.75,-154.464 569.403,-162.709 569.344,-152.115 562.75,-154.464"/>
 </g>
-<!-- Node13&#45;&gt;Node8 -->
-<g id="edge24" class="edge"><title>Node13&#45;&gt;Node8</title>
+<!-- Node12&#45;&gt;Node7 -->
+<g id="edge24" class="edge"><title>Node12&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M683.524,-101.471C669.328,-87.8324 646.585,-67.5543 624,-54 594.953,-36.5678 557.745,-23.2422 535.173,-16.0273"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="681.238,-104.131 690.829,-108.633 686.139,-99.1325 681.238,-104.131"/>
 </g>
-<!-- Node14 -->
-<g id="node14" class="node"><title>Node14</title>
+<!-- Node13 -->
+<g id="node14" class="node"><title>Node13</title>
 <g id="a_node14"><a xlink:href="../../d2/db4/_light_position_8h.html" target="_top" xlink:title="A light position node to define the position of an associated light within the scene graph (leaf node...">
 <polygon fill="white" stroke="black" points="676.316,-55 676.316,-71 757.684,-71 757.684,-55 676.316,-55"/>
 <text text-anchor="middle" x="717" y="-60.6" font-family="Helvetica,sans-Serif" font-size="8.00">src/LightPosition.h</text>
 </a>
 </g>
 </g>
-<!-- Node13&#45;&gt;Node14 -->
-<g id="edge20" class="edge"><title>Node13&#45;&gt;Node14</title>
+<!-- Node12&#45;&gt;Node13 -->
+<g id="edge20" class="edge"><title>Node12&#45;&gt;Node13</title>
 <path fill="none" stroke="midnightblue" d="M704.144,-99.1848C707.607,-89.7082 711.752,-78.3637 714.381,-71.169"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="700.786,-98.1758 700.642,-108.77 707.361,-100.578 700.786,-98.1758"/>
 </g>
-<!-- Node15 -->
-<g id="node15" class="node"><title>Node15</title>
-<g id="a_node15"><a xlink:href="../../da/d05/_shape_8h.html" target="_top" xlink:title="A shape node that contains geometry to be rendered (leaf node). ">
+<!-- Node14 -->
+<g id="node15" class="node"><title>Node14</title>
+<g id="a_node15"><a xlink:href="../../da/d05/_shape_8h.html" target="_top" xlink:title="A shape node that contains geometry to be rendered (leaf node).">
 <polygon fill="white" stroke="black" points="775.654,-55 775.654,-71 834.346,-71 834.346,-55 775.654,-55"/>
 <text text-anchor="middle" x="805" y="-60.6" font-family="Helvetica,sans-Serif" font-size="8.00">src/Shape.h</text>
 </a>
 </g>
 </g>
-<!-- Node13&#45;&gt;Node15 -->
-<g id="edge22" class="edge"><title>Node13&#45;&gt;Node15</title>
+<!-- Node12&#45;&gt;Node14 -->
+<g id="edge22" class="edge"><title>Node12&#45;&gt;Node14</title>
 <path fill="none" stroke="midnightblue" d="M721.658,-104.503C742.691,-94.2808 772.774,-79.6614 790.456,-71.0679"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="719.895,-101.468 712.43,-108.987 722.955,-107.764 719.895,-101.468"/>
 </g>
-<!-- Node14&#45;&gt;Node8 -->
-<g id="edge21" class="edge"><title>Node14&#45;&gt;Node8</title>
+<!-- Node13&#45;&gt;Node7 -->
+<g id="edge21" class="edge"><title>Node13&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M680.009,-52.4776C637.259,-41.4727 568.486,-23.7687 534.836,-15.1063"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="679.201,-55.8835 689.757,-54.987 680.946,-49.1045 679.201,-55.8835"/>
 </g>
-<!-- Node15&#45;&gt;Node8 -->
-<g id="edge23" class="edge"><title>Node15&#45;&gt;Node8</title>
+<!-- Node14&#45;&gt;Node7 -->
+<g id="edge23" class="edge"><title>Node14&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M765.537,-53.9648C673.01,-36.4706 575.884,-20.1028 534.884,-13.2856"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="765.153,-57.4543 775.631,-55.8812 766.459,-50.5772 765.153,-57.4543"/>
 </g>

@@ -6,7 +6,6 @@ var scg__internals_8h =
     [ "OGLSampler", "d9/d36/structscg_1_1_o_g_l_sampler.html", "d9/d36/structscg_1_1_o_g_l_sampler" ],
     [ "OGLConstants", "de/dfc/classscg_1_1_o_g_l_constants.html", "de/dfc/classscg_1_1_o_g_l_constants" ],
     [ "CameraTransformation", "d9/de0/scg__internals_8h.html#a929ced333159a7cbc4f245354313e55b", null ],
-    [ "nullptr", "d9/de0/scg__internals_8h.html#ab979d9d4b4923f7c54d6caa6e1a61936", null ],
     [ "SCG_DECLARE_CLASS", "d9/de0/scg__internals_8h.html#a210fffe9ab3017a81517c00cd470a481", null ],
     [ "SCG_DISALLOW_COPY_AND_ASSIGN", "d9/de0/scg__internals_8h.html#a55bab572d72d37efed8562c53039bf48", null ],
     [ "SCG_RESTORE_PROGRAM", "d9/de0/scg__internals_8h.html#aa71670f5308a4fb9ead7afbcfe518121", null ],

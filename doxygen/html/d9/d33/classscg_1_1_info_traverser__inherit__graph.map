@@ -1,3 +1,4 @@
 <map id="scg::InfoTraverser" name="scg::InfoTraverser">
-<area shape="rect" id="node2" href="$dc/d03/classscg_1_1_traverser.html" title="Base class for all traversers (visitor pattern, abstract). " alt="" coords="14,6,103,29"/>
+<area shape="rect" id="node1" title="A traverser that gathers information about the scene graph (visitor pattern)." alt="" coords="5,78,112,101"/>
+<area shape="rect" id="node2" href="$dc/d03/classscg_1_1_traverser.html" title="Base class for all traversers (visitor pattern, abstract)." alt="" coords="14,6,103,29"/>
 </map>

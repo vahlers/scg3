@@ -9,21 +9,24 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 76)">
 <title>src/PerspectiveCamera.h</title>
 <polygon fill="white" stroke="none" points="-4,4 -4,-76 108,-76 108,4 -4,4"/>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
+<g id="a_node1"><a xlink:title="A camera with perspective projection (leaf node).">
 <polygon fill="#bfbfbf" stroke="black" points="-0.904297,-55 -0.904297,-71 104.904,-71 104.904,-55 -0.904297,-55"/>
 <text text-anchor="middle" x="52" y="-60.6" font-family="Helvetica,sans-Serif" font-size="8.00">src/PerspectiveCamera.h</text>
+</a>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d4/d61/scg3_8h.html" target="_top" xlink:title="Main header file for scg3 scene graph library, including all class headers. ">
+</g>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
+<g id="a_node2"><a xlink:href="../../d4/d61/scg3_8h.html" target="_top" xlink:title="Main header file for scg3 scene graph library, including all class headers.">
 <polygon fill="white" stroke="black" points="32.2148,-1 32.2148,-17 71.7852,-17 71.7852,-1 32.2148,-1"/>
 <text text-anchor="middle" x="52" y="-6.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg3.h</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node2 -->
-<g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
+<!-- Node0&#45;&gt;Node1 -->
+<g id="edge1" class="edge"><title>Node0&#45;&gt;Node1</title>
 <path fill="none" stroke="midnightblue" d="M52,-44.5708C52,-35.2222 52,-24.2089 52,-17.169"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="48.5001,-44.7696 52,-54.7696 55.5001,-44.7697 48.5001,-44.7696"/>
 </g>

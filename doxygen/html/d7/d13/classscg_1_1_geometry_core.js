@@ -4,7 +4,7 @@ var classscg_1_1_geometry_core =
     [ "~GeometryCore", "d7/d13/classscg_1_1_geometry_core.html#a4b49a3762be5c3256f9daac29906fa34", null ],
     [ "addAttributeData", "d7/d13/classscg_1_1_geometry_core.html#ab141c73fbbb86a0cee1a52fd362bdb80", null ],
     [ "create", "d7/d13/classscg_1_1_geometry_core.html#a8255d5a586d45e28775456b5887c29ff", null ],
-    [ "getNTriangles", "d7/d13/classscg_1_1_geometry_core.html#a3fad164268bddce018ff9062e52d20f4", null ],
+    [ "getNTriangles", "d7/d13/classscg_1_1_geometry_core.html#a7fdd358cf437af4b08769b55a95ef649", null ],
     [ "render", "d7/d13/classscg_1_1_geometry_core.html#a6d9c5881eb106e8e37f21f02d5773f7b", null ],
     [ "setElementIndexData", "d7/d13/classscg_1_1_geometry_core.html#ac09641ba465901cd4b7b0e3a56f0666a", null ],
     [ "drawFunc_", "d7/d13/classscg_1_1_geometry_core.html#a8af2e168e6982d328c1357b9c84bf024", null ],

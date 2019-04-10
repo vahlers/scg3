@@ -1,3 +1,4 @@
 <map id="src/ViewState.h" name="src/ViewState.h">
-<area shape="rect" id="node2" href="$d4/d61/scg3_8h.html" title="Main header file for scg3 scene graph library, including all class headers. " alt="" coords="26,78,77,101"/>
+<area shape="rect" id="node1" title="The view state of the application, managed by Viewer and accessible by Controller::checkInput() (or d..." alt="" coords="4,6,99,29"/>
+<area shape="rect" id="node2" href="$d4/d61/scg3_8h.html" title="Main header file for scg3 scene graph library, including all class headers." alt="" coords="26,78,77,101"/>
 </map>

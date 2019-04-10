@@ -9,57 +9,60 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 130)">
 <title>src/CameraController.h</title>
 <polygon fill="white" stroke="none" points="-4,4 -4,-130 257,-130 257,4 -4,4"/>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
+<g id="a_node1"><a xlink:title="Base class for all camera controllers, acting on a Camera node (abstract).">
 <polygon fill="#bfbfbf" stroke="black" points="82.873,-109 82.873,-125 181.127,-125 181.127,-109 82.873,-109"/>
 <text text-anchor="middle" x="132" y="-114.6" font-family="Helvetica,sans-Serif" font-size="8.00">src/CameraController.h</text>
+</a>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d4/dd4/_keyboard_controller_8h.html" target="_top" xlink:title="A camera controller using keyboard input. ">
+</g>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
+<g id="a_node2"><a xlink:href="../../d4/dd4/_keyboard_controller_8h.html" target="_top" xlink:title="A camera controller using keyboard input.">
 <polygon fill="white" stroke="black" points="-0.0234375,-55 -0.0234375,-71 104.023,-71 104.023,-55 -0.0234375,-55"/>
 <text text-anchor="middle" x="52" y="-60.6" font-family="Helvetica,sans-Serif" font-size="8.00">src/KeyboardController.h</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node2 -->
-<g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
+<!-- Node0&#45;&gt;Node1 -->
+<g id="edge1" class="edge"><title>Node0&#45;&gt;Node1</title>
 <path fill="none" stroke="midnightblue" d="M112.798,-103.519C97.1703,-93.3607 75.6757,-79.3892 62.8737,-71.0679"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="110.919,-106.472 121.211,-108.987 114.734,-100.603 110.919,-106.472"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d4/d61/scg3_8h.html" target="_top" xlink:title="Main header file for scg3 scene graph library, including all class headers. ">
+<!-- Node2 -->
+<g id="node3" class="node"><title>Node2</title>
+<g id="a_node3"><a xlink:href="../../d4/d61/scg3_8h.html" target="_top" xlink:title="Main header file for scg3 scene graph library, including all class headers.">
 <polygon fill="white" stroke="black" points="112.215,-1 112.215,-17 151.785,-17 151.785,-1 112.215,-1"/>
 <text text-anchor="middle" x="132" y="-6.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg3.h</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node3 -->
-<g id="edge5" class="edge"><title>Node1&#45;&gt;Node3</title>
+<!-- Node0&#45;&gt;Node2 -->
+<g id="edge5" class="edge"><title>Node0&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M132,-98.7024C132,-75.017 132,-33.5516 132,-17.0576"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="128.5,-98.7142 132,-108.714 135.5,-98.7142 128.5,-98.7142"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d4/d18/_mouse_controller_8h.html" target="_top" xlink:title="A camera controller using mouse input. ">
+<!-- Node3 -->
+<g id="node4" class="node"><title>Node3</title>
+<g id="a_node4"><a xlink:href="../../d4/d18/_mouse_controller_8h.html" target="_top" xlink:title="A camera controller using mouse input.">
 <polygon fill="white" stroke="black" points="160.094,-55 160.094,-71 253.906,-71 253.906,-55 160.094,-55"/>
 <text text-anchor="middle" x="207" y="-60.6" font-family="Helvetica,sans-Serif" font-size="8.00">src/MouseController.h</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node4 -->
-<g id="edge3" class="edge"><title>Node1&#45;&gt;Node4</title>
+<!-- Node0&#45;&gt;Node3 -->
+<g id="edge3" class="edge"><title>Node0&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M150.364,-103.268C164.884,-93.2003 184.634,-79.5069 196.564,-71.2355"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="148.339,-100.413 142.115,-108.987 152.327,-106.166 148.339,-100.413"/>
 </g>
-<!-- Node2&#45;&gt;Node3 -->
-<g id="edge2" class="edge"><title>Node2&#45;&gt;Node3</title>
+<!-- Node1&#45;&gt;Node2 -->
+<g id="edge2" class="edge"><title>Node1&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M71.2023,-49.5185C86.8297,-39.3607 108.324,-25.3892 121.126,-17.0679"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="69.2661,-46.6026 62.7892,-54.987 73.0811,-52.4717 69.2661,-46.6026"/>
 </g>
-<!-- Node4&#45;&gt;Node3 -->
-<g id="edge4" class="edge"><title>Node4&#45;&gt;Node3</title>
+<!-- Node3&#45;&gt;Node2 -->
+<g id="edge4" class="edge"><title>Node3&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M188.636,-49.268C174.116,-39.2003 154.366,-25.5069 142.436,-17.2355"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="186.673,-52.1655 196.885,-54.987 190.661,-46.4129 186.673,-52.1655"/>
 </g>

@@ -1,3 +1,4 @@
 <map id="src/StandardRenderer.h" name="src/StandardRenderer.h">
-<area shape="rect" id="node2" href="$d4/d61/scg3_8h.html" title="Main header file for scg3 scene graph library, including all class headers. " alt="" coords="46,78,97,101"/>
+<area shape="rect" id="node1" title="A standard renderer that uses a PreTraverser, a RenderTraverser, and an InfoTraverser." alt="" coords="5,6,139,29"/>
+<area shape="rect" id="node2" href="$d4/d61/scg3_8h.html" title="Main header file for scg3 scene graph library, including all class headers." alt="" coords="46,78,97,101"/>
 </map>

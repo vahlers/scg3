@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['nullptr',['nullptr',['../d9/de0/scg__internals_8h.html#ab979d9d4b4923f7c54d6caa6e1a61936',1,'scg_internals.h']]]
+  ['glm_5fenable_5fexperimental',['GLM_ENABLE_EXPERIMENTAL',['../d2/d56/scg__glm_8h.html#abd75661fe7969e19439052a5f69ba5d1',1,'scg_glm.h']]]
 ];

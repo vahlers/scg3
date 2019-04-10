@@ -1,6 +1,7 @@
 <map id="src/Traverser.h" name="src/Traverser.h">
-<area shape="rect" id="node2" href="$d9/d3a/_info_traverser_8h.html" title="A traverser that gathers information about the scene graph (visitor pattern). " alt="" coords="5,78,115,101"/>
-<area shape="rect" id="node3" href="$d4/d61/scg3_8h.html" title="Main header file for scg3 scene graph library, including all class headers. " alt="" coords="171,150,223,173"/>
-<area shape="rect" id="node4" href="$d3/d12/_pre_traverser_8h.html" title="A traverser that searches Camera and LightPosition nodes in the scene graph (visitor pattern)..." alt="" coords="190,78,297,101"/>
-<area shape="rect" id="node5" href="$df/d28/_render_traverser_8h.html" title="A traverser that renders the scene graph (visitor pattern). " alt="" coords="322,78,448,101"/>
+<area shape="rect" id="node1" title="Base class for all traversers (visitor pattern, abstract)." alt="" coords="151,6,243,29"/>
+<area shape="rect" id="node2" href="$d9/d3a/_info_traverser_8h.html" title="A traverser that gathers information about the scene graph (visitor pattern)." alt="" coords="5,78,115,101"/>
+<area shape="rect" id="node3" href="$d4/d61/scg3_8h.html" title="Main header file for scg3 scene graph library, including all class headers." alt="" coords="171,150,223,173"/>
+<area shape="rect" id="node4" href="$d3/d12/_pre_traverser_8h.html" title="A traverser that searches Camera and LightPosition nodes in the scene graph (visitor pattern)." alt="" coords="190,78,297,101"/>
+<area shape="rect" id="node5" href="$df/d28/_render_traverser_8h.html" title="A traverser that renders the scene graph (visitor pattern)." alt="" coords="322,78,448,101"/>
 </map>

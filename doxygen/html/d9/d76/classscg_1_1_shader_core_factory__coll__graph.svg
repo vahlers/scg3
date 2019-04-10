@@ -11,13 +11,19 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-210 106,-210 106,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
+<g id="a_node1"><a xlink:title="A factory to create shader cores.">
 <polygon fill="#bfbfbf" stroke="black" points="-0.351562,-1 -0.351562,-17 102.352,-17 102.352,-1 -0.351562,-1"/>
 <text text-anchor="middle" x="51" y="-6.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::ShaderCoreFactory</text>
+</a>
+</g>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
+<g id="a_node2"><a xlink:title=" ">
 <polygon fill="white" stroke="#bfbfbf" points="0.314453,-63 0.314453,-79 101.686,-79 101.686,-63 0.314453,-63"/>
 <text text-anchor="middle" x="51" y="-68.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::vector&lt; std::string &gt;</text>
+</a>
+</g>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
@@ -27,7 +33,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:title="STL class. ">
+<g id="a_node3"><a xlink:title="STL class.">
 <polygon fill="white" stroke="#bfbfbf" points="25.6602,-125 25.6602,-141 76.3398,-141 76.3398,-125 25.6602,-125"/>
 <text text-anchor="middle" x="51" y="-130.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::string</text>
 </a>
@@ -41,7 +47,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:title="STL class. ">
+<g id="a_node4"><a xlink:title="STL class.">
 <polygon fill="white" stroke="#bfbfbf" points="11.7617,-181 11.7617,-205 90.2383,-205 90.2383,-181 11.7617,-181"/>
 <text text-anchor="start" x="19.7617" y="-194.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::basic_string&lt;</text>
 <text text-anchor="middle" x="51" y="-186.6" font-family="Helvetica,sans-Serif" font-size="8.00"> char &gt;</text>

@@ -1,4 +1,5 @@
 <map id="scg::Group" name="scg::Group">
-<area shape="rect" id="node2" href="$da/d38/classscg_1_1_composite.html" title="Base class for all composite nodes, i.e., nodes with children (composite pattern, abstract)..." alt="" coords="5,78,99,101"/>
-<area shape="rect" id="node3" href="$d4/dc7/classscg_1_1_node.html" title="Base class for all nodes (composite pattern, abstract). " alt="" coords="17,6,87,29"/>
+<area shape="rect" id="node1" title="A group node to be used as root of a sub&#45;tree of nodes (composite node)." alt="" coords="15,150,88,173"/>
+<area shape="rect" id="node2" href="$da/d38/classscg_1_1_composite.html" title="Base class for all composite nodes, i.e., nodes with children (composite pattern, abstract)." alt="" coords="5,78,99,101"/>
+<area shape="rect" id="node3" href="$d4/dc7/classscg_1_1_node.html" title="Base class for all nodes (composite pattern, abstract)." alt="" coords="17,6,87,29"/>
 </map>

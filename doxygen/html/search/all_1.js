@@ -11,8 +11,7 @@ var searchData=
   ['buffer_5fsize',['BUFFER_SIZE',['../da/d81/classscg_1_1_light.html#a862fd60c05f1d61a033dc61b2ac43023',1,'scg::Light::BUFFER_SIZE()'],['../db/d10/classscg_1_1_material_core.html#a18497e08cabfb22813a457f20d39e442',1,'scg::MaterialCore::BUFFER_SIZE()']]],
   ['bump_5ffrag_2eglsl',['bump_frag.glsl',['../d0/dbc/bump__frag_8glsl.html',1,'']]],
   ['bump_5fvert_2eglsl',['bump_vert.glsl',['../d0/d86/bump__vert_8glsl.html',1,'']]],
-  ['bumpmapcore',['BumpMapCore',['../db/d63/classscg_1_1_bump_map_core.html',1,'scg']]],
-  ['bumpmapcore',['BumpMapCore',['../db/d63/classscg_1_1_bump_map_core.html#a1c7f046253c54ba428f29f821135f4a8',1,'scg::BumpMapCore']]],
+  ['bumpmapcore',['BumpMapCore',['../db/d63/classscg_1_1_bump_map_core.html',1,'scg::BumpMapCore'],['../db/d63/classscg_1_1_bump_map_core.html#a1c7f046253c54ba428f29f821135f4a8',1,'scg::BumpMapCore::BumpMapCore()']]],
   ['bumpmapcore_2eh',['BumpMapCore.h',['../d6/d52/_bump_map_core_8h.html',1,'']]],
   ['bumpmapcoresp',['BumpMapCoreSP',['../d7/d60/namespacescg.html#ac349814c4a3b9715bb63b6aea892a48f',1,'scg']]],
   ['bumpmapcoreup',['BumpMapCoreUP',['../d7/d60/namespacescg.html#aca5d908247da4d98e90df962f8bd2e8b',1,'scg']]]

@@ -1,3 +1,4 @@
 <map id="scg::MaterialCore" name="scg::MaterialCore">
-<area shape="rect" id="node2" href="$d0/d79/classscg_1_1_core.html" title="Base class for all cores (abstract). " alt="" coords="24,6,91,29"/>
+<area shape="rect" id="node1" title="A core to set material properties for lighting to be applied to subsequent geometry." alt="" coords="5,78,109,101"/>
+<area shape="rect" id="node2" href="$d0/d79/classscg_1_1_core.html" title="Base class for all cores (abstract)." alt="" coords="24,6,91,29"/>
 </map>

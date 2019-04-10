@@ -11,13 +11,19 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-84 102,-84 102,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
+<g id="a_node1"><a xlink:title="Matrix stack to store model&#45;view, projection, texture, and color matrices, used by RenderState.">
 <polygon fill="#bfbfbf" stroke="black" points="11.6602,-1 11.6602,-17 86.3398,-17 86.3398,-1 11.6602,-1"/>
 <text text-anchor="middle" x="49" y="-6.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg::MatrixStack</text>
+</a>
+</g>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
+<g id="a_node2"><a xlink:title=" ">
 <polygon fill="white" stroke="#bfbfbf" points="-0.349609,-63 -0.349609,-79 98.3496,-79 98.3496,-63 -0.349609,-63"/>
 <text text-anchor="middle" x="49" y="-68.6" font-family="Helvetica,sans-Serif" font-size="8.00">std::stack&lt; glm::mat4 &gt;</text>
+</a>
+</g>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>

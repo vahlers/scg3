@@ -9,75 +9,78 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 130)">
 <title>src_ext/StereoRenderer.h</title>
 <polygon fill="white" stroke="none" points="-4,4 -4,-130 460.497,-130 460.497,4 -4,4"/>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
+<g id="a_node1"><a xlink:title="Base class for all stereo renderers (abstract).">
 <polygon fill="#bfbfbf" stroke="black" points="102.915,-109 102.915,-125 210.079,-125 210.079,-109 102.915,-109"/>
 <text text-anchor="middle" x="156.497" y="-114.6" font-family="Helvetica,sans-Serif" font-size="8.00">src_ext/StereoRenderer.h</text>
+</a>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d0/d5b/scg3__ext_8h.html" target="_top" xlink:title="Main header file for scg3 scene graph library extensions, including all class headers. ">
+</g>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
+<g id="a_node2"><a xlink:href="../../d0/d5b/scg3__ext_8h.html" target="_top" xlink:title="Main header file for scg3 scene graph library extensions, including all class headers.">
 <polygon fill="white" stroke="black" points="129.151,-1 129.151,-17 183.843,-17 183.843,-1 129.151,-1"/>
 <text text-anchor="middle" x="156.497" y="-6.6" font-family="Helvetica,sans-Serif" font-size="8.00">scg3_ext.h</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node2 -->
-<g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
+<!-- Node0&#45;&gt;Node1 -->
+<g id="edge1" class="edge"><title>Node0&#45;&gt;Node1</title>
 <path fill="none" stroke="midnightblue" d="M102.307,-107.104C64.2835,-99.6279 18.219,-87.6542 6.49712,-72 -26.3536,-28.129 77.3,-15.1322 128.998,-11.4196"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="101.801,-110.57 112.278,-109 103.108,-103.693 101.801,-110.57"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="../../dd/dec/_stereo_renderer_active_8h.html" target="_top" xlink:title="A renderer for active stereo (e.g., shutter glasses). ">
+<!-- Node2 -->
+<g id="node3" class="node"><title>Node2</title>
+<g id="a_node3"><a xlink:href="../../dd/dec/_stereo_renderer_active_8h.html" target="_top" xlink:title="A renderer for active stereo (e.g., shutter glasses).">
 <polygon fill="white" stroke="black" points="15.8038,-55 15.8038,-71 145.19,-71 145.19,-55 15.8038,-55"/>
 <text text-anchor="middle" x="80.4971" y="-60.6" font-family="Helvetica,sans-Serif" font-size="8.00">src_ext/StereoRendererActive.h</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node3 -->
-<g id="edge2" class="edge"><title>Node1&#45;&gt;Node3</title>
+<!-- Node0&#45;&gt;Node2 -->
+<g id="edge2" class="edge"><title>Node0&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M137.889,-103.268C123.175,-93.2003 103.161,-79.5069 91.0721,-71.2355"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="136.018,-106.229 146.247,-108.987 139.971,-100.452 136.018,-106.229"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d5/da3/_stereo_renderer_anaglyph_8h.html" target="_top" xlink:title="A renderer for anaglyph stereo (left: red, right: cyan). ">
+<!-- Node3 -->
+<g id="node4" class="node"><title>Node3</title>
+<g id="a_node4"><a xlink:href="../../d5/da3/_stereo_renderer_anaglyph_8h.html" target="_top" xlink:title="A renderer for anaglyph stereo (left: red, right: cyan).">
 <polygon fill="white" stroke="black" points="163.017,-55 163.017,-71 303.978,-71 303.978,-55 163.017,-55"/>
 <text text-anchor="middle" x="233.497" y="-60.6" font-family="Helvetica,sans-Serif" font-size="8.00">src_ext/StereoRendererAnaglyph.h</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node4 -->
-<g id="edge4" class="edge"><title>Node1&#45;&gt;Node4</title>
+<!-- Node0&#45;&gt;Node3 -->
+<g id="edge4" class="edge"><title>Node0&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M175.35,-103.268C190.258,-93.2003 210.535,-79.5069 222.783,-71.2355"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="173.21,-100.49 166.882,-108.987 177.128,-106.291 173.21,-100.49"/>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="../../d4/d7e/_stereo_renderer_passive_8h.html" target="_top" xlink:title="A renderer for passive stereo (e.g., polarized projection). ">
+<!-- Node4 -->
+<g id="node5" class="node"><title>Node4</title>
+<g id="a_node5"><a xlink:href="../../d4/d7e/_stereo_renderer_passive_8h.html" target="_top" xlink:title="A renderer for passive stereo (e.g., polarized projection).">
 <polygon fill="white" stroke="black" points="321.69,-55 321.69,-71 457.304,-71 457.304,-55 321.69,-55"/>
 <text text-anchor="middle" x="389.497" y="-60.6" font-family="Helvetica,sans-Serif" font-size="8.00">src_ext/StereoRendererPassive.h</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node5 -->
-<g id="edge6" class="edge"><title>Node1&#45;&gt;Node5</title>
+<!-- Node0&#45;&gt;Node4 -->
+<g id="edge6" class="edge"><title>Node0&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M197.815,-106.779C243.578,-96.5656 316.36,-80.3224 357.827,-71.0679"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="196.918,-103.393 187.921,-108.987 198.443,-110.225 196.918,-103.393"/>
 </g>
-<!-- Node3&#45;&gt;Node2 -->
-<g id="edge3" class="edge"><title>Node3&#45;&gt;Node2</title>
+<!-- Node2&#45;&gt;Node1 -->
+<g id="edge3" class="edge"><title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="midnightblue" d="M99.1055,-49.268C113.82,-39.2003 133.833,-25.5069 145.922,-17.2355"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="97.0235,-46.4516 90.7468,-54.987 100.976,-52.2287 97.0235,-46.4516"/>
 </g>
-<!-- Node4&#45;&gt;Node2 -->
-<g id="edge5" class="edge"><title>Node4&#45;&gt;Node2</title>
+<!-- Node3&#45;&gt;Node1 -->
+<g id="edge5" class="edge"><title>Node3&#45;&gt;Node1</title>
 <path fill="none" stroke="midnightblue" d="M214.644,-49.268C199.736,-39.2003 179.459,-25.5069 167.211,-17.2355"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="212.866,-52.291 223.113,-54.987 216.784,-46.4899 212.866,-52.291"/>
 </g>
-<!-- Node5&#45;&gt;Node2 -->
-<g id="edge7" class="edge"><title>Node5&#45;&gt;Node2</title>
+<!-- Node4&#45;&gt;Node1 -->
+<g id="edge7" class="edge"><title>Node4&#45;&gt;Node1</title>
 <path fill="none" stroke="midnightblue" d="M348.158,-52.774C300.88,-42.2228 224.787,-25.2408 184.16,-16.1737"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="347.551,-56.2248 358.074,-54.987 349.076,-49.3928 347.551,-56.2248"/>
 </g>

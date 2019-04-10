@@ -1,3 +1,11 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$d3/d0a/struct_material.html" title="Material" alt="" coords="5,5,64,27"/>
+<area shape="rect" id="node1" href="$d0/d79/classscg_1_1_core.html" title="Base class for all cores (abstract)." alt="" coords="5,98,72,121"/>
+<area shape="rect" id="node2" href="$d9/dc2/classscg_1_1_color_core.html" title="A core to set a vertex color or a color transformation to be applied to subsequent geometry." alt="" coords="131,5,224,27"/>
+<area shape="rect" id="node3" href="$d7/d13/classscg_1_1_geometry_core.html" title="A core that contains geometry information to be rendered." alt="" coords="120,51,234,74"/>
+<area shape="rect" id="node4" href="$db/d10/classscg_1_1_material_core.html" title="A core to set material properties for lighting to be applied to subsequent geometry." alt="" coords="125,98,230,121"/>
+<area shape="rect" id="node5" href="$df/de9/classscg_1_1_shader_core.html" title="A core to set a shader program to be applied to subsequent nodes." alt="" coords="127,145,228,167"/>
+<area shape="rect" id="node6" href="$d1/d4f/classscg_1_1_texture_core.html" title="Base class for all texture cores (abstract)." alt="" coords="126,191,228,214"/>
+<area shape="rect" id="node7" href="$d9/d5b/classscg_1_1_cube_map_core.html" title="Cube map textue core." alt="" coords="285,167,398,190"/>
+<area shape="rect" id="node8" href="$dc/d19/classscg_1_1_texture2_d_core.html" title="2D texture core." alt="" coords="284,214,399,237"/>
+<area shape="rect" id="node9" href="$db/d63/classscg_1_1_bump_map_core.html" title="2D bump map core storing a texture (optional) and a normal map." alt="" coords="449,214,564,237"/>
 </map>

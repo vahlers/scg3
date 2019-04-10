@@ -1,6 +1,7 @@
 <map id="scg::OGLConstants" name="scg::OGLConstants">
-<area shape="rect" id="node2" href="$d3/da9/structscg_1_1_o_g_l_uniform_block.html" title="Uniform block name and index. " alt="" coords="4,6,133,29"/>
-<area shape="rect" id="node3" href="$d1/d28/structscg_1_1_o_g_l_frag_data.html" title="Fragment data name and location. " alt="" coords="158,6,268,29"/>
-<area shape="rect" id="node4" href="$d4/d10/structscg_1_1_o_g_l_attrib.html" title="Attribute name and location. " alt="" coords="293,6,384,29"/>
-<area shape="rect" id="node5" href="$d9/d36/structscg_1_1_o_g_l_sampler.html" title="Sampler name and texture unit. " alt="" coords="408,6,513,29"/>
+<area shape="rect" id="node1" title="OpenGL attribute names and locations, uniform names, etc., to be used by ShaderCore,..." alt="" coords="219,153,332,175"/>
+<area shape="rect" id="node2" href="$d3/da9/structscg_1_1_o_g_l_uniform_block.html" title="Uniform block name and index." alt="" coords="4,6,133,29"/>
+<area shape="rect" id="node3" href="$d1/d28/structscg_1_1_o_g_l_frag_data.html" title="Fragment data name and location." alt="" coords="158,6,268,29"/>
+<area shape="rect" id="node4" href="$d4/d10/structscg_1_1_o_g_l_attrib.html" title="Attribute name and location." alt="" coords="293,6,384,29"/>
+<area shape="rect" id="node5" href="$d9/d36/structscg_1_1_o_g_l_sampler.html" title="Sampler name and texture unit." alt="" coords="408,6,513,29"/>
 </map>
