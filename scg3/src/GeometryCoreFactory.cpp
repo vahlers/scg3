@@ -6,7 +6,7 @@
  */
 
 /*
- * Copyright 2014 Volker Ahlers
+ * Copyright 2014-2019 Volker Ahlers
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -71,13 +71,7 @@ GeometryCoreSP GeometryCoreFactory::createModelFromOBJFile(const std::string& fi
   }
   int vertIdx = 0;
   int texIdx = 0;
-#ifdef SCG_CPP11_RANGE_BASED_FOR
   for (auto face : model.faces) {
-#else
-    // iterator fallback
-    for (auto it = model.faces.begin(); it < model.faces.end(); ++it) {
-      auto face = *it;
-#endif
     for (int i = 0; i < face.nTriangles; ++i) {
       glm::vec3 faceNormal = glm::normalize(glm::cross(
           (model.vertices[face.entries[i + 1].vertex - 1] - model.vertices[face.entries[0].vertex - 1]),

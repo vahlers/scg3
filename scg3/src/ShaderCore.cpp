@@ -6,7 +6,7 @@
  */
 
 /*
- * Copyright 2014 Volker Ahlers
+ * Copyright 2014-2019 Volker Ahlers
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -48,13 +48,7 @@ ShaderCore::~ShaderCore() {
 void ShaderCore::clear() {
   if (isGLContextActive()) {
     glUseProgram(0);
-#ifdef SCG_CPP11_RANGE_BASED_FOR
     for (auto shaderID : shaderIDs_) {
-#else
-    // iterator fallback
-    for (auto it = shaderIDs_.begin(); it < shaderIDs_.end(); ++it) {
-      auto shaderID = *it;
-#endif
       glDeleteShader(shaderID.shader);
     }
     glDeleteProgram(program_);
@@ -71,13 +65,7 @@ ShaderCoreSP ShaderCore::create(GLuint program, const std::vector<ShaderID>& sha
 
 void ShaderCore::init() const {
   assert(glIsProgram(program_));
-#ifdef SCG_CPP11_RANGE_BASED_FOR
   for (auto shaderID : shaderIDs_) {
-#else
-  // iterator fallback
-  for (auto it = shaderIDs_.begin(); it != shaderIDs_.end(); ++it) {
-    auto shaderID = *it;
-#endif
     assert(glIsShader(shaderID.shader));
     glCompileShader(shaderID.shader);
     checkCompileError_(shaderID);

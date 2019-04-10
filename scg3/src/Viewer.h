@@ -6,14 +6,14 @@
  *   OGLConfig
  *   FrameBufferSize
  *
- * Requires OpenGL 3.2 (or higher), GLEW, and GLFW.
+ * Requires OpenGL 3.2 (or higher), GLEW (included in scg3), and GLFW 3.2.0 (or higher).
  *
  * \author Volker Ahlers\n
  *         volker.ahlers@hs-hannover.de
  */
 
 /*
- * Copyright 2014 Volker Ahlers
+ * Copyright 2014-2019 Volker Ahlers
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -42,22 +42,11 @@ namespace scg {
 /**
  * \brief Profile definitions for OGLConfig.
  */
-#ifdef SCG_CPP11_STRONGLY_TYPED_ENUMS
 enum class OGLProfile: int {
   NONE = 0,
   CORE = GLFW_OPENGL_CORE_PROFILE,
   COMPATIBILITY = GLFW_OPENGL_COMPAT_PROFILE
 };
-#else
-enum OGLProfile {
-  NONE = 0,
-  CORE = GLFW_OPENGL_CORE_PROFILE,
-  COMPATIBILITY = GLFW_OPENGL_COMPAT_PROFILE
-};
-#if defined(_MSC_VER)
-#pragma warning(disable: 4482)
-#endif
-#endif
 
 
 /**

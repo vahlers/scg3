@@ -7,7 +7,7 @@
  */
 
 /*
- * Copyright 2014 Volker Ahlers
+ * Copyright 2014-2019 Volker Ahlers
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -38,9 +38,9 @@ namespace scg {
  * Currently used C++11 features:
  *   auto-typed variables
  *   rvalue references
- *   strongly-typed enums (if available, workaround provided)
- *   nullptr keyword (if available, workaround provided)
- *   range-based for (if available, workaround provided)
+ *   strongly-typed enumerations
+ *   nullptr keyword
+ *   range-based for
  *   initializer lists (optional, only in application)
  *   lambda functions (optional, only in application)
  *   library functional: function objects, bind
@@ -52,48 +52,52 @@ namespace scg {
 #if defined __clang__
 // --- Clang ---
 
-#if __has_feature(cxx_generalized_initializers)
-#define SCG_CPP11_INITIALIZER_LISTS
+// ensure Clang version supports required C++11 features
+#if !__has_feature(cxx_auto_type)
+#error Clang version supporting C++11 feature auto-typed variables is required.
 #endif
 
+#if !__has_feature(cxx_rvalue_references)
+#error Clang version supporting C++11 feature rvalue references is required.
+#endif
+
+#if !__has_feature(cxx_strong_enums)
+#error Clang version supporting C++11 feature strongly-typed enumerations is required.
+#endif
+
+#if !__has_feature(cxx_nullptr)
+#error Clang version supporting C++11 feature nullptr keyword is required.
+#endif
+
+#if !__has_feature(cxx_range_for)
+#error Clang version supporting C++11 feature range-based for is required.
+#endif
+
+// check which optional C++11 features are available
 #if __has_feature(cxx_lambdas)
 #define SCG_CPP11_LAMBDA_FUNCTIONS
 #endif
 
-#if __has_feature(cxx_nullptr)
-#define SCG_CPP11_NULLPTR
-#endif
-
-#if __has_feature(cxx_range_for)
-#define SCG_CPP11_RANGE_BASED_FOR
-#endif
-
-#if __has_feature(cxx_strong_enums)
-#define SCG_CPP11_STRONGLY_TYPED_ENUMS
+#if __has_feature(cxx_generalized_initializers)
+#define SCG_CPP11_INITIALIZER_LISTS
 #endif
 
 #else
 #if defined __GNUC__
 // --- GCC ---
 
-// ensure GCC version 4.4 or higher is used
+// ensure GCC version 4.6 or higher is used
 #define SCG_GCC_VERSION (100 * __GNUC__ + __GNUC_MINOR__)
-#if SCG_GCC_VERSION < 404   // GCC < 4.4
-#error GCC 4.4 or higher is required.
+#if SCG_GCC_VERSION < 406   // GCC < 4.6
+#error GCC 4.6 or higher is required.
 #endif
 
-// check which C++11 features are available
-#if SCG_GCC_VERSION >= 404  // GCC >= 4.4
-#define SCG_CPP11_STRONGLY_TYPED_ENUMS
-#endif
-
+// check which optional C++11 features are available
 #if SCG_GCC_VERSION >= 405  // GCC >= 4.5
 #define SCG_CPP11_LAMBDA_FUNCTIONS
 #endif
 
 #if SCG_GCC_VERSION >= 406  // GCC >= 4.6
-#define SCG_CPP11_NULLPTR
-#define SCG_CPP11_RANGE_BASED_FOR
 #define SCG_CPP11_INITIALIZER_LISTS
 #endif
 
@@ -101,23 +105,19 @@ namespace scg {
 #if defined _MSC_VER
 // --- Visual C++ ---
 
-// ensure Visual C++ compiler version 16.00 (Visual Studio 2010) or higher is used
-#if _MSC_VER < 1600   // Visual C++ compiler < 16.00
-#error Visual C++ compiler version 16.00 (Visual Studio 2010) or higher is required.
+// ensure Visual C++ compiler version 17.00 (Visual Studio 2012) or higher is used
+#if _MSC_VER < 1700   // Visual C++ compiler < 17.00
+#error Visual C++ compiler version 17.00 (Visual Studio 2012) or higher is required.
 #endif
 
-// check which C++11 features are available
+// check which optional C++11 features are available
 #if _MSC_VER >= 1600   // Visual C++ compiler >= 16.00 (Visual Studio 2010)
 #define SCG_CPP11_LAMBDA_FUNCTIONS
-#define SCG_CPP11_NULLPTR
 #endif
 
-#if _MSC_VER >= 1700   // Visual C++ compiler >= 17.00 (Visual Studio 2012)
-#define SCG_CPP11_STRONGLY_TYPED_ENUMS
-#define SCG_CPP11_RANGE_BASED_FOR
+#if _MSC_VER >= 1800   // Visual C++ compiler >= 18.00 (Visual Studio 2013)
+#define SCG_CPP11_INITIALIZER_LISTS
 #endif
-
-// SCG_CPP11_INITIALIZER_LISTS is not yet supported by Visual C++
 
 #else
 // --- neither GCC nor Visual C++ ---
@@ -129,11 +129,6 @@ namespace scg {
 #endif      // __GNUC__
 
 #endif      // __clang__
-
-// define C++11 nullptr keyword if not supported
-#ifndef SCG_CPP11_NULLPTR
-#define nullptr 0  // quick-and-dirty solution
-#endif
 
 
 /**

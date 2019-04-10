@@ -6,7 +6,7 @@
  */
 
 /*
- * Copyright 2014 Volker Ahlers
+ * Copyright 2014-2019 Volker Ahlers
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -204,13 +204,7 @@ ShaderCoreSP ShaderCoreFactory::createShaderFromSourceFiles(
   std::vector<ShaderID> shaderIDs;
 
   // load shaders from source files
-#ifdef SCG_CPP11_RANGE_BASED_FOR
   for (auto shaderFile : shaderFiles) {
-#else
-  // iterator fallback
-  for (auto it = shaderFiles.begin(); it != shaderFiles.end(); ++it) {
-    auto shaderFile = *it;
-#endif
     GLuint shader = glCreateShader(shaderFile.shaderType);
     assert(glIsShader(shader));
     shaderIDs.push_back(ShaderID(shader, shaderFile.fileName));

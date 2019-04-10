@@ -6,7 +6,7 @@
  */
 
 /*
- * Copyright 2014 Volker Ahlers
+ * Copyright 2014-2019 Volker Ahlers
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -79,13 +79,7 @@ void setCursorPosPixels(GLFWwindow* window, double xPixels, double yPixels) {
 
 
 void formatFilePath(std::string& filePath) {
-#ifdef SCG_CPP11_RANGE_BASED_FOR
   for (char& c : filePath) {
-#else
-  // iterator fallback
-  for (auto it = filePath.begin(); it != filePath.end(); ++it) {
-    char& c = *it;
-#endif
     if (c == '\\') {
       c = '/';
     }
@@ -105,13 +99,7 @@ std::string getFullFileName(const std::vector<std::string>& filePaths, const std
     result = fileName;
   }
   else {
-#ifdef SCG_CPP11_RANGE_BASED_FOR
     for (auto filePath : filePaths) {
-#else
-    // iterator fallback
-    for (auto it = filePaths.begin(); it != filePaths.end(); ++it) {
-      auto filePath = *it;
-#endif
       istr.open((filePath + fileName).c_str());
       if (istr.is_open()) {
         istr.close();

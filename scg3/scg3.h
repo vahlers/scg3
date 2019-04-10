@@ -61,10 +61,12 @@
  * \section sec_architecture Architecture
  *
  * This scene graph library is based on OpenGL 3.2/GLSL 1.5 %Core Profile and C++11.
- * It is primarily intended for educational use in the master lecture
- * <em>Computer Graphics and Interaction</em> (CGI) and the accompanying exercises.
+ * It is primarily intended for educational use in the lectures
+ * <em>Computer Graphics and Interaction</em> (MIN-CGI, M.Sc.) and
+ * <em>Computergrafik 1</em> (BIN-CG1, B.Sc.) as well as the accompanying exercises
+ * at University of Applied Sciences and Arts Hannover.
  *
- * Cf. CGI lecture notes, chapter 4 (Scene Graphs)
+ * Cf. lecture notes MIN-CGI, chapter 4 (Scene Graphs) or BIN-CG1, chapter 6 (Szenengraphen).
  *
  * The central classes are scg::Viewer, scg::Renderer, scg::Traverser, scg::Node, and scg::Core
  * as well as its sub-classes.
@@ -96,31 +98,33 @@
  * \subsection sec_installation Installation and Linking
  *
  * Prerequisites: OpenGL 3.2 (or higher), GLFW 3.2.0 (or higher)
+ * C++ Compiler: GCC 4.6 (or higher), Clang 3.1 (or higher), Visual C++ 17.0 (Visual Studio 2012, or higher)
  *
  * Build of library scg3:
- * Project files for Eclipse (Linux and Windows/MinGW) and Visual Studio 10/2010 and 11/2012 (Windows) are provided.
+ * Project files for Eclipse (Linux, MacOS and Windows/MinGW), Visual Studio 2012 (Windows),
+ * and CMake files (Linux) are provided.
  *
  * Build of application under Linux:
  *
  * \verbatim
-   g++ -g -c -std=c++0x -I../scg3 my_prog.cpp
-   g++ -L../scg3/Debug -o my_prog my_prog.o -lscg3 -lglfw3 -lGL -lX11 -lXxf86vm -lXrandr -lpthread -lXi -lrt\endverbatim
+   g++ -g -c -std=c++11 -I../scg3 my_prog.cpp
+   g++ -L../scg3/DebugLinux -o my_prog my_prog.o -lscg3 -lglfw3 -lGL -lX11 -lXxf86vm -lXrandr -lpthread -lXi -lrt -ldl -lXinerama -lXcursor\endverbatim
  *
  * Build of application under macOS:
  *
  * \verbatim
-   g++ -g -c -std=c++0x -I../scg3 my_prog.cpp
-   g++ -L../scg3/Debug -o my_prog my_prog.o -lscg3 -lglfw -framework OpenGL -framework Cocoa -framework IOKit -framework CoreVideo\endverbatim
+   g++ -g -c -std=c++11 -I../scg3 my_prog.cpp
+   g++ -L../scg3/DebugMacOS -L/usr/local/lib -o my_prog my_prog.o -lscg3 -lglfw -framework OpenGL -framework Cocoa -framework IOKit -framework CoreVideo\endverbatim
  *
  * Build of application under Windows/MinGW:
  *
  * \verbatim
-   g++ -g -c -std=c++0x -I../scg3 my_prog.cpp
-   g++ -L../scg3/DebugWin -o my_prog.exe my_prog.o -lscg3 -lglfw3 -lopengl32 -lgdi32\endverbatim
+   g++ -g -c -std=c++11 -I../scg3 my_prog.cpp
+   g++ -L../scg3/DebugWindows -o my_prog.exe my_prog.o -lscg3 -lglfw3 -lopengl32 -lgdi32\endverbatim
  *
  * \subsection sec_example Example Application
  *
- * Cf. CGI lecture notes, chapter 4 (Scene Graphs)
+ * Cf. lecture notes MIN-CGI, chapter 4 (Scene Graphs) or BIN-CG1, chapter 6 (Szenengraphen).
  *
  * \include scg3_minimal_example.cpp
  *
@@ -129,9 +133,9 @@
  *
  * \section sec_acknowledgements Acknowledgments
  *
- * This scene graph implementation utilizes ideas of Prof. Dr. Henrik Tramberend,
+ * This scene graph implementation utilizes ideas and contributions of Prof. Dr. Henrik Tramberend,
  * Prof. Dr. Frauke Sprengel, Jan Gericke, Bastian Hellmann, Benedikt K&ouml;hler,
- * and Alexander Schulz.
+ * Alexander Schulz, and Marcus Wichelmann.
  *
  * It is further influenced by the open-source scene graph libraries
  * OpenSceneGraph and OpenSG.
@@ -142,7 +146,7 @@
  *
  * The open-source libraries GLEW 2.1.0, GLFW 3.2.0, GLM 0.9.9.3, and stb_image 2.21 are used.
  * GLEW, GLM, and stb_image are included as source code in folder extern.
- * GLFW 3.2 has to be installed by the user (cf. http://www.glfw.org/).
+ * GLFW 3.2.0 (or newer) has to be installed by the user (cf. http://www.glfw.org/).
  *
  * http://glew.sourceforge.net/
  *
@@ -154,16 +158,14 @@
  *
  * \section sec_release_notes Release Notes
  *
- * Version 0.6 (to be released March 2019)
+ * Version 0.6 (March 2019)
  *
- * - introduced in CG1 lecture of summer 2019
+ * - introduced in BIN-CG1 lecture of summer 2019
  * - update to GLEW 2.1.0, GLFW 3.2, GLM 0.9.9.3, stb_image 2.21
  * - replace glProgramUniform() by glUniform() to keep OpenGL 3.2 compatibility
  * - fix bugs in MouseController
- * - TODO:
- *   + use key and mouse callbacks instead of polling
- *   + add vsync?
- *   + update this comment, Doxygen API doc, ...
+ * - add CMake support for Linux
+ * - remove C++11 workarounds
  *
  * Version 0.5 (March 2014)
  *

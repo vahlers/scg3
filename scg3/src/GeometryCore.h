@@ -7,7 +7,7 @@
  */
 
 /*
- * Copyright 2014 Volker Ahlers
+ * Copyright 2014-2019 Volker Ahlers
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -37,20 +37,10 @@ namespace scg {
 /**
  * \brief Draw mode for vertex buffer objects.
  */
-#ifdef SCG_CPP11_STRONGLY_TYPED_ENUMS
 enum class DrawMode {
   ARRAYS,
   ELEMENTS
 };
-#else
-enum DrawMode {
-  ARRAYS,
-  ELEMENTS
-};
-#if defined(_MSC_VER)
-#pragma warning(disable: 4482)
-#endif
-#endif
 
 
 /**

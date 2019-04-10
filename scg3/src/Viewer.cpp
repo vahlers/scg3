@@ -159,13 +159,7 @@ Viewer* Viewer::addController(ControllerSP controller) {
 
 
 Viewer* Viewer::addControllers(const std::vector<ControllerSP>& controllers) {
-#ifdef SCG_CPP11_RANGE_BASED_FOR
   for (auto controller : controllers) {
-#else
-  // iterator fallback
-  for (auto it = controllers.begin(); it != controllers.end(); ++it) {
-    auto controller = *it;
-#endif
     addController(controller);
   }
   return this;
@@ -187,13 +181,7 @@ Viewer* Viewer::addAnimation(AnimationSP animation) {
 
 
 Viewer* Viewer::addAnimations(const std::vector<AnimationSP>& animations) {
-#ifdef SCG_CPP11_RANGE_BASED_FOR
   for (auto animation : animations) {
-#else
-  // iterator fallback
-  for (auto it = animations.begin(); it != animations.end(); ++it) {
-    auto animation = *it;
-#endif
     addAnimation(animation);
   }
   return this;
@@ -210,13 +198,7 @@ Viewer* Viewer::addAnimations(std::vector<AnimationSP>&& animations) {
 Viewer* Viewer::startAnimations() {
   double currTime = glfwGetTime();
 
-#ifdef SCG_CPP11_RANGE_BASED_FOR
   for (auto animation : animations_) {
-#else
-  // iterator fallback
-  for (auto it = animations_.begin(); it != animations_.end(); ++it) {
-    auto animation = *it;
-#endif
     animation->start(currTime);
   }
   return this;
@@ -317,9 +299,6 @@ void Viewer::createWindow_(const char* title, int width, int height, bool fullsc
   glfwSetFramebufferSizeCallback(window_, framebufferSizeCB_);
 
   // initialize GLEW
-  if (std::stoi(std::string(reinterpret_cast<const char*>(glewGetString(GLEW_VERSION_MAJOR)))) < 2) {
-    glewExperimental = GL_TRUE;   // required for glGenVertexArrays() with GLEW versions < 2.0
-  }
   GLenum error = glewInit();
   if (error != GLEW_OK) {
     throw std::runtime_error(std::string("glewInit() failed: ") + (const char*) glewGetErrorString(error)
@@ -354,13 +333,7 @@ void Viewer::createWindow_(const char* title, int width, int height, bool fullsc
 
 
 void Viewer::processControllers_() {
-#ifdef SCG_CPP11_RANGE_BASED_FOR
   for (auto controller : controllers_) {
-#else
-  // iterator fallback
-  for (auto it = controllers_.begin(); it != controllers_.end(); ++it) {
-    auto controller = *it;
-#endif
     controller->checkInput(viewState_.get());
   }
 }
@@ -370,13 +343,7 @@ void Viewer::processAnimations_() {
   if (!(animations_.empty() || viewState_->isAnimationLocked())) {
     double currTime = glfwGetTime();
 
-#ifdef SCG_CPP11_RANGE_BASED_FOR
     for (auto animation : animations_) {
-#else
-    // iterator fallback
-    for (auto it = animations_.begin(); it != animations_.end(); ++it) {
-      auto animation = *it;
-#endif
       animation->update(currTime);
     }
   }

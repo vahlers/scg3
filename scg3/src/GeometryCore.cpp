@@ -6,7 +6,7 @@
  */
 
 /*
- * Copyright 2014 Volker Ahlers
+ * Copyright 2014-2019 Volker Ahlers
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -52,13 +52,7 @@ GeometryCore::GeometryCore(GLenum primitiveType, DrawMode drawMode)
 
 GeometryCore::~GeometryCore() {
   if (isGLContextActive()) {
-#ifdef SCG_CPP11_RANGE_BASED_FOR
     for (auto vbo : vboAttributes_) {
-#else
-    // iterator fallback
-    for (auto it = vboAttributes_.begin(); it < vboAttributes_.end(); ++it) {
-      auto vbo = *it;
-#endif
       glDeleteBuffers(1, &vbo);
     }
     glDeleteBuffers(1, &vboIndex_);
