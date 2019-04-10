@@ -4,9 +4,7 @@ scg3 To Do List
 [later]
 
 - * test with Linux and Windows
-- * update and check in Visual Studio files
-- * update doxyfile
-- improve camera control, do not use middle mouse button
+- * update and test with Visual Studio
 - multiple renderers with different viewports
 - billboards
 - shadows, shadow map? -> GLSL Cookbook, shadow volumes -> Dominik
@@ -26,6 +24,7 @@ scg3 To Do List
 
 [done]
 
+- improve camera control, do not use middle mouse button
 - compile with VC++ and under Linux
 - add doxygen configuration
 - LightPosition

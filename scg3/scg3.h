@@ -98,7 +98,7 @@
  * \subsection sec_installation Installation and Linking
  *
  * Prerequisites: OpenGL 3.2 (or higher), GLFW 3.2.0 (or higher)
- * C++ Compiler: GCC 4.6 (or higher), Clang 3.1 (or higher), Visual C++ 17.0 (Visual Studio 2012, or higher)
+ * C++ Compiler: GCC 4.6 (or higher), Clang 3.1 (or higher), Visual C++ 11.0 (Visual Studio 2012, or higher)
  *
  * Build of library scg3:
  * Project files for Eclipse (Linux, MacOS and Windows/MinGW), Visual Studio 2012 (Windows),

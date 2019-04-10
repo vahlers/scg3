@@ -1,4 +1,4 @@
-scg3 0.5
+scg3 0.6
 ========
 
 Volker Ahlers
@@ -12,6 +12,6 @@ The following documentation is provided:
  
 - Basic example files in this directory (doc)
 
-- Static library project scg3 with Eclipse/CDT 3.7 (or higher) and Visual C++ 10.0/11.0 (2010/2012) configurations
+- Static library project scg3 with Eclipse/CDT 4.5.2 (or higher) and Visual C++ 11.0 (Visual Studio 2012) configurations
 
-- Application project scg3_example with Eclipse/CDT 3.7 (or higher) and Visual C++ 10.0/11.0 (2010/2012) configurations
+- Application project scg3_example with Eclipse/CDT 4.5.2 (or higher) and Visual C++ 11.0 (Visual Studio 2012) configurations

@@ -30,7 +30,7 @@ Projects:
 
 Prerequisites:
 
-* C++11 compiler, e.g., GCC 4.5, LLVM/Clang 3.1, Visual C++ 2010 (or higher)
+* C++11 compiler, e.g., GCC 4.6, LLVM/Clang 3.1, Visual C++ 11.0/Visual Studio 2012 (or higher)
 * OpenGL 3.2 graphics driver (or higher)
 * GLFW 3.2.0 (or higher), cf. http://www.glfw.org/
 

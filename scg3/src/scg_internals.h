@@ -88,16 +88,16 @@ namespace scg {
 
 // ensure GCC version 4.6 or higher is used
 #define SCG_GCC_VERSION (100 * __GNUC__ + __GNUC_MINOR__)
-#if SCG_GCC_VERSION < 406   // GCC < 4.6
+#if SCG_GCC_VERSION < 406   // GCC version < 4.6
 #error GCC 4.6 or higher is required.
 #endif
 
 // check which optional C++11 features are available
-#if SCG_GCC_VERSION >= 405  // GCC >= 4.5
+#if SCG_GCC_VERSION >= 405  // GCC version >= 4.5
 #define SCG_CPP11_LAMBDA_FUNCTIONS
 #endif
 
-#if SCG_GCC_VERSION >= 406  // GCC >= 4.6
+#if SCG_GCC_VERSION >= 406  // GCC version >= 4.6
 #define SCG_CPP11_INITIALIZER_LISTS
 #endif
 
@@ -105,17 +105,17 @@ namespace scg {
 #if defined _MSC_VER
 // --- Visual C++ ---
 
-// ensure Visual C++ compiler version 17.00 (Visual Studio 2012) or higher is used
-#if _MSC_VER < 1700   // Visual C++ compiler < 17.00
-#error Visual C++ compiler version 17.00 (Visual Studio 2012) or higher is required.
+// ensure Visual C++ compiler version 11.00 (Visual Studio 2012) or higher is used
+#if _MSC_VER < 1700   // Visual C++ internal version < 17.00
+#error Visual C++ compiler version 11.00 (Visual Studio 2012) or higher is required.
 #endif
 
 // check which optional C++11 features are available
-#if _MSC_VER >= 1600   // Visual C++ compiler >= 16.00 (Visual Studio 2010)
+#if _MSC_VER >= 1600   // Visual C++ internal version >= 16.00 (Visual Studio 2010)
 #define SCG_CPP11_LAMBDA_FUNCTIONS
 #endif
 
-#if _MSC_VER >= 1800   // Visual C++ compiler >= 18.00 (Visual Studio 2013)
+#if _MSC_VER >= 1800   // Visual C++ internal version >= 18.00 (Visual Studio 2013)
 #define SCG_CPP11_INITIALIZER_LISTS
 #endif
 
