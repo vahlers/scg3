@@ -196,7 +196,7 @@
 									<listOptionValue builtIn="false" value="glfw3"/>
 									<listOptionValue builtIn="false" value="GL"/>
 									<listOptionValue builtIn="false" value="X11"/>
-									<listOptionValue builtIn="false" value="Xsf86vm"/>
+									<listOptionValue builtIn="false" value="Xxf86vm"/>
 									<listOptionValue builtIn="false" value="Xrandr"/>
 									<listOptionValue builtIn="false" value="pthread"/>
 									<listOptionValue builtIn="false" value="Xi"/>
@@ -277,7 +277,7 @@
 									<listOptionValue builtIn="false" value="glfw3"/>
 									<listOptionValue builtIn="false" value="GL"/>
 									<listOptionValue builtIn="false" value="X11"/>
-									<listOptionValue builtIn="false" value="Xsf86vm"/>
+									<listOptionValue builtIn="false" value="Xxf86vm"/>
 									<listOptionValue builtIn="false" value="Xrandr"/>
 									<listOptionValue builtIn="false" value="pthread"/>
 									<listOptionValue builtIn="false" value="Xi"/>
