@@ -467,10 +467,22 @@
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="DebugLinux">
+			<resource resourceType="PROJECT" workspacePath="/scg3_example"/>
+		</configuration>
 		<configuration configurationName="ReleaseMacOS">
 			<resource resourceType="PROJECT" workspacePath="/scg3_example"/>
 		</configuration>
+		<configuration configurationName="ReleaseWindows">
+			<resource resourceType="PROJECT" workspacePath="/scg3_example"/>
+		</configuration>
+		<configuration configurationName="ReleaseLinux">
+			<resource resourceType="PROJECT" workspacePath="/scg3_example"/>
+		</configuration>
 		<configuration configurationName="DebugMacOS">
+			<resource resourceType="PROJECT" workspacePath="/scg3_example"/>
+		</configuration>
+		<configuration configurationName="DebugWindows">
 			<resource resourceType="PROJECT" workspacePath="/scg3_example"/>
 		</configuration>
 	</storageModule>
