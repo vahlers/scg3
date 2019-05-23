@@ -72,6 +72,7 @@ Composite* Composite::removeChild(Node* node, bool& result) {
     if (node == leftChild_.get()) {
       // remove left child
       leftChild_ = node->rightSibling_;
+      node->rightSibling_ = nullptr;
       result = true;
     }
     else {

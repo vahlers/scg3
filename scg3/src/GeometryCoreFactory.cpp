@@ -601,8 +601,8 @@ GeometryCoreSP GeometryCoreFactory::createConicalFrustum(GLfloat baseRadius, GLf
         int vertIdx = 3 * ((nStacks + 1) * stackOffset + capOffset + i);
         assert(vertIdx + 2 < 3 * nVertices);
 
-        vertices[vertIdx] = baseRadius * cosPhi;         // x
-        vertices[vertIdx + 1] = baseRadius * sinPhi;     // y
+        vertices[vertIdx] = topRadius * cosPhi;         // x
+        vertices[vertIdx + 1] = topRadius * sinPhi;     // y
         vertices[vertIdx + 2] = halfHeight;              // z
 
         normals[vertIdx] = 0.f;        // x
