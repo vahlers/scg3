@@ -3,6 +3,10 @@ scg3 To Do List
 
 [later]
 
+- * update local GLEW and GLM versions
+- * scg3.h: update include/lib paths for macOS/Homebrew 
+- * textures: option for vertical flip on load
+- * sphere: wrong vertex order for backface culling?  
 - * test with Linux and Windows
 - * update and test with Visual Studio
 - multiple renderers with different viewports
