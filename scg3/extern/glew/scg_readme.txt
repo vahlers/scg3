@@ -1,6 +1,6 @@
 GLEW 2.1.0
 ==========
-See full resource at http://glew.sourceforge.net/
+See full resource at https://glew.sourceforge.net/
 
 Modifications by Volker Ahlers <VA>:
 

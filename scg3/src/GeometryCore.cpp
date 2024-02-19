@@ -34,10 +34,10 @@ GeometryCore::GeometryCore(GLenum primitiveType, DrawMode drawMode)
       vboIndex_(0), nElements_(0) {
   switch(drawMode_) {
   case DrawMode::ARRAYS:
-    drawFunc_ = std::bind(&glDrawArrays, std::placeholders::_1, 0, std::placeholders::_2);
+    drawFunc_ = std::bind(glDrawArrays, std::placeholders::_1, 0, std::placeholders::_2);
     break;
   case DrawMode::ELEMENTS:
-    drawFunc_ = std::bind(&glDrawElements, std::placeholders::_1, std::placeholders::_2,
+    drawFunc_ = std::bind(glDrawElements, std::placeholders::_1, std::placeholders::_2,
         GL_UNSIGNED_INT, static_cast<const GLvoid*>(nullptr));
     break;
   default:

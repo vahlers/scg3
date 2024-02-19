@@ -1,6 +1,6 @@
 GLM 1.0.0.0
 ===========
-See full resource at http://glm.g-truc.net/
+See full resource at https://glm.g-truc.net/
 
 Modifications by Volker Ahlers <VA>:
 

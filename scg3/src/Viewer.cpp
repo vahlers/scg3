@@ -298,6 +298,7 @@ void Viewer::createWindow_(const char* title, int width, int height, bool fullsc
   // register callback functions
   glfwSetFramebufferSizeCallback(window_, framebufferSizeCB_);
 
+#ifndef SCG_GLAD
   // initialize GLEW
   GLenum error = glewInit();
   if (error != GLEW_OK) {
@@ -305,6 +306,12 @@ void Viewer::createWindow_(const char* title, int width, int height, bool fullsc
         + " [Viewer::createWindow_()]");
   }
   glGetError();   // ignore GL error (invalid enum) in glewInit
+#else
+  // experimental: initialize Glad
+  if (!gladLoadGLLoader((GLADloadproc) glfwGetProcAddress)) {
+    throw std::runtime_error("gladLoadGLLoader() failed [Viewer::createWindow_()]");
+  }
+#endif
 
   // set OpenGL parameters
   glEnable(GL_DEPTH_TEST);
@@ -318,7 +325,11 @@ void Viewer::createWindow_(const char* title, int width, int height, bool fullsc
   std::cout << "GL vendor: " << (const char*) glGetString(GL_VENDOR) << std::endl;
   std::cout << "GL renderer: " << (const char*) glGetString(GL_RENDERER) << std::endl;
   std::cout << "GLSL version: " << (const char*) glGetString(GL_SHADING_LANGUAGE_VERSION) << std::endl;
+#ifndef SCG_GLAD
   std::cout << "GLEW version: " << glewGetString(GLEW_VERSION) << std::endl;
+#else
+  std::cout << "Glad version: " << SCG_GLAD_VERSION << std::endl;
+#endif
   int major, minor, revision;
   glfwGetVersion(&major, &minor, &revision);
   std::cout << "GLFW version: " << major << "." << minor << "." << revision << std::endl;

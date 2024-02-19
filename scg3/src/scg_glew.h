@@ -31,6 +31,14 @@
 #define GLEW_STATIC
 #endif
 
+// experimental: use Glad instead of GLEW
+#define SCG_GLAD
+#define SCG_GLAD_VERSION "0.1.36"
+
+#ifndef SCG_GLAD
 #include "../extern/glew/include/GL/glew.h"
+#else
+#include "../extern/glad/glad.h"
+#endif
 
 #endif /* SCG_GLEW_H_ */

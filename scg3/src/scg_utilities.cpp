@@ -36,8 +36,8 @@ int checkGLError() {
   messages[GL_INVALID_ENUM] = "invalid enum";
   messages[GL_INVALID_VALUE] = "invalid value";
   messages[GL_INVALID_OPERATION] = "invalid operation";
-  messages[GL_STACK_OVERFLOW] = "stack overflow";
-  messages[GL_STACK_UNDERFLOW] = "stack underflow";
+//  messages[GL_STACK_OVERFLOW] = "stack overflow";
+//  messages[GL_STACK_UNDERFLOW] = "stack underflow";
   messages[GL_OUT_OF_MEMORY] = "out of memory";
   messages[GL_INVALID_FRAMEBUFFER_OPERATION] = "invalid framebuffer operation";
 

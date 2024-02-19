@@ -140,19 +140,19 @@
  * It is further influenced by the open-source scene graph libraries
  * OpenSceneGraph and OpenSG.
  *
- * http://www.openscenegraph.org/
+ * https://www.openscenegraph.org/
  *
- * http://www.opensg.org/
+ * https://www.opensg.org/
  *
- * The open-source libraries GLEW 2.1.0, GLFW 3.2.0, GLM 1.0.0.0, and stb_image 2.21 are used.
- * GLEW, GLM, and stb_image are included as source code in folder extern.
- * GLFW 3.2.0 (or newer) has to be installed by the user (cf. http://www.glfw.org/).
+ * The open-source libraries GLEW 2.1.0, Glad 0.1.36, GLFW 3.2.0 (or newer), GLM 1.0.0.0, and stb_image 2.21 are used.
+ * GLEW, Glad (experimental), GLM, and stb_image are included as source code in folder extern.
+ * GLFW 3.2.0 (or newer) has to be installed by the user (cf. https://www.glfw.org/).
  *
- * http://glew.sourceforge.net/
+ * https://glew.sourceforge.net/
  *
- * http://www.glfw.org/
+ * https://www.glfw.org/
  *
- * http://glm.g-truc.net/
+ * https://glm.g-truc.net/
  *
  * https://github.com/nothings/stb
  *

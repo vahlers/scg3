@@ -28,6 +28,7 @@ scg3 To Do List
 
 [done]
 
+- add experimental support for Glad 0.1.36
 - update to GLM 1.0.0.0
 - improve camera control, do not use middle mouse button
 - compile with VC++ and under Linux
