@@ -9,7 +9,7 @@
  */
 
 /*
- * Copyright 2014-2019 Volker Ahlers
+ * Copyright 2014-2024 Volker Ahlers
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -32,7 +32,7 @@
  *
  * Version 0.6
  *
- * Developed 2006-2019\n
+ * Developed 2006-2024\n
  * (previous names: vascg, vascg2, vascg3)
  *
  * Volker Ahlers\n
@@ -144,7 +144,7 @@
  *
  * http://www.opensg.org/
  *
- * The open-source libraries GLEW 2.1.0, GLFW 3.2.0, GLM 0.9.9.3, and stb_image 2.21 are used.
+ * The open-source libraries GLEW 2.1.0, GLFW 3.2.0, GLM 1.0.0.0, and stb_image 2.21 are used.
  * GLEW, GLM, and stb_image are included as source code in folder extern.
  * GLFW 3.2.0 (or newer) has to be installed by the user (cf. http://www.glfw.org/).
  *

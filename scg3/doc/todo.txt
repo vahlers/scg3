@@ -3,7 +3,7 @@ scg3 To Do List
 
 [later]
 
-- * update local GLEW and GLM versions
+- * update local GLEW version
 - * scg3.h: update include/lib paths for macOS/Homebrew 
 - * textures: option for vertical flip on load
 - * sphere: wrong vertex order for backface culling?  
@@ -28,6 +28,7 @@ scg3 To Do List
 
 [done]
 
+- update to GLM 1.0.0.0
 - improve camera control, do not use middle mouse button
 - compile with VC++ and under Linux
 - add doxygen configuration
