@@ -144,7 +144,6 @@ namespace detail
 		typedef glm_u64vec2 type;
 	};
 #	endif
-
 #	if (GLM_ARCH & GLM_ARCH_AVX_BIT)
 	template<>
 	struct storage<4, double, true>
@@ -164,6 +163,26 @@ namespace detail
 	struct storage<4, detail::uint64, true>
 	{
 		typedef glm_u64vec4 type;
+	};
+#	endif
+
+#	if GLM_ARCH & GLM_ARCH_NEON_BIT
+	template<>
+	struct storage<4, float, true>
+	{
+		typedef glm_f32vec4 type;
+	};
+
+	template<>
+	struct storage<4, int, true>
+	{
+		typedef glm_i32vec4 type;
+	};
+
+	template<>
+	struct storage<4, unsigned int, true>
+	{
+		typedef glm_u32vec4 type;
 	};
 #	endif
 

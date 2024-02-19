@@ -1,4 +1,4 @@
-GLM 0.9.9.3
+GLM 1.0.0.0
 ===========
 See full resource at http://glm.g-truc.net/
 
