@@ -27,7 +27,7 @@
 
 #include <string>
 #include <vector>
-#include "scg_glew.h"
+#include "scg_glew_glad.h"
 #include <GLFW/glfw3.h>
 
 namespace scg {

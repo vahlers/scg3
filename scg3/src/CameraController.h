@@ -25,7 +25,7 @@
 #ifndef CAMERACONTROLLER_H_
 #define CAMERACONTROLLER_H_
 
-#include "scg_glew.h"
+#include "scg_glew_glad.h"
 #include "Controller.h"
 #include "scg_internals.h"
 

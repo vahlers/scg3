@@ -28,7 +28,7 @@
 #include <memory>
 #include <string>
 #include <utility>
-#include "scg_glew.h"
+#include "scg_glew_glad.h"
 
 namespace scg {
 

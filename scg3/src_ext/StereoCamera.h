@@ -25,7 +25,7 @@
 #ifndef STEREOCAMERA_H_
 #define STEREOCAMERA_H_
 
-#include "../src/scg_glew.h"
+#include "../src/scg_glew_glad.h"
 #include "../src/Camera.h"
 #include "../src/scg_glm.h"
 #include "scg_ext_internals.h"

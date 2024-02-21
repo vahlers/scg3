@@ -22,7 +22,7 @@
  */
 
 #include <cassert>
-#include "../src/scg_glew.h"
+#include "../src/scg_glew_glad.h"
 #include "../src/scg_utilities.h"
 #include "StereoRendererPassive.h"
 

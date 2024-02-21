@@ -25,7 +25,7 @@
 #ifndef KEYBOARDCONTROLLER_H_
 #define KEYBOARDCONTROLLER_H_
 
-#include "scg_glew.h"
+#include "scg_glew_glad.h"
 #include "CameraController.h"
 #include "scg_internals.h"
 

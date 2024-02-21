@@ -25,7 +25,7 @@
 #ifndef TRANSFORMATION_H_
 #define TRANSFORMATION_H_
 
-#include "scg_glew.h"
+#include "scg_glew_glad.h"
 #include "Composite.h"
 #include "scg_glm.h"
 #include "scg_internals.h"

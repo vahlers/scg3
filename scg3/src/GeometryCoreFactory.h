@@ -27,7 +27,7 @@
 
 #include <string>
 #include <vector>
-#include "scg_glew.h"
+#include "scg_glew_glad.h"
 #include "scg_glm.h"
 #include "scg_internals.h"
 

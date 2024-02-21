@@ -25,7 +25,7 @@
 #ifndef TEXTURECORE_H_
 #define TEXTURECORE_H_
 
-#include "scg_glew.h"
+#include "scg_glew_glad.h"
 #include "Core.h"
 #include "scg_glm.h"
 #include "scg_internals.h"

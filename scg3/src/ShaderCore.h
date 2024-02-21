@@ -32,7 +32,7 @@
 #include <string>
 #include <unordered_map>
 #include <vector>
-#include "scg_glew.h"
+#include "scg_glew_glad.h"
 #include "Core.h"
 #include "scg_internals.h"
 

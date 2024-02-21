@@ -1,5 +1,5 @@
 /**
- * \file scg_glew.h
+ * \file scg_glew_glad.h
  * \brief Local header file for GLEW library.
  *
  * \author Volker Ahlers\n
@@ -31,11 +31,10 @@
 #define GLEW_STATIC
 #endif
 
-// experimental: use Glad instead of GLEW
-#define SCG_GLAD
+// experimental: use Glad instead of GLEW if macro SCG_GLAD_VERSION is defined
 #define SCG_GLAD_VERSION "0.1.36"
 
-#ifndef SCG_GLAD
+#ifndef SCG_GLAD_VERSION
 #include "../extern/glew/include/GL/glew.h"
 #else
 #include "../extern/glad/glad.h"

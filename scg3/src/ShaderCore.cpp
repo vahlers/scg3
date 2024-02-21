@@ -25,7 +25,7 @@
 #include <iostream>
 #include <sstream>
 #include <stdexcept>
-#include "scg_glew.h"
+#include "scg_glew_glad.h"
 #include <GLFW/glfw3.h>
 #include "RenderState.h"
 #include "scg_internals.h"

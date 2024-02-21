@@ -25,7 +25,7 @@
 #ifndef ORTHOGRAPHICCAMERA_H_
 #define ORTHOGRAPHICCAMERA_H_
 
-#include "scg_glew.h"
+#include "scg_glew_glad.h"
 #include "Camera.h"
 
 namespace scg {

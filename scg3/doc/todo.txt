@@ -3,6 +3,7 @@ scg3 To Do List
 
 [later]
 
+- * copy VRPN server/client projects from ICG into scg3 workspace
 - * update local GLEW version
 - * scg3.h: update include/lib paths for macOS/Homebrew 
 - * textures: option for vertical flip on load
